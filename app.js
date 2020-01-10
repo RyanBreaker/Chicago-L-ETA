@@ -47,6 +47,7 @@ app.get('/api/station/all', async (_, res) => {
         data: {
           ctatt: { eta }
         }
+        // TODO: Factor out these reused parameters.
       } = await ctaApi.request({
         params: { key: ctaKey, mapid: station.id, outputType: 'JSON' }
       });
