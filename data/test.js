@@ -1,6 +1,6 @@
 const test = require('ava');
 
-const stopParser = require('./stop_parser');
+const stopParser = require('./stationParser');
 
 const header = `
 stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,location_type,parent_station,wheelchair_boarding

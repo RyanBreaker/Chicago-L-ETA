@@ -1,5 +1,5 @@
 {
-  "name": "nm-challenge",
+  "name": "cta_train_tracker",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -7,6 +7,7 @@
     "test": "ava"
   },
   "dependencies": {
+    "axios": "^0.19.1",
     "cookie-parser": "~1.4.4",
     "csv-parse": "^4.8.3",
     "debug": "~2.6.9",

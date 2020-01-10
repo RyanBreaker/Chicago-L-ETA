@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/NM_Challenge.iml" filepath="$PROJECT_DIR$/NM_Challenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CTA_Train_Tracker.iml" filepath="$PROJECT_DIR$/CTA_Train_Tracker.iml" />
     </modules>
   </component>
 </project>
