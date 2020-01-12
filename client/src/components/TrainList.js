@@ -7,7 +7,7 @@ const lineToStyle = line => line.toLowerCase().replace(' ', '-');
 const TrainList = props => (
   <ListGroup variant={'flush'}>
     {props.etas.map(eta => (
-      <ListGroup.Item key={eta.id} className={lineToStyle(eta.route)}>
+      <ListGroup.Item key={eta.id} className={lineToStyle(eta.lineName)}>
         {eta.due ? (
           <span className="font-weight-bold">Due</span>
         ) : (

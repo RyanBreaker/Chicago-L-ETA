@@ -38,7 +38,7 @@ const stationStops = stationParser(fs.readFileSync(stopsFile));
 
 const ctaKey = require('./config/keys').ctaKey;
 
-const lines = {
+const lineNames = {
   Pink: 'Pink Line',
   Blue: 'Blue Line',
   G: 'Green Line',
@@ -49,18 +49,24 @@ const lines = {
   Red: 'Red Line'
 };
 
+const getStation = async mapid => {
+  // Destructuring `eta` out of the returned data.
+  const {
+    data: {
+      ctatt: { eta }
+    }
+  } = await ctaApi.request({
+    // TODO: Refactor out these reused parameters.
+    params: { key: ctaKey, mapid: mapid, outputType: 'JSON' }
+  });
+
+  return eta;
+};
+
 app.get('/api/station/all', async (req, res) => {
   const etas = await Promise.all(
     stationStops.map(async station => {
-      // Destructuring `eta` out of the returned data.
-      const {
-        data: {
-          ctatt: { eta }
-        }
-        // TODO: Factor out these reused parameters.
-      } = await ctaApi.request({
-        params: { key: ctaKey, mapid: station.id, outputType: 'JSON' }
-      });
+      const eta = getStation(station.id);
 
       // Generation of data here.
       return {
@@ -71,7 +77,7 @@ app.get('/api/station/all', async (req, res) => {
             trainNumber: train.rn,
             destination: train.destNm,
             eta: train.arrT,
-            route: lines[train.rt],
+            lineName: lineNames[train.rt],
             due: train.isApp === '1'
           };
         })

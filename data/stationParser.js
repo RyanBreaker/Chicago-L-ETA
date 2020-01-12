@@ -1,5 +1,5 @@
 // Explicitly using synchronous form of the function.
-const parse = require('csv-parse/lib/sync');
+const csvParse = require('csv-parse/lib/sync');
 
 // Range of stop_ids we care about to filter out bus stops, etc.
 // The CTA API documentation defines a range of 40000 through 49999 for the stop_id property for station stops.
@@ -25,9 +25,11 @@ const checkRecord = record => {
   }
 };
 
-// This functions expects text in CSV-format as provided by the CTA.
+// This functions expects text in CSV-format as provided by the CTA API.
 // Return the list sorted alphabetically by station name.
-module.exports = text =>
-  parse(text, { columns: true, on_record: checkRecord }).sort((a, b) =>
+const stationParser = text =>
+  csvParse(text, { columns: true, on_record: checkRecord }).sort((a, b) =>
     a.name > b.name ? 1 : -1
   );
+
+module.exports = stationParser;
