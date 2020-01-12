@@ -14,6 +14,7 @@
 .station-card {
   padding: 0;
   background-color: #565a5c;
+  border-radius: 5px;
 }
 .station-card, .station-card a:link, .station-card a:visited {
   color: #f1f2f2;
@@ -21,73 +22,83 @@
 .station-card .card-title {
   padding: 1rem;
   margin: 0;
+  font-size: 1.875rem;
 }
-.station-card > .card-body {
+.station-card .card-body {
   padding: 0;
+}
+.station-card .card-body .train-num {
+  font-size: 0.9375rem;
+}
+.station-card .card-body .train-dest {
+  font-size: 1.75rem;
+}
+.station-card .card-body svg {
+  margin-left: 0.5rem;
 }
 
 .red-line {
-  background-color: #c60c30;
+  background-color: #c82032;
   color: #f1f2f2;
 }
 .red-line:hover {
-  background-color: #ae0b2a;
+  background-color: #b21c2d;
 }
 
 .blue-line {
-  background-color: #00a1de;
+  background-color: #17a0db;
   color: #f1f2f2;
 }
 .blue-line:hover {
-  background-color: #008fc5;
+  background-color: #158fc4;
 }
 
 .brown-line {
-  background-color: #62361b;
+  background-color: #63361c;
   color: #f1f2f2;
 }
 .brown-line:hover {
-  background-color: #4e2b15;
+  background-color: #4f2b16;
 }
 
 .green-line {
-  background-color: #009b3a;
+  background-color: #049b49;
   color: #f1f2f2;
 }
 .green-line:hover {
-  background-color: #008230;
+  background-color: #03823d;
 }
 
 .orange-line {
-  background-color: #f9461c;
+  background-color: #ef4925;
   color: #f1f2f2;
 }
 .orange-line:hover {
-  background-color: #f53406;
+  background-color: #e93811;
 }
 
 .pink-line {
-  background-color: #e27ea6;
+  background-color: #e37fa7;
   color: #f1f2f2;
 }
 .pink-line:hover {
-  background-color: #dd6998;
+  background-color: #de6a99;
 }
 
 .purple-line {
-  background-color: #522398;
+  background-color: #542e91;
   color: #f1f2f2;
 }
 .purple-line:hover {
-  background-color: #471e83;
+  background-color: #49287e;
 }
 
 .yellow-line {
-  background-color: #f9e300;
+  background-color: #f5e50b;
   color: #1c1c1c;
 }
 .yellow-line:hover {
-  background-color: #e0cc00;
+  background-color: #ddcf09;
 }
 
 /*# sourceMappingURL=ctaColors.css.map */

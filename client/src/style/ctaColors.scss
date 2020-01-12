@@ -1,12 +1,12 @@
 $cta-blue: #2166b1;
-$red-line: #c60c30;
-$blue-line: #00a1de;
-$brown-line: #62361b;
-$green-line: #009b3a;
-$orange-line: #f9461c;
-$pink-line: #e27ea6;
-$purple-line: #522398;
-$yellow-line: #f9e300;
+$red-line: #c82032;
+$blue-line: #17a0db;
+$brown-line: #63361c;
+$green-line: #049b49;
+$orange-line: #ef4925;
+$pink-line: #e37fa7;
+$purple-line: #542e91;
+$yellow-line: #f5e50b;
 
 $text-color-white: #f1f2f2;
 $text-color-black: #1c1c1c;
@@ -29,20 +29,35 @@ $hover-darken: 5%;
 .station-card {
   padding: 0;
   background-color: #565a5c;
+  border-radius: 5px;
 
   &,
   & a:link,
   & a:visited {
+    // Override blue link color
     color: $text-color-white;
   }
 
   .card-title {
     padding: 1rem;
     margin: 0;
+    font-size: 1.875rem;
   }
 
-  > .card-body {
+  .card-body {
     padding: 0;
+
+    .train-num {
+      font-size: 0.9375rem;
+    }
+
+    .train-dest {
+      font-size: 1.75rem;
+    }
+
+    & svg {
+      margin-left: 0.5rem;
+    }
   }
 }
 
