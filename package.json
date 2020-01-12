@@ -4,10 +4,14 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "test": "ava"
+    "test": "ava",
+    "dev-server": "nodemon ./bin/www",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run dev-server\" \"npm run client\""
   },
   "dependencies": {
     "axios": "^0.19.1",
+    "concurrently": "^5.0.2",
     "cookie-parser": "~1.4.4",
     "csv-parse": "^4.8.3",
     "debug": "~2.6.9",
@@ -16,6 +20,7 @@
   },
   "devDependencies": {
     "ava": "^2.4.0",
+    "nodemon": "^2.0.2",
     "prettier": "^1.19.1"
   }
 }
