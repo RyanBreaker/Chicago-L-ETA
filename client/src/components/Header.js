@@ -3,7 +3,7 @@ import { Jumbotron } from 'react-bootstrap';
 
 const Header = () => (
   <Jumbotron className="cta-header">
-    <h1>CTA Train ETA Tracker</h1>
+    <h1>CTA ETA Tracker</h1>
   </Jumbotron>
 );
 

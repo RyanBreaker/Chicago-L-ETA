@@ -1,0 +1,119 @@
+$cta-blue: #2166b1;
+$red-line: #c60c30;
+$blue-line: #00a1de;
+$brown-line: #62361b;
+$green-line: #009b3a;
+$orange-line: #f9461c;
+$pink-line: #e27ea6;
+$purple-line: #522398;
+$yellow-line: #f9e300;
+
+$text-color-white: #f1f2f2;
+$text-color-black: #1c1c1c;
+
+$hover-darken: 5%;
+
+* {
+  font-family: 'FreeSans', Helvetica, Arial, sans-serif;
+}
+
+.list-group-item {
+  padding: 7px 15px;
+}
+
+.cta-header {
+  background-color: $cta-blue;
+  color: $text-color-white;
+}
+
+.station-card {
+  padding: 0;
+  background-color: #565a5c;
+
+  &,
+  & a:link,
+  & a:visited {
+    color: $text-color-white;
+  }
+
+  .card-title {
+    padding: 1rem;
+    margin: 0;
+  }
+
+  > .card-body {
+    padding: 0;
+  }
+}
+
+.red-line {
+  background-color: $red-line;
+  color: $text-color-white;
+
+  &:hover {
+    background-color: darken($red-line, $hover-darken);
+  }
+}
+
+.blue-line {
+  background-color: $blue-line;
+  color: $text-color-white;
+
+  &:hover {
+    background-color: darken($blue-line, $hover-darken);
+  }
+}
+
+.brown-line {
+  background-color: $brown-line;
+  color: $text-color-white;
+
+  &:hover {
+    background-color: darken($brown-line, $hover-darken);
+  }
+}
+
+.green-line {
+  background-color: $green-line;
+  color: $text-color-white;
+
+  &:hover {
+    background-color: darken($green-line, $hover-darken);
+  }
+}
+
+.orange-line {
+  background-color: $orange-line;
+  color: $text-color-white;
+
+  &:hover {
+    background-color: darken($orange-line, $hover-darken);
+  }
+}
+
+.pink-line {
+  background-color: $pink-line;
+  color: $text-color-white;
+
+  &:hover {
+    background-color: darken($pink-line, $hover-darken);
+  }
+}
+
+.purple-line {
+  background-color: $purple-line;
+  color: $text-color-white;
+
+  &:hover {
+    background-color: darken($purple-line, $hover-darken);
+  }
+}
+
+.yellow-line {
+  background-color: $yellow-line;
+  color: $text-color-black;
+
+  &:hover {
+    background-color: darken($yellow-line, $hover-darken);
+  }
+}

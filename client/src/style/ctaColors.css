@@ -1,69 +1,93 @@
 * {
-  font-family: 'FreeSans', Helvetica, Arial, sans-serif;
+  font-family: "FreeSans", Helvetica, Arial, sans-serif;
 }
+
+.list-group-item {
+  padding: 7px 15px;
+}
+
 .cta-header {
   background-color: #2166b1;
-  color: #ffffff;
+  color: #f1f2f2;
 }
+
 .station-card {
-  padding: 1.25rem 0 0.25rem;
+  padding: 0;
   background-color: #565a5c;
-  color: #ffffff;
 }
+.station-card, .station-card a:link, .station-card a:visited {
+  color: #f1f2f2;
+}
+.station-card .card-title {
+  padding: 1rem;
+  margin: 0;
+}
+.station-card > .card-body {
+  padding: 0;
+}
+
 .red-line {
   background-color: #c60c30;
-  color: #ffffff;
+  color: #f1f2f2;
 }
 .red-line:hover {
   background-color: #ae0b2a;
 }
+
 .blue-line {
   background-color: #00a1de;
-  color: #ffffff;
+  color: #f1f2f2;
 }
 .blue-line:hover {
   background-color: #008fc5;
 }
+
 .brown-line {
   background-color: #62361b;
-  color: #ffffff;
+  color: #f1f2f2;
 }
 .brown-line:hover {
   background-color: #4e2b15;
 }
+
 .green-line {
   background-color: #009b3a;
-  color: #ffffff;
+  color: #f1f2f2;
 }
 .green-line:hover {
   background-color: #008230;
 }
+
 .orange-line {
   background-color: #f9461c;
-  color: #ffffff;
+  color: #f1f2f2;
 }
 .orange-line:hover {
   background-color: #f53406;
 }
+
 .pink-line {
   background-color: #e27ea6;
-  color: #ffffff;
+  color: #f1f2f2;
 }
 .pink-line:hover {
   background-color: #dd6998;
 }
+
 .purple-line {
   background-color: #522398;
-  color: #ffffff;
+  color: #f1f2f2;
 }
 .purple-line:hover {
   background-color: #471e83;
 }
+
 .yellow-line {
   background-color: #f9e300;
-  color: #000000;
+  color: #1c1c1c;
 }
 .yellow-line:hover {
   background-color: #e0cc00;
 }
+
 /*# sourceMappingURL=ctaColors.css.map */

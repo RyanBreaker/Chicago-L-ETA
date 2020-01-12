@@ -16,14 +16,18 @@ class StationList extends React.Component {
       <Container>
         <CardColumns>
           {this.state.stations.map(station => (
-            <Card key={station.id} className={'station-card'}>
+            <Card key={station.id} className="station-card">
               <Card.Body>
-                <Card.Title>{station.name}</Card.Title>
-                {station.wheelchair && (
-                  <Card.Subtitle>
-                    <FaWheelchair />
-                  </Card.Subtitle>
-                )}
+                <Card.Title
+                  className="font-weight-bold"
+                  style={{ fontSize: '1.875rem' }}
+                >
+                  <a
+                    href={`https://www.transitchicago.com/traintracker/arrivaltimes/?sid=${station.id}`}
+                  >
+                    {station.name} {station.wheelchair && <FaWheelchair />}
+                  </a>
+                </Card.Title>
                 <TrainList etas={station.etas} />
               </Card.Body>
             </Card>
