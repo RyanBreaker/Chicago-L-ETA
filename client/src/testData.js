@@ -5,35 +5,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '408303102020-01-11T16:24:27',
-        trainNumber: '310',
-        destination: '54th/Cermak',
-        eta: '2020-01-11T16:24:27',
-        route: 'Pink Line',
-        due: false
-      },
-      {
-        id: '408303142020-01-11T16:33:39',
-        trainNumber: '314',
+        id: '408303012020-01-12T11:29:37',
+        trainNumber: '301',
         destination: 'Loop',
-        eta: '2020-01-11T16:33:39',
-        route: 'Pink Line',
+        eta: '2020-01-12T11:29:37',
+        lineName: 'Pink Line',
         due: false
       },
       {
-        id: '408303132020-01-11T16:38:30',
-        trainNumber: '313',
+        id: '408303042020-01-12T11:30:58',
+        trainNumber: '304',
         destination: '54th/Cermak',
-        eta: '2020-01-11T16:38:30',
-        route: 'Pink Line',
+        eta: '2020-01-12T11:30:58',
+        lineName: 'Pink Line',
         due: false
       },
       {
-        id: '408303112020-01-11T16:40:40',
-        trainNumber: '311',
+        id: '408303052020-01-12T11:41:00',
+        trainNumber: '305',
         destination: 'Loop',
-        eta: '2020-01-11T16:40:40',
-        route: 'Pink Line',
+        eta: '2020-01-12T11:41:00',
+        lineName: 'Pink Line',
+        due: false
+      },
+      {
+        id: '408303072020-01-12T11:40:58',
+        trainNumber: '307',
+        destination: '54th/Cermak',
+        eta: '2020-01-12T11:40:58',
+        lineName: 'Pink Line',
         due: false
       }
     ]
@@ -44,35 +44,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '411200112020-01-11T16:26:36',
-        trainNumber: '011',
+        id: '411206012020-01-12T11:32:13',
+        trainNumber: '601',
         destination: 'Harlem/Lake',
-        eta: '2020-01-11T16:26:36',
-        route: 'Green Line',
+        eta: '2020-01-12T11:32:13',
+        lineName: 'Green Line',
         due: false
       },
       {
-        id: '411206082020-01-11T16:26:08',
-        trainNumber: '608',
-        destination: 'Ashland/63rd',
-        eta: '2020-01-11T16:26:08',
-        route: 'Green Line',
-        due: false
-      },
-      {
-        id: '411200152020-01-11T16:34:30',
-        trainNumber: '015',
+        id: '411200062020-01-12T11:32:27',
+        trainNumber: '006',
         destination: 'Cottage Grove',
-        eta: '2020-01-11T16:34:30',
-        route: 'Green Line',
+        eta: '2020-01-12T11:32:27',
+        lineName: 'Green Line',
         due: false
       },
       {
-        id: '411200122020-01-11T16:36:12',
-        trainNumber: '012',
+        id: '411200012020-01-12T11:40:58',
+        trainNumber: '001',
+        destination: 'Ashland/63rd',
+        eta: '2020-01-12T11:40:58',
+        lineName: 'Green Line',
+        due: false
+      },
+      {
+        id: '411206032020-01-12T11:42:55',
+        trainNumber: '603',
         destination: 'Harlem/Lake',
-        eta: '2020-01-11T16:36:12',
-        route: 'Green Line',
+        eta: '2020-01-12T11:42:55',
+        lineName: 'Green Line',
         due: false
       }
     ]
@@ -83,35 +83,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '401207132020-01-11T16:25:33',
-        trainNumber: '713',
-        destination: 'Loop',
-        eta: '2020-01-11T16:25:33',
-        route: 'Orange Line',
-        due: false
-      },
-      {
-        id: '401207102020-01-11T16:26:29',
-        trainNumber: '710',
+        id: '401207032020-01-12T11:31:49',
+        trainNumber: '703',
         destination: 'Midway',
-        eta: '2020-01-11T16:26:29',
-        route: 'Orange Line',
+        eta: '2020-01-12T11:31:49',
+        lineName: 'Orange Line',
         due: false
       },
       {
-        id: '401207112020-01-11T16:31:36',
-        trainNumber: '711',
-        destination: 'Midway',
-        eta: '2020-01-11T16:31:36',
-        route: 'Orange Line',
-        due: false
-      },
-      {
-        id: '401207172020-01-11T16:33:40',
-        trainNumber: '717',
+        id: '401207042020-01-12T11:35:39',
+        trainNumber: '704',
         destination: 'Loop',
-        eta: '2020-01-11T16:33:40',
-        route: 'Orange Line',
+        eta: '2020-01-12T11:35:39',
+        lineName: 'Orange Line',
+        due: false
+      },
+      {
+        id: '401207082020-01-12T11:44:34',
+        trainNumber: '708',
+        destination: 'Midway',
+        eta: '2020-01-12T11:44:34',
+        lineName: 'Orange Line',
+        due: false
+      },
+      {
+        id: '401207052020-01-12T11:48:00',
+        trainNumber: '705',
+        destination: 'Loop',
+        eta: '2020-01-12T11:48:00',
+        lineName: 'Orange Line',
         due: false
       }
     ]
@@ -122,35 +122,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '412700112020-01-11T16:22:36',
-        trainNumber: '011',
+        id: '412706012020-01-12T11:28:13',
+        trainNumber: '601',
         destination: 'Harlem/Lake',
-        eta: '2020-01-11T16:22:36',
-        route: 'Green Line',
+        eta: '2020-01-12T11:28:13',
+        lineName: 'Green Line',
         due: false
       },
       {
-        id: '412700122020-01-11T16:31:12',
-        trainNumber: '012',
+        id: '412706032020-01-12T11:37:55',
+        trainNumber: '603',
         destination: 'Harlem/Lake',
-        eta: '2020-01-11T16:31:12',
-        route: 'Green Line',
+        eta: '2020-01-12T11:37:55',
+        lineName: 'Green Line',
         due: false
       },
       {
-        id: '412706082020-01-11T16:31:08',
-        trainNumber: '608',
-        destination: 'Ashland/63rd',
-        eta: '2020-01-11T16:31:08',
-        route: 'Green Line',
-        due: false
-      },
-      {
-        id: '412700152020-01-11T16:39:30',
-        trainNumber: '015',
+        id: '412700062020-01-12T11:38:27',
+        trainNumber: '006',
         destination: 'Cottage Grove',
-        eta: '2020-01-11T16:39:30',
-        route: 'Green Line',
+        eta: '2020-01-12T11:38:27',
+        lineName: 'Green Line',
+        due: false
+      },
+      {
+        id: '412700012020-01-12T11:45:58',
+        trainNumber: '001',
+        destination: 'Ashland/63rd',
+        eta: '2020-01-12T11:45:58',
+        lineName: 'Green Line',
         due: false
       }
     ]
@@ -161,35 +161,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '410800112020-01-11T16:21:36',
-        trainNumber: '011',
+        id: '410806012020-01-12T11:27:13',
+        trainNumber: '601',
         destination: 'Harlem/Lake',
-        eta: '2020-01-11T16:21:36',
-        route: 'Green Line',
+        eta: '2020-01-12T11:27:13',
+        lineName: 'Green Line',
         due: true
       },
       {
-        id: '410800142020-01-11T16:21:47',
-        trainNumber: '014',
-        destination: 'Cottage Grove',
-        eta: '2020-01-11T16:21:47',
-        route: 'Green Line',
-        due: false
-      },
-      {
-        id: '410800122020-01-11T16:30:12',
-        trainNumber: '012',
-        destination: 'Harlem/Lake',
-        eta: '2020-01-11T16:30:12',
-        route: 'Green Line',
-        due: false
-      },
-      {
-        id: '410806082020-01-11T16:33:08',
-        trainNumber: '608',
+        id: '410806092020-01-12T11:28:04',
+        trainNumber: '609',
         destination: 'Ashland/63rd',
-        eta: '2020-01-11T16:33:08',
-        route: 'Green Line',
+        eta: '2020-01-12T11:28:04',
+        lineName: 'Green Line',
+        due: false
+      },
+      {
+        id: '410806032020-01-12T11:36:55',
+        trainNumber: '603',
+        destination: 'Harlem/Lake',
+        eta: '2020-01-12T11:36:55',
+        lineName: 'Green Line',
+        due: false
+      },
+      {
+        id: '410800062020-01-12T11:39:27',
+        trainNumber: '006',
+        destination: 'Cottage Grove',
+        eta: '2020-01-12T11:39:27',
+        lineName: 'Green Line',
         due: false
       }
     ]
@@ -200,43 +200,43 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '412308202020-01-11T16:22:26',
-        trainNumber: '820',
+        id: '412308082020-01-12T11:33:17',
+        trainNumber: '808',
         destination: 'Howard',
-        eta: '2020-01-11T16:22:26',
-        route: 'Red Line',
+        eta: '2020-01-12T11:33:17',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '412308122020-01-11T16:22:19',
-        trainNumber: '812',
+        id: '412309042020-01-12T11:33:42',
+        trainNumber: '904',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:22:19',
-        route: 'Red Line',
+        eta: '2020-01-12T11:33:42',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '412308212020-01-11T16:31:22',
-        trainNumber: '821',
+        id: '412309042020-01-12T11:33:42',
+        trainNumber: '904',
+        destination: '95th/Dan Ryan',
+        eta: '2020-01-12T11:33:42',
+        lineName: 'Red Line',
+        due: false
+      },
+      {
+        id: '412309082020-01-12T11:38:59',
+        trainNumber: '908',
         destination: 'Howard',
-        eta: '2020-01-11T16:31:22',
-        route: 'Red Line',
+        eta: '2020-01-12T11:38:59',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '412309122020-01-11T16:31:04',
-        trainNumber: '912',
+        id: '412309092020-01-12T11:42:14',
+        trainNumber: '909',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:31:04',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '412309172020-01-11T16:37:33',
-        trainNumber: '917',
-        destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:37:33',
-        route: 'Red Line',
+        eta: '2020-01-12T11:42:14',
+        lineName: 'Red Line',
         due: false
       }
     ]
@@ -247,35 +247,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '401300142020-01-11T16:22:47',
-        trainNumber: '014',
-        destination: 'Cottage Grove',
-        eta: '2020-01-11T16:22:47',
-        route: 'Green Line',
-        due: false
-      },
-      {
-        id: '401300122020-01-11T16:28:12',
-        trainNumber: '012',
-        destination: 'Harlem/Lake',
-        eta: '2020-01-11T16:28:12',
-        route: 'Green Line',
-        due: false
-      },
-      {
-        id: '401306082020-01-11T16:35:08',
-        trainNumber: '608',
+        id: '401306092020-01-12T11:29:04',
+        trainNumber: '609',
         destination: 'Ashland/63rd',
-        eta: '2020-01-11T16:35:08',
-        route: 'Green Line',
+        eta: '2020-01-12T11:29:04',
+        lineName: 'Green Line',
         due: false
       },
       {
-        id: '401306142020-01-11T16:40:40',
-        trainNumber: '614',
+        id: '401306032020-01-12T11:34:55',
+        trainNumber: '603',
         destination: 'Harlem/Lake',
-        eta: '2020-01-11T16:40:40',
-        route: 'Green Line',
+        eta: '2020-01-12T11:34:55',
+        lineName: 'Green Line',
+        due: false
+      },
+      {
+        id: '401300062020-01-12T11:41:27',
+        trainNumber: '006',
+        destination: 'Cottage Grove',
+        eta: '2020-01-12T11:41:27',
+        lineName: 'Green Line',
+        due: false
+      },
+      {
+        id: '401306022020-01-12T11:47:00',
+        trainNumber: '602',
+        destination: 'Harlem/Lake',
+        eta: '2020-01-12T11:47:00',
+        lineName: 'Green Line',
         due: false
       }
     ]
@@ -286,35 +286,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '405803122020-01-11T16:24:36',
-        trainNumber: '312',
-        destination: '54th/Cermak',
-        eta: '2020-01-11T16:24:36',
-        route: 'Pink Line',
-        due: false
-      },
-      {
-        id: '405803112020-01-11T16:26:41',
-        trainNumber: '311',
+        id: '405803052020-01-12T11:28:01',
+        trainNumber: '305',
         destination: 'Loop',
-        eta: '2020-01-11T16:26:41',
-        route: 'Pink Line',
-        due: false
+        eta: '2020-01-12T11:28:01',
+        lineName: 'Pink Line',
+        due: true
       },
       {
-        id: '405803092020-01-11T16:38:41',
-        trainNumber: '309',
-        destination: 'Loop',
-        eta: '2020-01-11T16:38:41',
-        route: 'Pink Line',
-        due: false
-      },
-      {
-        id: '405803102020-01-11T16:38:27',
-        trainNumber: '310',
+        id: '405803032020-01-12T11:32:23',
+        trainNumber: '303',
         destination: '54th/Cermak',
-        eta: '2020-01-11T16:38:27',
-        route: 'Pink Line',
+        eta: '2020-01-12T11:32:23',
+        lineName: 'Pink Line',
+        due: false
+      },
+      {
+        id: '405803022020-01-12T11:39:01',
+        trainNumber: '302',
+        destination: 'Loop',
+        eta: '2020-01-12T11:39:01',
+        lineName: 'Pink Line',
+        due: false
+      },
+      {
+        id: '405803042020-01-12T11:45:58',
+        trainNumber: '304',
+        destination: '54th/Cermak',
+        eta: '2020-01-12T11:45:58',
+        lineName: 'Pink Line',
         due: false
       }
     ]
@@ -325,35 +325,51 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '409108212020-01-11T16:26:22',
-        trainNumber: '821',
+        id: '409108082020-01-12T11:28:17',
+        trainNumber: '808',
         destination: 'Howard',
-        eta: '2020-01-11T16:26:22',
-        route: 'Red Line',
+        eta: '2020-01-12T11:28:17',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '409108122020-01-11T16:26:19',
-        trainNumber: '812',
+        id: '409109012020-01-12T11:27:59',
+        trainNumber: '901',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:26:19',
-        route: 'Red Line',
-        due: false
+        eta: '2020-01-12T11:27:59',
+        lineName: 'Red Line',
+        due: true
       },
       {
-        id: '409108162020-01-11T16:32:40',
-        trainNumber: '816',
+        id: '409109082020-01-12T11:33:59',
+        trainNumber: '908',
         destination: 'Howard',
-        eta: '2020-01-11T16:32:40',
-        route: 'Red Line',
+        eta: '2020-01-12T11:33:59',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '409109122020-01-11T16:35:04',
-        trainNumber: '912',
+        id: '409109042020-01-12T11:37:42',
+        trainNumber: '904',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:35:04',
-        route: 'Red Line',
+        eta: '2020-01-12T11:37:42',
+        lineName: 'Red Line',
+        due: false
+      },
+      {
+        id: '409109042020-01-12T11:37:42',
+        trainNumber: '904',
+        destination: '95th/Dan Ryan',
+        eta: '2020-01-12T11:37:42',
+        lineName: 'Red Line',
+        due: false
+      },
+      {
+        id: '409109092020-01-12T11:45:14',
+        trainNumber: '909',
+        destination: '95th/Dan Ryan',
+        eta: '2020-01-12T11:45:14',
+        lineName: 'Red Line',
         due: false
       }
     ]
@@ -364,43 +380,43 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '409908232020-01-11T16:21:33',
-        trainNumber: '823',
+        id: '409909012020-01-12T11:28:59',
+        trainNumber: '901',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:21:33',
-        route: 'Red Line',
-        due: true
+        eta: '2020-01-12T11:28:59',
+        lineName: 'Red Line',
+        due: false
       },
       {
-        id: '409908212020-01-11T16:23:22',
-        trainNumber: '821',
+        id: '409909082020-01-12T11:30:59',
+        trainNumber: '908',
         destination: 'Howard',
-        eta: '2020-01-11T16:23:22',
-        route: 'Red Line',
+        eta: '2020-01-12T11:30:59',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '409908122020-01-11T16:28:19',
-        trainNumber: '812',
-        destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:28:19',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '409908162020-01-11T16:30:40',
-        trainNumber: '816',
+        id: '409909102020-01-12T11:40:00',
+        trainNumber: '910',
         destination: 'Howard',
-        eta: '2020-01-11T16:30:40',
-        route: 'Red Line',
+        eta: '2020-01-12T11:40:00',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '409909122020-01-11T16:37:04',
-        trainNumber: '912',
+        id: '409909042020-01-12T11:40:42',
+        trainNumber: '904',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:37:04',
-        route: 'Red Line',
+        eta: '2020-01-12T11:40:42',
+        lineName: 'Red Line',
+        due: false
+      },
+      {
+        id: '409909042020-01-12T11:40:42',
+        trainNumber: '904',
+        destination: '95th/Dan Ryan',
+        eta: '2020-01-12T11:40:42',
+        lineName: 'Red Line',
         due: false
       }
     ]
@@ -411,35 +427,43 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '402408212020-01-11T16:21:22',
-        trainNumber: '821',
+        id: '402409082020-01-12T11:28:59',
+        trainNumber: '908',
         destination: 'Howard',
-        eta: '2020-01-11T16:21:22',
-        route: 'Red Line',
-        due: true
-      },
-      {
-        id: '402408232020-01-11T16:23:33',
-        trainNumber: '823',
-        destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:23:33',
-        route: 'Red Line',
+        eta: '2020-01-12T11:28:59',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '402408162020-01-11T16:28:41',
-        trainNumber: '816',
-        destination: 'Howard',
-        eta: '2020-01-11T16:28:41',
-        route: 'Red Line',
+        id: '402409012020-01-12T11:30:59',
+        trainNumber: '901',
+        destination: '95th/Dan Ryan',
+        eta: '2020-01-12T11:30:59',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '402408122020-01-11T16:31:19',
-        trainNumber: '812',
+        id: '402409102020-01-12T11:38:01',
+        trainNumber: '910',
+        destination: 'Howard',
+        eta: '2020-01-12T11:38:01',
+        lineName: 'Red Line',
+        due: false
+      },
+      {
+        id: '402409042020-01-12T11:42:42',
+        trainNumber: '904',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:31:19',
-        route: 'Red Line',
+        eta: '2020-01-12T11:42:42',
+        lineName: 'Red Line',
+        due: false
+      },
+      {
+        id: '402409042020-01-12T11:42:42',
+        trainNumber: '904',
+        destination: '95th/Dan Ryan',
+        eta: '2020-01-12T11:42:42',
+        lineName: 'Red Line',
         due: false
       }
     ]
@@ -450,43 +474,43 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '414308182020-01-11T16:22:18',
-        trainNumber: '818',
-        destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:22:18',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '414308232020-01-11T16:25:33',
-        trainNumber: '823',
-        destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:25:33',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '414308162020-01-11T16:26:41',
-        trainNumber: '816',
+        id: '414309082020-01-12T11:27:59',
+        trainNumber: '908',
         destination: 'Howard',
-        eta: '2020-01-11T16:26:41',
-        route: 'Red Line',
-        due: false
+        eta: '2020-01-12T11:27:59',
+        lineName: 'Red Line',
+        due: true
       },
       {
-        id: '414309112020-01-11T16:32:41',
-        trainNumber: '911',
-        destination: 'Howard',
-        eta: '2020-01-11T16:32:41',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '414308122020-01-11T16:33:19',
-        trainNumber: '812',
+        id: '414309012020-01-12T11:32:59',
+        trainNumber: '901',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:33:19',
-        route: 'Red Line',
+        eta: '2020-01-12T11:32:59',
+        lineName: 'Red Line',
+        due: false
+      },
+      {
+        id: '414309102020-01-12T11:36:01',
+        trainNumber: '910',
+        destination: 'Howard',
+        eta: '2020-01-12T11:36:01',
+        lineName: 'Red Line',
+        due: false
+      },
+      {
+        id: '414309042020-01-12T11:44:42',
+        trainNumber: '904',
+        destination: '95th/Dan Ryan',
+        eta: '2020-01-12T11:44:42',
+        lineName: 'Red Line',
+        due: false
+      },
+      {
+        id: '414309042020-01-12T11:44:42',
+        trainNumber: '904',
+        destination: '95th/Dan Ryan',
+        eta: '2020-01-12T11:44:42',
+        lineName: 'Red Line',
         due: false
       }
     ]
@@ -497,43 +521,43 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '404508162020-01-11T16:24:41',
-        trainNumber: '816',
+        id: '404509102020-01-12T11:34:01',
+        trainNumber: '910',
         destination: 'Howard',
-        eta: '2020-01-11T16:24:41',
-        route: 'Red Line',
+        eta: '2020-01-12T11:34:01',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '404508182020-01-11T16:24:18',
-        trainNumber: '818',
+        id: '404509012020-01-12T11:34:59',
+        trainNumber: '901',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:24:18',
-        route: 'Red Line',
+        eta: '2020-01-12T11:34:59',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '404508232020-01-11T16:27:33',
-        trainNumber: '823',
-        destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:27:33',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '404509112020-01-11T16:30:41',
+        id: '404509112020-01-12T11:42:01',
         trainNumber: '911',
         destination: 'Howard',
-        eta: '2020-01-11T16:30:41',
-        route: 'Red Line',
+        eta: '2020-01-12T11:42:01',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '404508122020-01-11T16:35:19',
-        trainNumber: '812',
+        id: '404509042020-01-12T11:46:42',
+        trainNumber: '904',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:35:19',
-        route: 'Red Line',
+        eta: '2020-01-12T11:46:42',
+        lineName: 'Red Line',
+        due: false
+      },
+      {
+        id: '404509042020-01-12T11:46:42',
+        trainNumber: '904',
+        destination: '95th/Dan Ryan',
+        eta: '2020-01-12T11:46:42',
+        lineName: 'Red Line',
         due: false
       }
     ]
@@ -544,99 +568,83 @@ module.exports = [
     wheelchair: false,
     etas: [
       {
-        id: '406804212020-01-11T16:21:08',
-        trainNumber: '421',
-        destination: 'Kimball',
-        eta: '2020-01-11T16:21:08',
-        route: 'Brown line',
-        due: true
-      },
-      {
-        id: '406807112020-01-11T16:21:36',
-        trainNumber: '711',
-        destination: 'Midway',
-        eta: '2020-01-11T16:21:36',
-        route: 'Orange Line',
-        due: true
-      },
-      {
-        id: '406803132020-01-11T16:21:30',
-        trainNumber: '313',
-        destination: '54th/Cermak',
-        eta: '2020-01-11T16:21:30',
-        route: 'Pink Line',
-        due: true
-      },
-      {
-        id: '406806132020-01-11T16:23:20',
-        trainNumber: '613',
+        id: '406800042020-01-12T11:27:54',
+        trainNumber: '004',
         destination: 'Harlem/Lake',
-        eta: '2020-01-11T16:23:20',
-        route: 'Green Line',
-        due: false
+        eta: '2020-01-12T11:27:54',
+        lineName: 'Green Line',
+        due: true
       },
       {
-        id: '406800152020-01-11T16:25:30',
-        trainNumber: '015',
-        destination: 'Cottage Grove',
-        eta: '2020-01-11T16:25:30',
-        route: 'Green Line',
-        due: false
-      },
-      {
-        id: '406804122020-01-11T16:29:38',
-        trainNumber: '412',
+        id: '406804102020-01-12T11:27:58',
+        trainNumber: '410',
         destination: 'Kimball',
-        eta: '2020-01-11T16:29:38',
-        route: 'Brown line',
-        due: false
+        eta: '2020-01-12T11:27:58',
+        lineName: 'Brown line',
+        due: true
       },
       {
-        id: '406807152020-01-11T16:29:26',
-        trainNumber: '715',
-        destination: 'Midway',
-        eta: '2020-01-11T16:29:26',
-        route: 'Orange Line',
-        due: false
-      },
-      {
-        id: '406803082020-01-11T16:29:16',
-        trainNumber: '308',
-        destination: '54th/Cermak',
-        eta: '2020-01-11T16:29:16',
-        route: 'Pink Line',
-        due: false
-      },
-      {
-        id: '406806102020-01-11T16:32:36',
-        trainNumber: '610',
+        id: '406800012020-01-12T11:30:58',
+        trainNumber: '001',
         destination: 'Ashland/63rd',
-        eta: '2020-01-11T16:32:36',
-        route: 'Green Line',
+        eta: '2020-01-12T11:30:58',
+        lineName: 'Green Line',
         due: false
       },
       {
-        id: '406800112020-01-11T16:38:36',
-        trainNumber: '011',
-        destination: 'Harlem/Lake',
-        eta: '2020-01-11T16:38:36',
-        route: 'Green Line',
-        due: false
-      },
-      {
-        id: '406807082020-01-11T16:38:28',
+        id: '406807082020-01-12T11:32:34',
         trainNumber: '708',
         destination: 'Midway',
-        eta: '2020-01-11T16:38:28',
-        route: 'Orange Line',
+        eta: '2020-01-12T11:32:34',
+        lineName: 'Orange Line',
         due: false
       },
       {
-        id: '406806112020-01-11T16:40:38',
-        trainNumber: '611',
+        id: '406804032020-01-12T11:36:50',
+        trainNumber: '403',
+        destination: 'Kimball',
+        eta: '2020-01-12T11:36:50',
+        lineName: 'Brown line',
+        due: false
+      },
+      {
+        id: '406803082020-01-12T11:37:26',
+        trainNumber: '308',
+        destination: '54th/Cermak',
+        eta: '2020-01-12T11:37:26',
+        lineName: 'Pink Line',
+        due: false
+      },
+      {
+        id: '406800082020-01-12T11:39:40',
+        trainNumber: '008',
         destination: 'Cottage Grove',
-        eta: '2020-01-11T16:40:38',
-        route: 'Green Line',
+        eta: '2020-01-12T11:39:40',
+        lineName: 'Green Line',
+        due: false
+      },
+      {
+        id: '406803012020-01-12T11:42:37',
+        trainNumber: '301',
+        destination: '54th/Cermak',
+        eta: '2020-01-12T11:42:37',
+        lineName: 'Pink Line',
+        due: false
+      },
+      {
+        id: '406806012020-01-12T11:43:13',
+        trainNumber: '601',
+        destination: 'Harlem/Lake',
+        eta: '2020-01-12T11:43:13',
+        lineName: 'Green Line',
+        due: false
+      },
+      {
+        id: '406807062020-01-12T11:44:40',
+        trainNumber: '706',
+        destination: 'Midway',
+        eta: '2020-01-12T11:44:40',
+        lineName: 'Orange Line',
         due: false
       }
     ]
@@ -647,35 +655,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '412401202020-01-11T16:21:38',
-        trainNumber: '120',
-        destination: 'Forest Park',
-        eta: '2020-01-11T16:21:38',
-        route: 'Blue Line',
+        id: '412401112020-01-12T11:27:53',
+        trainNumber: '111',
+        destination: "O'Hare",
+        eta: '2020-01-12T11:27:53',
+        lineName: 'Blue Line',
         due: true
       },
       {
-        id: '412401132020-01-11T16:27:20',
-        trainNumber: '113',
-        destination: "O'Hare",
-        eta: '2020-01-11T16:27:20',
-        route: 'Blue Line',
-        due: false
-      },
-      {
-        id: '412402122020-01-11T16:36:41',
-        trainNumber: '212',
-        destination: "O'Hare",
-        eta: '2020-01-11T16:36:41',
-        route: 'Blue Line',
-        due: false
-      },
-      {
-        id: '412402182020-01-11T16:35:59',
-        trainNumber: '218',
+        id: '412401102020-01-12T11:28:57',
+        trainNumber: '110',
         destination: 'Forest Park',
-        eta: '2020-01-11T16:35:59',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:28:57',
+        lineName: 'Blue Line',
+        due: false
+      },
+      {
+        id: '412402012020-01-12T11:33:47',
+        trainNumber: '201',
+        destination: 'Forest Park',
+        eta: '2020-01-12T11:33:47',
+        lineName: 'Blue Line',
+        due: false
+      },
+      {
+        id: '412402062020-01-12T11:38:53',
+        trainNumber: '206',
+        destination: "O'Hare",
+        eta: '2020-01-12T11:38:53',
+        lineName: 'Blue Line',
         due: false
       }
     ]
@@ -686,43 +694,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '414404112020-01-11T16:22:20',
-        trainNumber: '411',
-        destination: 'Kimball',
-        eta: '2020-01-11T16:22:20',
-        route: 'Brown line',
-        due: false
-      },
-      {
-        id: '414404232020-01-11T16:24:05',
-        trainNumber: '423',
+        id: '414404072020-01-12T11:29:53',
+        trainNumber: '407',
         destination: 'Loop',
-        eta: '2020-01-11T16:24:05',
-        route: 'Brown line',
+        eta: '2020-01-12T11:29:53',
+        lineName: 'Brown line',
         due: false
       },
       {
-        id: '414404152020-01-11T16:25:21',
-        trainNumber: '415',
+        id: '414404012020-01-12T11:33:40',
+        trainNumber: '401',
         destination: 'Kimball',
-        eta: '2020-01-11T16:25:21',
-        route: 'Brown line',
+        eta: '2020-01-12T11:33:40',
+        lineName: 'Brown line',
         due: false
       },
       {
-        id: '414404192020-01-11T16:33:40',
-        trainNumber: '419',
+        id: '414404042020-01-12T11:40:00',
+        trainNumber: '404',
         destination: 'Loop',
-        eta: '2020-01-11T16:33:40',
-        route: 'Brown line',
+        eta: '2020-01-12T11:40:00',
+        lineName: 'Brown line',
         due: false
       },
       {
-        id: '414404162020-01-11T16:35:21',
-        trainNumber: '416',
+        id: '414404022020-01-12T11:45:00',
+        trainNumber: '402',
         destination: 'Kimball',
-        eta: '2020-01-11T16:35:21',
-        route: 'Brown line',
+        eta: '2020-01-12T11:45:00',
+        lineName: 'Brown line',
         due: false
       }
     ]
@@ -733,59 +733,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '414208132020-01-11T16:25:32',
+        id: '414208112020-01-12T11:28:59',
+        trainNumber: '811',
+        destination: 'Howard',
+        eta: '2020-01-12T11:28:59',
+        lineName: 'Red Line',
+        due: false
+      },
+      {
+        id: '414208062020-01-12T11:33:55',
+        trainNumber: '806',
+        destination: 'Howard',
+        eta: '2020-01-12T11:33:55',
+        lineName: 'Red Line',
+        due: false
+      },
+      {
+        id: '414208122020-01-12T11:36:57',
+        trainNumber: '812',
+        destination: '95th/Dan Ryan',
+        eta: '2020-01-12T11:36:57',
+        lineName: 'Red Line',
+        due: false
+      },
+      {
+        id: '414208132020-01-12T11:42:00',
         trainNumber: '813',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:25:32',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '414209292020-01-11T16:28:39',
-        trainNumber: '929',
-        destination: 'Howard',
-        eta: '2020-01-11T16:28:39',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '414209192020-01-11T16:32:20',
-        trainNumber: '919',
-        destination: 'Howard',
-        eta: '2020-01-11T16:32:20',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '414209082020-01-11T16:32:59',
-        trainNumber: '908',
-        destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:32:59',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '414209102020-01-11T16:32:46',
-        trainNumber: '910',
-        destination: 'Howard',
-        eta: '2020-01-11T16:32:46',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '414208242020-01-11T16:37:31',
-        trainNumber: '824',
-        destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:37:31',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '414209142020-01-11T16:38:21',
-        trainNumber: '914',
-        destination: 'Howard',
-        eta: '2020-01-11T16:38:21',
-        route: 'Red Line',
+        eta: '2020-01-12T11:42:00',
+        lineName: 'Red Line',
         due: false
       }
     ]
@@ -796,43 +772,43 @@ module.exports = [
     wheelchair: false,
     etas: [
       {
-        id: '412008102020-01-11T16:20:41',
-        trainNumber: '810',
-        destination: 'Howard',
-        eta: '2020-01-11T16:20:41',
-        route: 'Red Line',
-        due: true
-      },
-      {
-        id: '412008152020-01-11T16:26:30',
-        trainNumber: '815',
-        destination: 'Howard',
-        eta: '2020-01-11T16:26:30',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '412009082020-01-11T16:25:59',
-        trainNumber: '908',
+        id: '412008122020-01-12T11:28:57',
+        trainNumber: '812',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:25:59',
-        route: 'Red Line',
+        eta: '2020-01-12T11:28:57',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '412008242020-01-11T16:29:31',
-        trainNumber: '824',
-        destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:29:31',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '412009292020-01-11T16:36:39',
-        trainNumber: '929',
+        id: '412009072020-01-12T11:31:47',
+        trainNumber: '907',
         destination: 'Howard',
-        eta: '2020-01-11T16:36:39',
-        route: 'Red Line',
+        eta: '2020-01-12T11:31:47',
+        lineName: 'Red Line',
+        due: false
+      },
+      {
+        id: '412008132020-01-12T11:33:01',
+        trainNumber: '813',
+        destination: '95th/Dan Ryan',
+        eta: '2020-01-12T11:33:01',
+        lineName: 'Red Line',
+        due: false
+      },
+      {
+        id: '412008112020-01-12T11:36:59',
+        trainNumber: '811',
+        destination: 'Howard',
+        eta: '2020-01-12T11:36:59',
+        lineName: 'Red Line',
+        due: false
+      },
+      {
+        id: '412008062020-01-12T11:41:55',
+        trainNumber: '806',
+        destination: 'Howard',
+        eta: '2020-01-12T11:41:55',
+        lineName: 'Red Line',
         due: false
       }
     ]
@@ -843,51 +819,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '406604162020-01-11T16:23:21',
-        trainNumber: '416',
-        destination: 'Kimball',
-        eta: '2020-01-11T16:23:21',
-        route: 'Brown line',
-        due: false
-      },
-      {
-        id: '406604222020-01-11T16:22:57',
-        trainNumber: '422',
+        id: '406604082020-01-12T11:31:05',
+        trainNumber: '408',
         destination: 'Loop',
-        eta: '2020-01-11T16:22:57',
-        route: 'Brown line',
+        eta: '2020-01-12T11:31:05',
+        lineName: 'Brown line',
         due: false
       },
       {
-        id: '406604132020-01-11T16:28:32',
-        trainNumber: '413',
-        destination: 'Loop',
-        eta: '2020-01-11T16:28:32',
-        route: 'Brown line',
-        due: false
-      },
-      {
-        id: '406604182020-01-11T16:32:24',
-        trainNumber: '418',
+        id: '406604022020-01-12T11:34:56',
+        trainNumber: '402',
         destination: 'Kimball',
-        eta: '2020-01-11T16:32:24',
-        route: 'Brown line',
+        eta: '2020-01-12T11:34:56',
+        lineName: 'Brown line',
         due: false
       },
       {
-        id: '406604232020-01-11T16:36:05',
-        trainNumber: '423',
+        id: '406604072020-01-12T11:41:53',
+        trainNumber: '407',
         destination: 'Loop',
-        eta: '2020-01-11T16:36:05',
-        route: 'Brown line',
+        eta: '2020-01-12T11:41:53',
+        lineName: 'Brown line',
         due: false
       },
       {
-        id: '406604212020-01-11T16:38:08',
-        trainNumber: '421',
+        id: '406604102020-01-12T11:42:58',
+        trainNumber: '410',
         destination: 'Kimball',
-        eta: '2020-01-11T16:38:08',
-        route: 'Brown line',
+        eta: '2020-01-12T11:42:58',
+        lineName: 'Brown line',
         due: false
       }
     ]
@@ -898,59 +858,67 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '401700102020-01-11T16:21:39',
-        trainNumber: '010',
-        destination: 'Harlem/Lake',
-        eta: '2020-01-11T16:21:39',
-        route: 'Green Line',
-        due: true
-      },
-      {
-        id: '401703082020-01-11T16:22:16',
+        id: '401703082020-01-12T11:29:26',
         trainNumber: '308',
         destination: 'Loop',
-        eta: '2020-01-11T16:22:16',
-        route: 'Pink Line',
+        eta: '2020-01-12T11:29:26',
+        lineName: 'Pink Line',
         due: false
       },
       {
-        id: '401706102020-01-11T16:24:36',
-        trainNumber: '610',
-        destination: 'Ashland/63rd',
-        eta: '2020-01-11T16:24:36',
-        route: 'Green Line',
-        due: false
-      },
-      {
-        id: '401706112020-01-11T16:31:38',
-        trainNumber: '611',
+        id: '401700082020-01-12T11:31:40',
+        trainNumber: '008',
         destination: 'Cottage Grove',
-        eta: '2020-01-11T16:31:38',
-        route: 'Green Line',
+        eta: '2020-01-12T11:31:40',
+        lineName: 'Green Line',
         due: false
       },
       {
-        id: '401706132020-01-11T16:33:20',
-        trainNumber: '613',
-        destination: 'Harlem/Lake',
-        eta: '2020-01-11T16:33:20',
-        route: 'Green Line',
-        due: false
-      },
-      {
-        id: '401703132020-01-11T16:33:30',
-        trainNumber: '313',
+        id: '401703072020-01-12T11:34:58',
+        trainNumber: '307',
         destination: '54th/Cermak',
-        eta: '2020-01-11T16:33:30',
-        route: 'Pink Line',
+        eta: '2020-01-12T11:34:58',
+        lineName: 'Pink Line',
         due: false
       },
       {
-        id: '401703142020-01-11T16:39:39',
-        trainNumber: '314',
+        id: '401703012020-01-12T11:34:37',
+        trainNumber: '301',
         destination: 'Loop',
-        eta: '2020-01-11T16:39:39',
-        route: 'Pink Line',
+        eta: '2020-01-12T11:34:37',
+        lineName: 'Pink Line',
+        due: false
+      },
+      {
+        id: '401700042020-01-12T11:36:54',
+        trainNumber: '004',
+        destination: 'Harlem/Lake',
+        eta: '2020-01-12T11:36:54',
+        lineName: 'Green Line',
+        due: false
+      },
+      {
+        id: '401706062020-01-12T11:43:53',
+        trainNumber: '606',
+        destination: 'Ashland/63rd',
+        eta: '2020-01-12T11:43:53',
+        lineName: 'Green Line',
+        due: false
+      },
+      {
+        id: '401703052020-01-12T11:48:01',
+        trainNumber: '305',
+        destination: 'Loop',
+        eta: '2020-01-12T11:48:01',
+        lineName: 'Pink Line',
+        due: false
+      },
+      {
+        id: '401703022020-01-12T12:00:01',
+        trainNumber: '302',
+        destination: 'Loop',
+        eta: '2020-01-12T12:00:01',
+        lineName: 'Pink Line',
         due: false
       }
     ]
@@ -961,43 +929,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '410607102020-01-11T16:24:29',
-        trainNumber: '710',
+        id: '410607032020-01-12T11:29:49',
+        trainNumber: '703',
         destination: 'Midway',
-        eta: '2020-01-11T16:24:29',
-        route: 'Orange Line',
+        eta: '2020-01-12T11:29:49',
+        lineName: 'Orange Line',
         due: false
       },
       {
-        id: '410607132020-01-11T16:28:33',
-        trainNumber: '713',
+        id: '410607042020-01-12T11:37:39',
+        trainNumber: '704',
         destination: 'Loop',
-        eta: '2020-01-11T16:28:33',
-        route: 'Orange Line',
+        eta: '2020-01-12T11:37:39',
+        lineName: 'Orange Line',
         due: false
       },
       {
-        id: '410607112020-01-11T16:29:36',
-        trainNumber: '711',
+        id: '410607082020-01-12T11:42:34',
+        trainNumber: '708',
         destination: 'Midway',
-        eta: '2020-01-11T16:29:36',
-        route: 'Orange Line',
+        eta: '2020-01-12T11:42:34',
+        lineName: 'Orange Line',
         due: false
       },
       {
-        id: '410607172020-01-11T16:35:41',
-        trainNumber: '717',
+        id: '410607052020-01-12T11:50:01',
+        trainNumber: '705',
         destination: 'Loop',
-        eta: '2020-01-11T16:35:41',
-        route: 'Orange Line',
-        due: false
-      },
-      {
-        id: '410607152020-01-11T16:39:26',
-        trainNumber: '715',
-        destination: 'Midway',
-        eta: '2020-01-11T16:39:26',
-        route: 'Orange Line',
+        eta: '2020-01-12T11:50:01',
+        lineName: 'Orange Line',
         due: false
       }
     ]
@@ -1008,35 +968,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '402906072020-01-11T16:21:35',
-        trainNumber: '607',
+        id: '402906092020-01-12T11:39:04',
+        trainNumber: '609',
         destination: 'Ashland/63rd',
-        eta: '2020-01-11T16:21:35',
-        route: 'Green Line',
-        due: true
-      },
-      {
-        id: '402906142020-01-11T16:29:41',
-        trainNumber: '614',
-        destination: 'Harlem/Lake',
-        eta: '2020-01-11T16:29:41',
-        route: 'Green Line',
+        eta: '2020-01-12T11:39:04',
+        lineName: 'Green Line',
         due: false
       },
       {
-        id: '402906082020-01-11T16:39:40',
-        trainNumber: '608',
+        id: '402906092020-01-12T11:48:01',
+        trainNumber: '609',
+        destination: 'Harlem/Lake',
+        eta: '2020-01-12T11:48:01',
+        lineName: 'Green Line',
+        due: false
+      },
+      {
+        id: '402900012020-01-12T11:58:00',
+        trainNumber: '001',
         destination: '63rd Street',
-        eta: '2020-01-11T16:39:40',
-        route: 'Green Line',
+        eta: '2020-01-12T11:58:00',
+        lineName: 'Green Line',
         due: false
       },
       {
-        id: '402906152020-01-11T16:49:41',
-        trainNumber: '615',
+        id: '402906042020-01-12T12:12:01',
+        trainNumber: '604',
         destination: 'Harlem/Lake',
-        eta: '2020-01-11T16:49:41',
-        route: 'Green Line',
+        eta: '2020-01-12T12:12:01',
+        lineName: 'Green Line',
         due: false
       }
     ]
@@ -1047,43 +1007,35 @@ module.exports = [
     wheelchair: false,
     etas: [
       {
-        id: '400101162020-01-11T16:21:41',
-        trainNumber: '116',
+        id: '400101132020-01-12T11:30:44',
+        trainNumber: '113',
         destination: "O'Hare",
-        eta: '2020-01-11T16:21:41',
-        route: 'Blue Line',
-        due: true
+        eta: '2020-01-12T11:30:44',
+        lineName: 'Blue Line',
+        due: false
       },
       {
-        id: '400101162020-01-11T16:26:30',
+        id: '400101022020-01-12T11:42:54',
+        trainNumber: '102',
+        destination: 'Forest Park',
+        eta: '2020-01-12T11:42:54',
+        lineName: 'Blue Line',
+        due: false
+      },
+      {
+        id: '400101052020-01-12T11:52:00',
+        trainNumber: '105',
+        destination: "O'Hare",
+        eta: '2020-01-12T11:52:00',
+        lineName: 'Blue Line',
+        due: false
+      },
+      {
+        id: '400101162020-01-12T11:52:00',
         trainNumber: '116',
         destination: 'Forest Park',
-        eta: '2020-01-11T16:26:30',
-        route: 'Blue Line',
-        due: false
-      },
-      {
-        id: '400102102020-01-11T16:29:20',
-        trainNumber: '210',
-        destination: 'Forest Park',
-        eta: '2020-01-11T16:29:20',
-        route: 'Blue Line',
-        due: false
-      },
-      {
-        id: '400101182020-01-11T16:34:26',
-        trainNumber: '118',
-        destination: 'Forest Park',
-        eta: '2020-01-11T16:34:26',
-        route: 'Blue Line',
-        due: false
-      },
-      {
-        id: '400102202020-01-11T16:37:41',
-        trainNumber: '220',
-        destination: "O'Hare",
-        eta: '2020-01-11T16:37:41',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:52:00',
+        lineName: 'Blue Line',
         due: false
       }
     ]
@@ -1094,35 +1046,35 @@ module.exports = [
     wheelchair: false,
     etas: [
       {
-        id: '412600162020-01-11T16:25:41',
-        trainNumber: '016',
-        destination: '63rd Street',
-        eta: '2020-01-11T16:25:41',
-        route: 'Green Line',
-        due: false
-      },
-      {
-        id: '412600092020-01-11T16:31:27',
-        trainNumber: '009',
+        id: '412600032020-01-12T11:27:57',
+        trainNumber: '003',
         destination: 'Harlem/Lake',
-        eta: '2020-01-11T16:31:27',
-        route: 'Green Line',
+        eta: '2020-01-12T11:27:57',
+        lineName: 'Green Line',
+        due: true
+      },
+      {
+        id: '412606062020-01-12T11:28:53',
+        trainNumber: '606',
+        destination: 'Ashland/63rd',
+        eta: '2020-01-12T11:28:53',
+        lineName: 'Green Line',
         due: false
       },
       {
-        id: '412600172020-01-11T16:35:41',
-        trainNumber: '017',
-        destination: '63rd Street',
-        eta: '2020-01-11T16:35:41',
-        route: 'Green Line',
-        due: false
-      },
-      {
-        id: '412600102020-01-11T16:36:39',
-        trainNumber: '010',
+        id: '412600072020-01-12T11:38:46',
+        trainNumber: '007',
         destination: 'Harlem/Lake',
-        eta: '2020-01-11T16:36:39',
-        route: 'Green Line',
+        eta: '2020-01-12T11:38:46',
+        lineName: 'Green Line',
+        due: false
+      },
+      {
+        id: '412600022020-01-12T11:41:00',
+        trainNumber: '002',
+        destination: '63rd Street',
+        eta: '2020-01-12T11:41:00',
+        lineName: 'Green Line',
         due: false
       }
     ]
@@ -1133,35 +1085,35 @@ module.exports = [
     wheelchair: false,
     etas: [
       {
-        id: '400601202020-01-11T16:22:38',
-        trainNumber: '120',
+        id: '400601102020-01-12T11:30:57',
+        trainNumber: '110',
         destination: 'Forest Park',
-        eta: '2020-01-11T16:22:38',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:30:57',
+        lineName: 'Blue Line',
         due: false
       },
       {
-        id: '400601132020-01-11T16:25:20',
-        trainNumber: '113',
-        destination: "O'Hare",
-        eta: '2020-01-11T16:25:20',
-        route: 'Blue Line',
-        due: false
-      },
-      {
-        id: '400601222020-01-11T16:37:58',
-        trainNumber: '122',
-        destination: "O'Hare",
-        eta: '2020-01-11T16:37:58',
-        route: 'Blue Line',
-        due: false
-      },
-      {
-        id: '400602182020-01-11T16:37:59',
-        trainNumber: '218',
+        id: '400602012020-01-12T11:35:47',
+        trainNumber: '201',
         destination: 'Forest Park',
-        eta: '2020-01-11T16:37:59',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:35:47',
+        lineName: 'Blue Line',
+        due: false
+      },
+      {
+        id: '400602062020-01-12T11:36:53',
+        trainNumber: '206',
+        destination: "O'Hare",
+        eta: '2020-01-12T11:36:53',
+        lineName: 'Blue Line',
+        due: false
+      },
+      {
+        id: '400602092020-01-12T11:53:00',
+        trainNumber: '209',
+        destination: "O'Hare",
+        eta: '2020-01-12T11:53:00',
+        lineName: 'Blue Line',
         due: false
       }
     ]
@@ -1172,99 +1124,75 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '413204132020-01-11T16:22:32',
-        trainNumber: '413',
-        destination: 'Loop',
-        eta: '2020-01-11T16:22:32',
-        route: 'Brown line',
-        due: false
-      },
-      {
-        id: '413208192020-01-11T16:22:12',
-        trainNumber: '819',
-        destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:22:12',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '413208132020-01-11T16:27:32',
-        trainNumber: '813',
-        destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:27:32',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '413209292020-01-11T16:27:39',
-        trainNumber: '929',
-        destination: 'Howard',
-        eta: '2020-01-11T16:27:39',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '413204162020-01-11T16:30:21',
-        trainNumber: '416',
+        id: '413204012020-01-12T11:28:40',
+        trainNumber: '401',
         destination: 'Kimball',
-        eta: '2020-01-11T16:30:21',
-        route: 'Brown line',
+        eta: '2020-01-12T11:28:40',
+        lineName: 'Brown line',
         due: false
       },
       {
-        id: '413204232020-01-11T16:30:05',
-        trainNumber: '423',
+        id: '413208112020-01-12T11:27:59',
+        trainNumber: '811',
+        destination: 'Howard',
+        eta: '2020-01-12T11:27:59',
+        lineName: 'Red Line',
+        due: true
+      },
+      {
+        id: '413209062020-01-12T11:28:11',
+        trainNumber: '906',
+        destination: '95th/Dan Ryan',
+        eta: '2020-01-12T11:28:11',
+        lineName: 'Red Line',
+        due: false
+      },
+      {
+        id: '413208062020-01-12T11:31:55',
+        trainNumber: '806',
+        destination: 'Howard',
+        eta: '2020-01-12T11:31:55',
+        lineName: 'Red Line',
+        due: false
+      },
+      {
+        id: '413204072020-01-12T11:35:53',
+        trainNumber: '407',
         destination: 'Loop',
-        eta: '2020-01-11T16:30:05',
-        route: 'Brown line',
+        eta: '2020-01-12T11:35:53',
+        lineName: 'Brown line',
         due: false
       },
       {
-        id: '413209192020-01-11T16:30:20',
-        trainNumber: '919',
-        destination: 'Howard',
-        eta: '2020-01-11T16:30:20',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '413209102020-01-11T16:30:46',
-        trainNumber: '910',
-        destination: 'Howard',
-        eta: '2020-01-11T16:30:46',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '413209082020-01-11T16:34:59',
-        trainNumber: '908',
+        id: '413208122020-01-12T11:38:57',
+        trainNumber: '812',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:34:59',
-        route: 'Red Line',
+        eta: '2020-01-12T11:38:57',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '413209142020-01-11T16:36:21',
-        trainNumber: '914',
-        destination: 'Howard',
-        eta: '2020-01-11T16:36:21',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '413204182020-01-11T16:38:24',
-        trainNumber: '418',
+        id: '413204022020-01-12T11:41:56',
+        trainNumber: '402',
         destination: 'Kimball',
-        eta: '2020-01-11T16:38:24',
-        route: 'Brown line',
+        eta: '2020-01-12T11:41:56',
+        lineName: 'Brown line',
         due: false
       },
       {
-        id: '413208242020-01-11T16:39:31',
-        trainNumber: '824',
-        destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:39:31',
-        route: 'Red Line',
+        id: '413208072020-01-12T11:44:35',
+        trainNumber: '807',
+        destination: 'Howard',
+        eta: '2020-01-12T11:44:35',
+        lineName: 'Red Line',
+        due: false
+      },
+      {
+        id: '413204042020-01-12T11:46:01',
+        trainNumber: '404',
+        destination: 'See train',
+        eta: '2020-01-12T11:46:01',
+        lineName: 'Brown line',
         due: false
       }
     ]
@@ -1275,43 +1203,43 @@ module.exports = [
     wheelchair: false,
     etas: [
       {
-        id: '403408102020-01-11T16:21:41',
-        trainNumber: '810',
-        destination: 'Howard',
-        eta: '2020-01-11T16:21:41',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '403409082020-01-11T16:23:59',
-        trainNumber: '908',
+        id: '403408122020-01-12T11:27:57',
+        trainNumber: '812',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:23:59',
-        route: 'Red Line',
-        due: false
+        eta: '2020-01-12T11:27:57',
+        lineName: 'Red Line',
+        due: true
       },
       {
-        id: '403408152020-01-11T16:27:30',
-        trainNumber: '815',
-        destination: 'Howard',
-        eta: '2020-01-11T16:27:30',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '403408242020-01-11T16:28:31',
-        trainNumber: '824',
+        id: '403408132020-01-12T11:32:00',
+        trainNumber: '813',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:28:31',
-        route: 'Red Line',
+        eta: '2020-01-12T11:32:00',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '403409292020-01-11T16:38:39',
-        trainNumber: '929',
+        id: '403409072020-01-12T11:32:47',
+        trainNumber: '907',
         destination: 'Howard',
-        eta: '2020-01-11T16:38:39',
-        route: 'Red Line',
+        eta: '2020-01-12T11:32:47',
+        lineName: 'Red Line',
+        due: false
+      },
+      {
+        id: '403408112020-01-12T11:37:59',
+        trainNumber: '811',
+        destination: 'Howard',
+        eta: '2020-01-12T11:37:59',
+        lineName: 'Red Line',
+        due: false
+      },
+      {
+        id: '403408062020-01-12T11:42:55',
+        trainNumber: '806',
+        destination: 'Howard',
+        eta: '2020-01-12T11:42:55',
+        lineName: 'Red Line',
         due: false
       }
     ]
@@ -1322,35 +1250,51 @@ module.exports = [
     wheelchair: false,
     etas: [
       {
-        id: '413808102020-01-11T16:22:41',
+        id: '413808022020-01-12T11:27:20',
+        trainNumber: '802',
+        destination: 'Howard',
+        eta: '2020-01-12T11:27:20',
+        lineName: 'Red Line',
+        due: true
+      },
+      {
+        id: '413808132020-01-12T11:32:01',
+        trainNumber: '813',
+        destination: '95th/Dan Ryan',
+        eta: '2020-01-12T11:32:01',
+        lineName: 'Red Line',
+        due: false
+      },
+      {
+        id: '413809072020-01-12T11:33:47',
+        trainNumber: '907',
+        destination: 'Howard',
+        eta: '2020-01-12T11:33:47',
+        lineName: 'Red Line',
+        due: false
+      },
+      {
+        id: '413808112020-01-12T11:38:59',
+        trainNumber: '811',
+        destination: 'Howard',
+        eta: '2020-01-12T11:38:59',
+        lineName: 'Red Line',
+        due: false
+      },
+      {
+        id: '413808102020-01-12T11:39:01',
         trainNumber: '810',
-        destination: 'Howard',
-        eta: '2020-01-11T16:22:41',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '413809082020-01-11T16:22:59',
-        trainNumber: '908',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:22:59',
-        route: 'Red Line',
+        eta: '2020-01-12T11:39:01',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '413808242020-01-11T16:27:31',
-        trainNumber: '824',
-        destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:27:31',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '413808152020-01-11T16:28:30',
-        trainNumber: '815',
+        id: '413808062020-01-12T11:44:55',
+        trainNumber: '806',
         destination: 'Howard',
-        eta: '2020-01-11T16:28:30',
-        route: 'Red Line',
+        eta: '2020-01-12T11:44:55',
+        lineName: 'Red Line',
         due: false
       }
     ]
@@ -1361,27 +1305,35 @@ module.exports = [
     wheelchair: false,
     etas: [
       {
-        id: '405701202020-01-11T16:31:38',
-        trainNumber: '120',
+        id: '405702062020-01-12T11:31:53',
+        trainNumber: '206',
+        destination: "O'Hare",
+        eta: '2020-01-12T11:31:53',
+        lineName: 'Blue Line',
+        due: false
+      },
+      {
+        id: '405701102020-01-12T11:38:57',
+        trainNumber: '110',
         destination: 'Forest Park',
-        eta: '2020-01-11T16:31:38',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:38:57',
+        lineName: 'Blue Line',
         due: false
       },
       {
-        id: '405701222020-01-11T16:32:58',
-        trainNumber: '122',
-        destination: "O'Hare",
-        eta: '2020-01-11T16:32:58',
-        route: 'Blue Line',
+        id: '405702012020-01-12T11:43:47',
+        trainNumber: '201',
+        destination: 'Forest Park',
+        eta: '2020-01-12T11:43:47',
+        lineName: 'Blue Line',
         due: false
       },
       {
-        id: '405702132020-01-11T16:46:41',
-        trainNumber: '213',
+        id: '405702092020-01-12T11:48:01',
+        trainNumber: '209',
         destination: "O'Hare",
-        eta: '2020-01-11T16:46:41',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:48:01',
+        lineName: 'Blue Line',
         due: false
       }
     ]
@@ -1392,35 +1344,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '413600102020-01-11T16:24:39',
-        trainNumber: '010',
+        id: '413600072020-01-12T11:27:46',
+        trainNumber: '007',
         destination: 'Harlem/Lake',
-        eta: '2020-01-11T16:24:39',
-        route: 'Green Line',
-        due: false
+        eta: '2020-01-12T11:27:46',
+        lineName: 'Green Line',
+        due: true
       },
       {
-        id: '413606112020-01-11T16:27:38',
-        trainNumber: '611',
+        id: '413600082020-01-12T11:27:40',
+        trainNumber: '008',
         destination: 'Cottage Grove',
-        eta: '2020-01-11T16:27:38',
-        route: 'Green Line',
-        due: false
+        eta: '2020-01-12T11:27:40',
+        lineName: 'Green Line',
+        due: true
       },
       {
-        id: '413606132020-01-11T16:37:20',
-        trainNumber: '613',
+        id: '413600042020-01-12T11:39:54',
+        trainNumber: '004',
         destination: 'Harlem/Lake',
-        eta: '2020-01-11T16:37:20',
-        route: 'Green Line',
+        eta: '2020-01-12T11:39:54',
+        lineName: 'Green Line',
         due: false
       },
       {
-        id: '413600162020-01-11T16:37:41',
-        trainNumber: '016',
-        destination: '63rd Street',
-        eta: '2020-01-11T16:37:41',
-        route: 'Green Line',
+        id: '413606062020-01-12T11:39:53',
+        trainNumber: '606',
+        destination: 'Ashland/63rd',
+        eta: '2020-01-12T11:39:53',
+        lineName: 'Green Line',
         due: false
       }
     ]
@@ -1431,35 +1383,19 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '404403142020-01-11T16:28:39',
-        trainNumber: '314',
-        destination: 'Loop',
-        eta: '2020-01-11T16:28:39',
-        route: 'Pink Line',
-        due: false
-      },
-      {
-        id: '404403102020-01-11T16:28:27',
-        trainNumber: '310',
+        id: '404403042020-01-12T11:34:58',
+        trainNumber: '304',
         destination: '54th/Cermak',
-        eta: '2020-01-11T16:28:27',
-        route: 'Pink Line',
+        eta: '2020-01-12T11:34:58',
+        lineName: 'Pink Line',
         due: false
       },
       {
-        id: '404403112020-01-11T16:35:40',
-        trainNumber: '311',
-        destination: 'Loop',
-        eta: '2020-01-11T16:35:40',
-        route: 'Pink Line',
-        due: false
-      },
-      {
-        id: '404403132020-01-11T16:43:41',
-        trainNumber: '313',
+        id: '404403072020-01-12T11:44:58',
+        trainNumber: '307',
         destination: '54th/Cermak',
-        eta: '2020-01-11T16:43:41',
-        route: 'Pink Line',
+        eta: '2020-01-12T11:44:58',
+        lineName: 'Pink Line',
         due: false
       }
     ]
@@ -1470,35 +1406,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '402800162020-01-11T16:26:41',
-        trainNumber: '016',
-        destination: '63rd Street',
-        eta: '2020-01-11T16:26:41',
-        route: 'Green Line',
+        id: '402806062020-01-12T11:29:53',
+        trainNumber: '606',
+        destination: 'Ashland/63rd',
+        eta: '2020-01-12T11:29:53',
+        lineName: 'Green Line',
         due: false
       },
       {
-        id: '402800092020-01-11T16:29:27',
-        trainNumber: '009',
+        id: '402800072020-01-12T11:36:46',
+        trainNumber: '007',
         destination: 'Harlem/Lake',
-        eta: '2020-01-11T16:29:27',
-        route: 'Green Line',
+        eta: '2020-01-12T11:36:46',
+        lineName: 'Green Line',
         due: false
       },
       {
-        id: '402800102020-01-11T16:34:39',
-        trainNumber: '010',
-        destination: 'Harlem/Lake',
-        eta: '2020-01-11T16:34:39',
-        route: 'Green Line',
-        due: false
-      },
-      {
-        id: '402800172020-01-11T16:36:41',
-        trainNumber: '017',
+        id: '402800022020-01-12T11:42:01',
+        trainNumber: '002',
         destination: '63rd Street',
-        eta: '2020-01-11T16:36:41',
-        route: 'Green Line',
+        eta: '2020-01-12T11:42:01',
+        lineName: 'Green Line',
+        due: false
+      },
+      {
+        id: '402800042020-01-12T11:52:01',
+        trainNumber: '004',
+        destination: 'Harlem/Lake',
+        eta: '2020-01-12T11:52:01',
+        lineName: 'Green Line',
         due: false
       }
     ]
@@ -1509,35 +1445,35 @@ module.exports = [
     wheelchair: false,
     etas: [
       {
-        id: '412505042020-01-11T16:26:34',
+        id: '412505022020-01-12T11:27:54',
+        trainNumber: '502',
+        destination: 'Linden',
+        eta: '2020-01-12T11:27:54',
+        lineName: 'Purple Line',
+        due: true
+      },
+      {
+        id: '412505012020-01-12T11:31:01',
+        trainNumber: '501',
+        destination: 'Howard',
+        eta: '2020-01-12T11:31:01',
+        lineName: 'Purple Line',
+        due: false
+      },
+      {
+        id: '412505042020-01-12T11:36:01',
         trainNumber: '504',
         destination: 'Linden',
-        eta: '2020-01-11T16:26:34',
-        route: 'Purple Line',
+        eta: '2020-01-12T11:36:01',
+        lineName: 'Purple Line',
         due: false
       },
       {
-        id: '412505062020-01-11T16:30:41',
-        trainNumber: '506',
+        id: '412505022020-01-12T11:43:01',
+        trainNumber: '502',
         destination: 'Howard',
-        eta: '2020-01-11T16:30:41',
-        route: 'Purple Line',
-        due: false
-      },
-      {
-        id: '412505052020-01-11T16:36:41',
-        trainNumber: '505',
-        destination: 'Linden',
-        eta: '2020-01-11T16:36:41',
-        route: 'Purple Line',
-        due: false
-      },
-      {
-        id: '412505042020-01-11T16:42:41',
-        trainNumber: '504',
-        destination: 'Howard',
-        eta: '2020-01-11T16:42:41',
-        route: 'Purple Line',
+        eta: '2020-01-12T11:43:01',
+        lineName: 'Purple Line',
         due: false
       }
     ]
@@ -1548,35 +1484,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '407803142020-01-11T16:25:39',
-        trainNumber: '314',
+        id: '407803052020-01-12T11:34:01',
+        trainNumber: '305',
         destination: 'Loop',
-        eta: '2020-01-11T16:25:39',
-        route: 'Pink Line',
+        eta: '2020-01-12T11:34:01',
+        lineName: 'Pink Line',
         due: false
       },
       {
-        id: '407803102020-01-11T16:31:27',
-        trainNumber: '310',
+        id: '407803042020-01-12T11:37:58',
+        trainNumber: '304',
         destination: '54th/Cermak',
-        eta: '2020-01-11T16:31:27',
-        route: 'Pink Line',
+        eta: '2020-01-12T11:37:58',
+        lineName: 'Pink Line',
         due: false
       },
       {
-        id: '407803112020-01-11T16:33:41',
-        trainNumber: '311',
+        id: '407803072020-01-12T11:45:01',
+        trainNumber: '307',
+        destination: '54th/Cermak',
+        eta: '2020-01-12T11:45:01',
+        lineName: 'Pink Line',
+        due: false
+      },
+      {
+        id: '407803022020-01-12T11:46:01',
+        trainNumber: '302',
         destination: 'Loop',
-        eta: '2020-01-11T16:33:41',
-        route: 'Pink Line',
-        due: false
-      },
-      {
-        id: '407803132020-01-11T16:46:40',
-        trainNumber: '313',
-        destination: '54th/Cermak',
-        eta: '2020-01-11T16:46:40',
-        route: 'Pink Line',
+        eta: '2020-01-12T11:46:01',
+        lineName: 'Pink Line',
         due: false
       }
     ]
@@ -1587,51 +1523,59 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '410009152020-01-11T16:24:34',
-        trainNumber: '915',
-        destination: 'Howard',
-        eta: '2020-01-11T16:24:34',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '410009122020-01-11T16:26:04',
-        trainNumber: '912',
+        id: '410009042020-01-12T11:28:42',
+        trainNumber: '904',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:26:04',
-        route: 'Red Line',
+        eta: '2020-01-12T11:28:42',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '410008202020-01-11T16:29:26',
-        trainNumber: '820',
-        destination: 'Howard',
-        eta: '2020-01-11T16:29:26',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '410009172020-01-11T16:31:33',
-        trainNumber: '917',
+        id: '410009042020-01-12T11:28:42',
+        trainNumber: '904',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:31:33',
-        route: 'Red Line',
+        eta: '2020-01-12T11:28:42',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '410008212020-01-11T16:37:22',
-        trainNumber: '821',
+        id: '410008052020-01-12T11:29:56',
+        trainNumber: '805',
         destination: 'Howard',
-        eta: '2020-01-11T16:37:22',
-        route: 'Red Line',
+        eta: '2020-01-12T11:29:56',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '410008172020-01-11T16:38:05',
-        trainNumber: '817',
+        id: '410009092020-01-12T11:36:14',
+        trainNumber: '909',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:38:05',
-        route: 'Red Line',
+        eta: '2020-01-12T11:36:14',
+        lineName: 'Red Line',
+        due: false
+      },
+      {
+        id: '410008082020-01-12T11:38:17',
+        trainNumber: '808',
+        destination: 'Howard',
+        eta: '2020-01-12T11:38:17',
+        lineName: 'Red Line',
+        due: false
+      },
+      {
+        id: '410009052020-01-12T11:42:56',
+        trainNumber: '905',
+        destination: '95th/Dan Ryan',
+        eta: '2020-01-12T11:42:56',
+        lineName: 'Red Line',
+        due: false
+      },
+      {
+        id: '410009082020-01-12T11:43:59',
+        trainNumber: '908',
+        destination: 'Howard',
+        eta: '2020-01-12T11:43:59',
+        lineName: 'Red Line',
         due: false
       }
     ]
@@ -1642,43 +1586,43 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '416906082020-01-11T16:22:08',
-        trainNumber: '608',
-        destination: 'Ashland/63rd',
-        eta: '2020-01-11T16:22:08',
-        route: 'Green Line',
-        due: false
-      },
-      {
-        id: '416900112020-01-11T16:30:36',
-        trainNumber: '011',
-        destination: 'Harlem/Lake',
-        eta: '2020-01-11T16:30:36',
-        route: 'Green Line',
-        due: false
-      },
-      {
-        id: '416900152020-01-11T16:30:30',
-        trainNumber: '015',
+        id: '416900062020-01-12T11:29:27',
+        trainNumber: '006',
         destination: 'Cottage Grove',
-        eta: '2020-01-11T16:30:30',
-        route: 'Green Line',
+        eta: '2020-01-12T11:29:27',
+        lineName: 'Green Line',
         due: false
       },
       {
-        id: '416906102020-01-11T16:38:36',
-        trainNumber: '610',
-        destination: 'Ashland/63rd',
-        eta: '2020-01-11T16:38:36',
-        route: 'Green Line',
-        due: false
-      },
-      {
-        id: '416900122020-01-11T16:39:12',
-        trainNumber: '012',
+        id: '416906012020-01-12T11:35:13',
+        trainNumber: '601',
         destination: 'Harlem/Lake',
-        eta: '2020-01-11T16:39:12',
-        route: 'Green Line',
+        eta: '2020-01-12T11:35:13',
+        lineName: 'Green Line',
+        due: false
+      },
+      {
+        id: '416900012020-01-12T11:36:58',
+        trainNumber: '001',
+        destination: 'Ashland/63rd',
+        eta: '2020-01-12T11:36:58',
+        lineName: 'Green Line',
+        due: false
+      },
+      {
+        id: '416906032020-01-12T11:46:00',
+        trainNumber: '603',
+        destination: 'Harlem/Lake',
+        eta: '2020-01-12T11:46:00',
+        lineName: 'Green Line',
+        due: false
+      },
+      {
+        id: '416900082020-01-12T11:45:40',
+        trainNumber: '008',
+        destination: 'Cottage Grove',
+        eta: '2020-01-12T11:45:40',
+        lineName: 'Green Line',
         due: false
       }
     ]
@@ -1689,27 +1633,35 @@ module.exports = [
     wheelchair: false,
     etas: [
       {
-        id: '414101222020-01-11T16:23:58',
-        trainNumber: '122',
+        id: '414102092020-01-12T11:37:44',
+        trainNumber: '209',
         destination: "O'Hare",
-        eta: '2020-01-11T16:23:58',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:37:44',
+        lineName: 'Blue Line',
         due: false
       },
       {
-        id: '414102122020-01-11T16:32:36',
-        trainNumber: '212',
-        destination: "O'Hare",
-        eta: '2020-01-11T16:32:36',
-        route: 'Blue Line',
-        due: false
-      },
-      {
-        id: '414101202020-01-11T16:39:38',
-        trainNumber: '120',
+        id: '414101102020-01-12T11:45:57',
+        trainNumber: '110',
         destination: 'Forest Park',
-        eta: '2020-01-11T16:39:38',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:45:57',
+        lineName: 'Blue Line',
+        due: false
+      },
+      {
+        id: '414101132020-01-12T11:54:01',
+        trainNumber: '113',
+        destination: "O'Hare",
+        eta: '2020-01-12T11:54:01',
+        lineName: 'Blue Line',
+        due: false
+      },
+      {
+        id: '414101082020-01-12T12:06:01',
+        trainNumber: '108',
+        destination: 'Forest Park',
+        eta: '2020-01-12T12:06:01',
+        lineName: 'Blue Line',
         due: false
       }
     ]
@@ -1720,43 +1672,43 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '407104182020-01-11T16:25:24',
-        trainNumber: '418',
+        id: '407104022020-01-12T11:28:56',
+        trainNumber: '402',
         destination: 'Kimball',
-        eta: '2020-01-11T16:25:24',
-        route: 'Brown line',
+        eta: '2020-01-12T11:28:56',
+        lineName: 'Brown line',
         due: false
       },
       {
-        id: '407104222020-01-11T16:29:57',
-        trainNumber: '422',
+        id: '407104032020-01-12T11:27:50',
+        trainNumber: '403',
         destination: 'Loop',
-        eta: '2020-01-11T16:29:57',
-        route: 'Brown line',
-        due: false
+        eta: '2020-01-12T11:27:50',
+        lineName: 'Brown line',
+        due: true
       },
       {
-        id: '407104212020-01-11T16:31:08',
-        trainNumber: '421',
+        id: '407104102020-01-12T11:35:58',
+        trainNumber: '410',
         destination: 'Kimball',
-        eta: '2020-01-11T16:31:08',
-        route: 'Brown line',
+        eta: '2020-01-12T11:35:58',
+        lineName: 'Brown line',
         due: false
       },
       {
-        id: '407104132020-01-11T16:35:32',
-        trainNumber: '413',
+        id: '407104082020-01-12T11:39:05',
+        trainNumber: '408',
         destination: 'Loop',
-        eta: '2020-01-11T16:35:32',
-        route: 'Brown line',
+        eta: '2020-01-12T11:39:05',
+        lineName: 'Brown line',
         due: false
       },
       {
-        id: '407104122020-01-11T16:39:38',
-        trainNumber: '412',
+        id: '407104032020-01-12T11:45:50',
+        trainNumber: '403',
         destination: 'Kimball',
-        eta: '2020-01-11T16:39:38',
-        route: 'Brown line',
+        eta: '2020-01-12T11:45:50',
+        lineName: 'Brown line',
         due: false
       }
     ]
@@ -1767,67 +1719,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '414509172020-01-11T16:21:33',
-        trainNumber: '917',
+        id: '414509052020-01-12T11:31:56',
+        trainNumber: '905',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:21:33',
-        route: 'Red Line',
-        due: true
-      },
-      {
-        id: '414509102020-01-11T16:20:46',
-        trainNumber: '910',
-        destination: 'Howard',
-        eta: '2020-01-11T16:20:46',
-        route: 'Red Line',
+        eta: '2020-01-12T11:31:56',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '414509142020-01-11T16:26:21',
-        trainNumber: '914',
+        id: '414508072020-01-12T11:34:35',
+        trainNumber: '807',
         destination: 'Howard',
-        eta: '2020-01-11T16:26:21',
-        route: 'Red Line',
+        eta: '2020-01-12T11:34:35',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '414508172020-01-11T16:27:05',
-        trainNumber: '817',
+        id: '414509062020-01-12T11:38:11',
+        trainNumber: '906',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:27:05',
-        route: 'Red Line',
+        eta: '2020-01-12T11:38:11',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '414508112020-01-11T16:30:27',
-        trainNumber: '811',
+        id: '414508052020-01-12T11:39:56',
+        trainNumber: '805',
         destination: 'Howard',
-        eta: '2020-01-11T16:30:27',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '414508192020-01-11T16:32:12',
-        trainNumber: '819',
-        destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:32:12',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '414509152020-01-11T16:36:34',
-        trainNumber: '915',
-        destination: 'Howard',
-        eta: '2020-01-11T16:36:34',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '414508132020-01-11T16:37:32',
-        trainNumber: '813',
-        destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:37:32',
-        route: 'Red Line',
+        eta: '2020-01-12T11:39:56',
+        lineName: 'Red Line',
         due: false
       }
     ]
@@ -1838,43 +1758,35 @@ module.exports = [
     wheelchair: false,
     etas: [
       {
-        id: '409701162020-01-11T16:22:30',
+        id: '409701132020-01-12T11:35:44',
+        trainNumber: '113',
+        destination: "O'Hare",
+        eta: '2020-01-12T11:35:44',
+        lineName: 'Blue Line',
+        due: false
+      },
+      {
+        id: '409701022020-01-12T11:37:54',
+        trainNumber: '102',
+        destination: 'Forest Park',
+        eta: '2020-01-12T11:37:54',
+        lineName: 'Blue Line',
+        due: false
+      },
+      {
+        id: '409701162020-01-12T11:48:00',
         trainNumber: '116',
         destination: 'Forest Park',
-        eta: '2020-01-11T16:22:30',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:48:00',
+        lineName: 'Blue Line',
         due: false
       },
       {
-        id: '409702102020-01-11T16:24:20',
-        trainNumber: '210',
-        destination: 'Forest Park',
-        eta: '2020-01-11T16:24:20',
-        route: 'Blue Line',
-        due: false
-      },
-      {
-        id: '409701162020-01-11T16:25:41',
-        trainNumber: '116',
+        id: '409701052020-01-12T11:56:00',
+        trainNumber: '105',
         destination: "O'Hare",
-        eta: '2020-01-11T16:25:41',
-        route: 'Blue Line',
-        due: false
-      },
-      {
-        id: '409701182020-01-11T16:29:26',
-        trainNumber: '118',
-        destination: 'Forest Park',
-        eta: '2020-01-11T16:29:26',
-        route: 'Blue Line',
-        due: false
-      },
-      {
-        id: '409702202020-01-11T16:40:41',
-        trainNumber: '220',
-        destination: "O'Hare",
-        eta: '2020-01-11T16:40:41',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:56:00',
+        lineName: 'Blue Line',
         due: false
       }
     ]
@@ -1885,35 +1797,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '404806112020-01-11T16:21:38',
-        trainNumber: '611',
-        destination: 'Cottage Grove',
-        eta: '2020-01-11T16:21:38',
-        route: 'Green Line',
-        due: true
-      },
-      {
-        id: '404800092020-01-11T16:26:27',
-        trainNumber: '009',
-        destination: 'Harlem/Lake',
-        eta: '2020-01-11T16:26:27',
-        route: 'Green Line',
+        id: '404806062020-01-12T11:32:53',
+        trainNumber: '606',
+        destination: 'Ashland/63rd',
+        eta: '2020-01-12T11:32:53',
+        lineName: 'Green Line',
         due: false
       },
       {
-        id: '404800162020-01-11T16:30:40',
-        trainNumber: '016',
+        id: '404800072020-01-12T11:33:46',
+        trainNumber: '007',
+        destination: 'Harlem/Lake',
+        eta: '2020-01-12T11:33:46',
+        lineName: 'Green Line',
+        due: false
+      },
+      {
+        id: '404800022020-01-12T11:46:01',
+        trainNumber: '002',
         destination: '63rd Street',
-        eta: '2020-01-11T16:30:40',
-        route: 'Green Line',
+        eta: '2020-01-12T11:46:01',
+        lineName: 'Green Line',
         due: false
       },
       {
-        id: '404800102020-01-11T16:31:39',
-        trainNumber: '010',
+        id: '404800042020-01-12T11:46:54',
+        trainNumber: '004',
         destination: 'Harlem/Lake',
-        eta: '2020-01-11T16:31:39',
-        route: 'Green Line',
+        eta: '2020-01-12T11:46:54',
+        lineName: 'Green Line',
         due: false
       }
     ]
@@ -1924,35 +1836,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '404203142020-01-11T16:21:39',
-        trainNumber: '314',
+        id: '404203052020-01-12T11:29:01',
+        trainNumber: '305',
         destination: 'Loop',
-        eta: '2020-01-11T16:21:39',
-        route: 'Pink Line',
-        due: true
-      },
-      {
-        id: '404203122020-01-11T16:22:36',
-        trainNumber: '312',
-        destination: '54th/Cermak',
-        eta: '2020-01-11T16:22:36',
-        route: 'Pink Line',
+        eta: '2020-01-12T11:29:01',
+        lineName: 'Pink Line',
         due: false
       },
       {
-        id: '404203112020-01-11T16:28:40',
-        trainNumber: '311',
-        destination: 'Loop',
-        eta: '2020-01-11T16:28:40',
-        route: 'Pink Line',
+        id: '404203032020-01-12T11:30:23',
+        trainNumber: '303',
+        destination: '54th/Cermak',
+        eta: '2020-01-12T11:30:23',
+        lineName: 'Pink Line',
         due: false
       },
       {
-        id: '404203102020-01-11T16:37:27',
-        trainNumber: '310',
+        id: '404203022020-01-12T11:41:01',
+        trainNumber: '302',
+        destination: 'Loop',
+        eta: '2020-01-12T11:41:01',
+        lineName: 'Pink Line',
+        due: false
+      },
+      {
+        id: '404203042020-01-12T11:44:58',
+        trainNumber: '304',
         destination: '54th/Cermak',
-        eta: '2020-01-11T16:37:27',
-        route: 'Pink Line',
+        eta: '2020-01-12T11:44:58',
+        lineName: 'Pink Line',
         due: false
       }
     ]
@@ -1963,67 +1875,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '406309192020-01-11T16:22:20',
-        trainNumber: '919',
-        destination: 'Howard',
-        eta: '2020-01-11T16:22:20',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '406308172020-01-11T16:25:05',
-        trainNumber: '817',
+        id: '406309052020-01-12T11:29:56',
+        trainNumber: '905',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:25:05',
-        route: 'Red Line',
+        eta: '2020-01-12T11:29:56',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '406309102020-01-11T16:22:46',
-        trainNumber: '910',
+        id: '406308072020-01-12T11:36:35',
+        trainNumber: '807',
         destination: 'Howard',
-        eta: '2020-01-11T16:22:46',
-        route: 'Red Line',
+        eta: '2020-01-12T11:36:35',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '406309142020-01-11T16:28:21',
-        trainNumber: '914',
-        destination: 'Howard',
-        eta: '2020-01-11T16:28:21',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '406308192020-01-11T16:30:12',
-        trainNumber: '819',
+        id: '406309062020-01-12T11:36:11',
+        trainNumber: '906',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:30:12',
-        route: 'Red Line',
+        eta: '2020-01-12T11:36:11',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '406308112020-01-11T16:32:27',
-        trainNumber: '811',
+        id: '406308052020-01-12T11:41:56',
+        trainNumber: '805',
         destination: 'Howard',
-        eta: '2020-01-11T16:32:27',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '406308132020-01-11T16:35:32',
-        trainNumber: '813',
-        destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:35:32',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '406309152020-01-11T16:38:34',
-        trainNumber: '915',
-        destination: 'Howard',
-        eta: '2020-01-11T16:38:34',
-        route: 'Red Line',
+        eta: '2020-01-12T11:41:56',
+        lineName: 'Red Line',
         due: false
       }
     ]
@@ -2034,107 +1914,107 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '403801252020-01-11T16:21:36',
-        trainNumber: '125',
-        destination: 'Forest Park',
-        eta: '2020-01-11T16:21:36',
-        route: 'Blue Line',
-        due: true
-      },
-      {
-        id: '403800152020-01-11T16:21:30',
-        trainNumber: '015',
-        destination: 'Cottage Grove',
-        eta: '2020-01-11T16:21:30',
-        route: 'Green Line',
-        due: true
-      },
-      {
-        id: '403804212020-01-11T16:25:08',
-        trainNumber: '421',
-        destination: 'Kimball',
-        eta: '2020-01-11T16:25:08',
-        route: 'Brown line',
-        due: false
-      },
-      {
-        id: '403807152020-01-11T16:26:26',
-        trainNumber: '715',
-        destination: 'Midway',
-        eta: '2020-01-11T16:26:26',
-        route: 'Orange Line',
-        due: false
-      },
-      {
-        id: '403803082020-01-11T16:26:16',
-        trainNumber: '308',
-        destination: '54th/Cermak',
-        eta: '2020-01-11T16:26:16',
-        route: 'Pink Line',
-        due: false
-      },
-      {
-        id: '403806132020-01-11T16:27:20',
-        trainNumber: '613',
-        destination: 'Harlem/Lake',
-        eta: '2020-01-11T16:27:20',
-        route: 'Green Line',
-        due: false
-      },
-      {
-        id: '403802122020-01-11T16:28:36',
-        trainNumber: '212',
-        destination: "O'Hare",
-        eta: '2020-01-11T16:28:36',
-        route: 'Blue Line',
-        due: false
-      },
-      {
-        id: '403806102020-01-11T16:29:36',
-        trainNumber: '610',
+        id: '403800012020-01-12T11:27:58',
+        trainNumber: '001',
         destination: 'Ashland/63rd',
-        eta: '2020-01-11T16:29:36',
-        route: 'Green Line',
+        eta: '2020-01-12T11:27:58',
+        lineName: 'Green Line',
+        due: true
+      },
+      {
+        id: '403801162020-01-12T11:29:55',
+        trainNumber: '116',
+        destination: 'Forest Park',
+        eta: '2020-01-12T11:29:55',
+        lineName: 'Blue Line',
         due: false
       },
       {
-        id: '403804122020-01-11T16:33:38',
-        trainNumber: '412',
-        destination: 'Kimball',
-        eta: '2020-01-11T16:33:38',
-        route: 'Brown line',
-        due: false
-      },
-      {
-        id: '403807082020-01-11T16:35:28',
+        id: '403807082020-01-12T11:29:34',
         trainNumber: '708',
         destination: 'Midway',
-        eta: '2020-01-11T16:35:28',
-        route: 'Orange Line',
+        eta: '2020-01-12T11:29:34',
+        lineName: 'Orange Line',
         due: false
       },
       {
-        id: '403806112020-01-11T16:36:38',
-        trainNumber: '611',
-        destination: 'Cottage Grove',
-        eta: '2020-01-11T16:36:38',
-        route: 'Green Line',
+        id: '403800042020-01-12T11:30:54',
+        trainNumber: '004',
+        destination: 'Harlem/Lake',
+        eta: '2020-01-12T11:30:54',
+        lineName: 'Green Line',
         due: false
       },
       {
-        id: '403802182020-01-11T16:39:41',
-        trainNumber: '218',
-        destination: 'Forest Park',
-        eta: '2020-01-11T16:39:41',
-        route: 'Blue Line',
+        id: '403804102020-01-12T11:30:58',
+        trainNumber: '410',
+        destination: 'Kimball',
+        eta: '2020-01-12T11:30:58',
+        lineName: 'Brown line',
         due: false
       },
       {
-        id: '403801162020-01-11T16:49:41',
-        trainNumber: '116',
+        id: '403802092020-01-12T11:33:44',
+        trainNumber: '209',
         destination: "O'Hare",
-        eta: '2020-01-11T16:49:41',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:33:44',
+        lineName: 'Blue Line',
+        due: false
+      },
+      {
+        id: '403803082020-01-12T11:34:26',
+        trainNumber: '308',
+        destination: '54th/Cermak',
+        eta: '2020-01-12T11:34:26',
+        lineName: 'Pink Line',
+        due: false
+      },
+      {
+        id: '403800082020-01-12T11:36:40',
+        trainNumber: '008',
+        destination: 'Cottage Grove',
+        eta: '2020-01-12T11:36:40',
+        lineName: 'Green Line',
+        due: false
+      },
+      {
+        id: '403801102020-01-12T11:40:01',
+        trainNumber: '110',
+        destination: 'Forest Park',
+        eta: '2020-01-12T11:40:01',
+        lineName: 'Blue Line',
+        due: false
+      },
+      {
+        id: '403804032020-01-12T11:39:50',
+        trainNumber: '403',
+        destination: 'Kimball',
+        eta: '2020-01-12T11:39:50',
+        lineName: 'Brown line',
+        due: false
+      },
+      {
+        id: '403803012020-01-12T11:39:37',
+        trainNumber: '301',
+        destination: '54th/Cermak',
+        eta: '2020-01-12T11:39:37',
+        lineName: 'Pink Line',
+        due: false
+      },
+      {
+        id: '403807062020-01-12T11:41:40',
+        trainNumber: '706',
+        destination: 'Midway',
+        eta: '2020-01-12T11:41:40',
+        lineName: 'Orange Line',
+        due: false
+      },
+      {
+        id: '403801132020-01-12T11:51:01',
+        trainNumber: '113',
+        destination: "O'Hare",
+        eta: '2020-01-12T11:51:01',
+        lineName: 'Blue Line',
         due: false
       }
     ]
@@ -2145,35 +2025,35 @@ module.exports = [
     wheelchair: false,
     etas: [
       {
-        id: '404302122020-01-11T16:21:36',
-        trainNumber: '212',
+        id: '404302092020-01-12T11:27:44',
+        trainNumber: '209',
         destination: "O'Hare",
-        eta: '2020-01-11T16:21:36',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:27:44',
+        lineName: 'Blue Line',
         due: true
       },
       {
-        id: '404301252020-01-11T16:27:36',
-        trainNumber: '125',
+        id: '404301162020-01-12T11:35:55',
+        trainNumber: '116',
         destination: 'Forest Park',
-        eta: '2020-01-11T16:27:36',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:35:55',
+        lineName: 'Blue Line',
         due: false
       },
       {
-        id: '404302132020-01-11T16:35:26',
-        trainNumber: '213',
+        id: '404301132020-01-12T11:44:00',
+        trainNumber: '113',
         destination: "O'Hare",
-        eta: '2020-01-11T16:35:26',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:44:00',
+        lineName: 'Blue Line',
         due: false
       },
       {
-        id: '404302182020-01-11T16:45:40',
-        trainNumber: '218',
+        id: '404301102020-01-12T11:46:00',
+        trainNumber: '110',
         destination: 'Forest Park',
-        eta: '2020-01-11T16:45:40',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:46:00',
+        lineName: 'Blue Line',
         due: false
       }
     ]
@@ -2184,51 +2064,51 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '411603082020-01-11T16:24:16',
+        id: '411603072020-01-12T11:32:58',
+        trainNumber: '307',
+        destination: '54th/Cermak',
+        eta: '2020-01-12T11:32:58',
+        lineName: 'Pink Line',
+        due: false
+      },
+      {
+        id: '411603082020-01-12T11:32:26',
         trainNumber: '308',
         destination: 'Loop',
-        eta: '2020-01-11T16:24:16',
-        route: 'Pink Line',
+        eta: '2020-01-12T11:32:26',
+        lineName: 'Pink Line',
         due: false
       },
       {
-        id: '411606102020-01-11T16:26:36',
-        trainNumber: '610',
-        destination: 'Ashland/63rd',
-        eta: '2020-01-11T16:26:36',
-        route: 'Green Line',
-        due: false
-      },
-      {
-        id: '411606132020-01-11T16:30:20',
-        trainNumber: '613',
+        id: '411600042020-01-12T11:33:54',
+        trainNumber: '004',
         destination: 'Harlem/Lake',
-        eta: '2020-01-11T16:30:20',
-        route: 'Green Line',
+        eta: '2020-01-12T11:33:54',
+        lineName: 'Green Line',
         due: false
       },
       {
-        id: '411603132020-01-11T16:30:30',
-        trainNumber: '313',
-        destination: '54th/Cermak',
-        eta: '2020-01-11T16:30:30',
-        route: 'Pink Line',
-        due: false
-      },
-      {
-        id: '411606112020-01-11T16:34:38',
-        trainNumber: '611',
+        id: '411600082020-01-12T11:34:40',
+        trainNumber: '008',
         destination: 'Cottage Grove',
-        eta: '2020-01-11T16:34:38',
-        route: 'Green Line',
+        eta: '2020-01-12T11:34:40',
+        lineName: 'Green Line',
         due: false
       },
       {
-        id: '411603082020-01-11T16:38:16',
-        trainNumber: '308',
-        destination: '54th/Cermak',
-        eta: '2020-01-11T16:38:16',
-        route: 'Pink Line',
+        id: '411603012020-01-12T11:36:37',
+        trainNumber: '301',
+        destination: 'Loop',
+        eta: '2020-01-12T11:36:37',
+        lineName: 'Pink Line',
+        due: false
+      },
+      {
+        id: '411606062020-01-12T11:46:53',
+        trainNumber: '606',
+        destination: 'Ashland/63rd',
+        eta: '2020-01-12T11:46:53',
+        lineName: 'Green Line',
         due: false
       }
     ]
@@ -2239,43 +2119,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '416700092020-01-11T16:23:27',
-        trainNumber: '009',
+        id: '416700072020-01-12T11:29:46',
+        trainNumber: '007',
         destination: 'Harlem/Lake',
-        eta: '2020-01-11T16:23:27',
-        route: 'Green Line',
+        eta: '2020-01-12T11:29:46',
+        lineName: 'Green Line',
         due: false
       },
       {
-        id: '416706112020-01-11T16:24:38',
-        trainNumber: '611',
-        destination: 'Cottage Grove',
-        eta: '2020-01-11T16:24:38',
-        route: 'Green Line',
+        id: '416706062020-01-12T11:36:53',
+        trainNumber: '606',
+        destination: 'Ashland/63rd',
+        eta: '2020-01-12T11:36:53',
+        lineName: 'Green Line',
         due: false
       },
       {
-        id: '416700102020-01-11T16:27:39',
-        trainNumber: '010',
+        id: '416700042020-01-12T11:42:54',
+        trainNumber: '004',
         destination: 'Harlem/Lake',
-        eta: '2020-01-11T16:27:39',
-        route: 'Green Line',
+        eta: '2020-01-12T11:42:54',
+        lineName: 'Green Line',
         due: false
       },
       {
-        id: '416700162020-01-11T16:34:40',
-        trainNumber: '016',
+        id: '416700022020-01-12T11:49:00',
+        trainNumber: '002',
         destination: '63rd Street',
-        eta: '2020-01-11T16:34:40',
-        route: 'Green Line',
-        due: false
-      },
-      {
-        id: '416706132020-01-11T16:40:20',
-        trainNumber: '613',
-        destination: 'Harlem/Lake',
-        eta: '2020-01-11T16:40:20',
-        route: 'Green Line',
+        eta: '2020-01-12T11:49:00',
+        lineName: 'Green Line',
         due: false
       }
     ]
@@ -2286,35 +2158,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '407200132020-01-11T16:23:41',
-        trainNumber: '013',
+        id: '407206022020-01-12T11:40:01',
+        trainNumber: '602',
         destination: 'Harlem/Lake',
-        eta: '2020-01-11T16:23:41',
-        route: 'Green Line',
+        eta: '2020-01-12T11:40:01',
+        lineName: 'Green Line',
         due: false
       },
       {
-        id: '407200142020-01-11T16:30:47',
-        trainNumber: '014',
-        destination: 'Cottage Grove',
-        eta: '2020-01-11T16:30:47',
-        route: 'Green Line',
-        due: false
-      },
-      {
-        id: '407206092020-01-11T16:43:41',
-        trainNumber: '609',
-        destination: 'Harlem/Lake',
-        eta: '2020-01-11T16:43:41',
-        route: 'Green Line',
-        due: false
-      },
-      {
-        id: '407200152020-01-11T16:46:41',
-        trainNumber: '015',
+        id: '407200062020-01-12T11:43:01',
+        trainNumber: '006',
         destination: '63rd Street',
-        eta: '2020-01-11T16:46:41',
-        route: 'Green Line',
+        eta: '2020-01-12T11:43:01',
+        lineName: 'Green Line',
+        due: false
+      },
+      {
+        id: '407200062020-01-12T12:04:01',
+        trainNumber: '006',
+        destination: 'Harlem/Lake',
+        eta: '2020-01-12T12:04:01',
+        lineName: 'Green Line',
+        due: false
+      },
+      {
+        id: '407200082020-01-12T12:07:01',
+        trainNumber: '008',
+        destination: '63rd Street',
+        eta: '2020-01-12T12:07:01',
+        lineName: 'Green Line',
         due: false
       }
     ]
@@ -2325,35 +2197,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '402301132020-01-11T16:21:41',
-        trainNumber: '113',
-        destination: "O'Hare",
-        eta: '2020-01-11T16:21:41',
-        route: 'Blue Line',
-        due: true
-      },
-      {
-        id: '402302182020-01-11T16:21:59',
-        trainNumber: '218',
+        id: '402301082020-01-12T11:37:01',
+        trainNumber: '108',
         destination: 'Forest Park',
-        eta: '2020-01-11T16:21:59',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:37:01',
+        lineName: 'Blue Line',
         due: false
       },
       {
-        id: '402301222020-01-11T16:35:41',
-        trainNumber: '122',
+        id: '402301112020-01-12T11:39:53',
+        trainNumber: '111',
         destination: "O'Hare",
-        eta: '2020-01-11T16:35:41',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:39:53',
+        lineName: 'Blue Line',
         due: false
       },
       {
-        id: '402302192020-01-11T16:37:41',
-        trainNumber: '219',
+        id: '402302032020-01-12T11:52:01',
+        trainNumber: '203',
         destination: 'Forest Park',
-        eta: '2020-01-11T16:37:41',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:52:01',
+        lineName: 'Blue Line',
+        due: false
+      },
+      {
+        id: '402302062020-01-12T11:53:01',
+        trainNumber: '206',
+        destination: "O'Hare",
+        eta: '2020-01-12T11:53:01',
+        lineName: 'Blue Line',
         due: false
       }
     ]
@@ -2364,27 +2236,35 @@ module.exports = [
     wheelchair: false,
     etas: [
       {
-        id: '405901222020-01-11T16:28:58',
-        trainNumber: '122',
+        id: '405902062020-01-12T11:27:53',
+        trainNumber: '206',
         destination: "O'Hare",
-        eta: '2020-01-11T16:28:58',
-        route: 'Blue Line',
-        due: false
+        eta: '2020-01-12T11:27:53',
+        lineName: 'Blue Line',
+        due: true
       },
       {
-        id: '405901202020-01-11T16:35:38',
-        trainNumber: '120',
+        id: '405901102020-01-12T11:41:57',
+        trainNumber: '110',
         destination: 'Forest Park',
-        eta: '2020-01-11T16:35:38',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:41:57',
+        lineName: 'Blue Line',
         due: false
       },
       {
-        id: '405902122020-01-11T16:37:36',
-        trainNumber: '212',
+        id: '405902092020-01-12T11:42:44',
+        trainNumber: '209',
         destination: "O'Hare",
-        eta: '2020-01-11T16:37:36',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:42:44',
+        lineName: 'Blue Line',
+        due: false
+      },
+      {
+        id: '405901082020-01-12T12:02:01',
+        trainNumber: '108',
+        destination: 'Forest Park',
+        eta: '2020-01-12T12:02:01',
+        lineName: 'Blue Line',
         due: false
       }
     ]
@@ -2395,35 +2275,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '400904232020-01-11T16:21:05',
-        trainNumber: '423',
-        destination: 'Loop',
-        eta: '2020-01-11T16:21:05',
-        route: 'Brown line',
-        due: true
-      },
-      {
-        id: '400904112020-01-11T16:27:20',
-        trainNumber: '411',
+        id: '400904092020-01-12T11:30:54',
+        trainNumber: '409',
         destination: 'Kimball',
-        eta: '2020-01-11T16:27:20',
-        route: 'Brown line',
+        eta: '2020-01-12T11:30:54',
+        lineName: 'Brown line',
         due: false
       },
       {
-        id: '400904192020-01-11T16:29:41',
-        trainNumber: '419',
+        id: '400904042020-01-12T11:37:01',
+        trainNumber: '404',
         destination: 'Loop',
-        eta: '2020-01-11T16:29:41',
-        route: 'Brown line',
+        eta: '2020-01-12T11:37:01',
+        lineName: 'Brown line',
         due: false
       },
       {
-        id: '400904152020-01-11T16:30:21',
-        trainNumber: '415',
+        id: '400904012020-01-12T11:38:40',
+        trainNumber: '401',
         destination: 'Kimball',
-        eta: '2020-01-11T16:30:21',
-        route: 'Brown line',
+        eta: '2020-01-12T11:38:40',
+        lineName: 'Brown line',
+        due: false
+      },
+      {
+        id: '400904052020-01-12T11:47:01',
+        trainNumber: '405',
+        destination: 'Loop',
+        eta: '2020-01-12T11:47:01',
+        lineName: 'Brown line',
         due: false
       }
     ]
@@ -2434,35 +2314,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '402103102020-01-11T16:26:27',
-        trainNumber: '310',
-        destination: '54th/Cermak',
-        eta: '2020-01-11T16:26:27',
-        route: 'Pink Line',
-        due: false
-      },
-      {
-        id: '402103142020-01-11T16:31:39',
-        trainNumber: '314',
+        id: '402103012020-01-12T11:27:37',
+        trainNumber: '301',
         destination: 'Loop',
-        eta: '2020-01-11T16:31:39',
-        route: 'Pink Line',
-        due: false
+        eta: '2020-01-12T11:27:37',
+        lineName: 'Pink Line',
+        due: true
       },
       {
-        id: '402103112020-01-11T16:38:40',
-        trainNumber: '311',
-        destination: 'Loop',
-        eta: '2020-01-11T16:38:40',
-        route: 'Pink Line',
-        due: false
-      },
-      {
-        id: '402103132020-01-11T16:41:41',
-        trainNumber: '313',
+        id: '402103042020-01-12T11:32:58',
+        trainNumber: '304',
         destination: '54th/Cermak',
-        eta: '2020-01-11T16:41:41',
-        route: 'Pink Line',
+        eta: '2020-01-12T11:32:58',
+        lineName: 'Pink Line',
+        due: false
+      },
+      {
+        id: '402103052020-01-12T11:39:00',
+        trainNumber: '305',
+        destination: 'Loop',
+        eta: '2020-01-12T11:39:00',
+        lineName: 'Pink Line',
+        due: false
+      },
+      {
+        id: '402103072020-01-12T11:42:58',
+        trainNumber: '307',
+        destination: '54th/Cermak',
+        eta: '2020-01-12T11:42:58',
+        lineName: 'Pink Line',
         due: false
       }
     ]
@@ -2473,35 +2353,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '400505042020-01-11T16:22:34',
+        id: '400505042020-01-12T11:33:01',
         trainNumber: '504',
         destination: 'Linden',
-        eta: '2020-01-11T16:22:34',
-        route: 'Purple Line',
+        eta: '2020-01-12T11:33:01',
+        lineName: 'Purple Line',
         due: false
       },
       {
-        id: '400505072020-01-11T16:21:19',
-        trainNumber: '507',
+        id: '400505012020-01-12T11:34:01',
+        trainNumber: '501',
         destination: 'Howard',
-        eta: '2020-01-11T16:21:19',
-        route: 'Purple Line',
-        due: true
+        eta: '2020-01-12T11:34:01',
+        lineName: 'Purple Line',
+        due: false
       },
       {
-        id: '400505052020-01-11T16:32:40',
+        id: '400505052020-01-12T11:45:01',
         trainNumber: '505',
         destination: 'Linden',
-        eta: '2020-01-11T16:32:40',
-        route: 'Purple Line',
+        eta: '2020-01-12T11:45:01',
+        lineName: 'Purple Line',
         due: false
       },
       {
-        id: '400505062020-01-11T16:34:40',
-        trainNumber: '506',
+        id: '400505022020-01-12T11:46:01',
+        trainNumber: '502',
         destination: 'Howard',
-        eta: '2020-01-11T16:34:40',
-        route: 'Purple Line',
+        eta: '2020-01-12T11:46:01',
+        lineName: 'Purple Line',
         due: false
       }
     ]
@@ -2512,35 +2392,35 @@ module.exports = [
     wheelchair: false,
     etas: [
       {
-        id: '406905072020-01-11T16:22:19',
-        trainNumber: '507',
-        destination: 'Howard',
-        eta: '2020-01-11T16:22:19',
-        route: 'Purple Line',
+        id: '406905042020-01-12T11:31:01',
+        trainNumber: '504',
+        destination: 'Linden',
+        eta: '2020-01-12T11:31:01',
+        lineName: 'Purple Line',
         due: false
       },
       {
-        id: '406905052020-01-11T16:31:41',
+        id: '406905012020-01-12T11:36:01',
+        trainNumber: '501',
+        destination: 'Howard',
+        eta: '2020-01-12T11:36:01',
+        lineName: 'Purple Line',
+        due: false
+      },
+      {
+        id: '406905052020-01-12T11:43:01',
         trainNumber: '505',
         destination: 'Linden',
-        eta: '2020-01-11T16:31:41',
-        route: 'Purple Line',
+        eta: '2020-01-12T11:43:01',
+        lineName: 'Purple Line',
         due: false
       },
       {
-        id: '406905062020-01-11T16:35:40',
-        trainNumber: '506',
+        id: '406905022020-01-12T11:48:01',
+        trainNumber: '502',
         destination: 'Howard',
-        eta: '2020-01-11T16:35:40',
-        route: 'Purple Line',
-        due: false
-      },
-      {
-        id: '406905082020-01-11T16:43:41',
-        trainNumber: '508',
-        destination: 'Linden',
-        eta: '2020-01-11T16:43:41',
-        route: 'Purple Line',
+        eta: '2020-01-12T11:48:01',
+        lineName: 'Purple Line',
         due: false
       }
     ]
@@ -2551,35 +2431,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '401405932020-01-11T16:21:41',
-        trainNumber: '593',
-        destination: 'Howard',
-        eta: '2020-01-11T16:21:41',
-        route: 'Yellow Line',
+        id: '401405922020-01-12T11:28:01',
+        trainNumber: '592',
+        destination: 'Skokie',
+        eta: '2020-01-12T11:28:01',
+        lineName: 'Yellow Line',
         due: true
       },
       {
-        id: '401405932020-01-11T16:27:22',
-        trainNumber: '593',
-        destination: 'Skokie',
-        eta: '2020-01-11T16:27:22',
-        route: 'Yellow Line',
-        due: false
-      },
-      {
-        id: '401405942020-01-11T16:31:41',
-        trainNumber: '594',
+        id: '401405922020-01-12T11:30:01',
+        trainNumber: '592',
         destination: 'Howard',
-        eta: '2020-01-11T16:31:41',
-        route: 'Yellow Line',
+        eta: '2020-01-12T11:30:01',
+        lineName: 'Yellow Line',
         due: false
       },
       {
-        id: '401405942020-01-11T16:54:41',
-        trainNumber: '594',
+        id: '401405912020-01-12T11:39:01',
+        trainNumber: '591',
         destination: 'Skokie',
-        eta: '2020-01-11T16:54:41',
-        route: 'Yellow Line',
+        eta: '2020-01-12T11:39:01',
+        lineName: 'Yellow Line',
+        due: false
+      },
+      {
+        id: '401405912020-01-12T11:45:01',
+        trainNumber: '591',
+        destination: 'Howard',
+        eta: '2020-01-12T11:45:01',
+        lineName: 'Yellow Line',
         due: false
       }
     ]
@@ -2590,35 +2470,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '405304132020-01-11T16:25:32',
-        trainNumber: '413',
+        id: '405304082020-01-12T11:28:05',
+        trainNumber: '408',
         destination: 'Loop',
-        eta: '2020-01-11T16:25:32',
-        route: 'Brown line',
+        eta: '2020-01-12T11:28:05',
+        lineName: 'Brown line',
         due: false
       },
       {
-        id: '405304162020-01-11T16:27:21',
-        trainNumber: '416',
-        destination: 'Kimball',
-        eta: '2020-01-11T16:27:21',
-        route: 'Brown line',
-        due: false
-      },
-      {
-        id: '405304232020-01-11T16:33:05',
-        trainNumber: '423',
+        id: '405304072020-01-12T11:37:53',
+        trainNumber: '407',
         destination: 'Loop',
-        eta: '2020-01-11T16:33:05',
-        route: 'Brown line',
+        eta: '2020-01-12T11:37:53',
+        lineName: 'Brown line',
         due: false
       },
       {
-        id: '405304182020-01-11T16:36:24',
-        trainNumber: '418',
+        id: '405304022020-01-12T11:38:56',
+        trainNumber: '402',
         destination: 'Kimball',
-        eta: '2020-01-11T16:36:24',
-        route: 'Brown line',
+        eta: '2020-01-12T11:38:56',
+        lineName: 'Brown line',
+        due: false
+      },
+      {
+        id: '405304102020-01-12T11:47:00',
+        trainNumber: '410',
+        destination: 'Kimball',
+        eta: '2020-01-12T11:47:00',
+        lineName: 'Brown line',
         due: false
       }
     ]
@@ -2629,27 +2509,35 @@ module.exports = [
     wheelchair: false,
     etas: [
       {
-        id: '403201222020-01-11T16:25:58',
-        trainNumber: '122',
+        id: '403202092020-01-12T11:39:44',
+        trainNumber: '209',
         destination: "O'Hare",
-        eta: '2020-01-11T16:25:58',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:39:44',
+        lineName: 'Blue Line',
         due: false
       },
       {
-        id: '403202122020-01-11T16:34:36',
-        trainNumber: '212',
-        destination: "O'Hare",
-        eta: '2020-01-11T16:34:36',
-        route: 'Blue Line',
-        due: false
-      },
-      {
-        id: '403201202020-01-11T16:37:38',
-        trainNumber: '120',
+        id: '403201102020-01-12T11:43:57',
+        trainNumber: '110',
         destination: 'Forest Park',
-        eta: '2020-01-11T16:37:38',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:43:57',
+        lineName: 'Blue Line',
+        due: false
+      },
+      {
+        id: '403201132020-01-12T11:57:00',
+        trainNumber: '113',
+        destination: "O'Hare",
+        eta: '2020-01-12T11:57:00',
+        lineName: 'Blue Line',
+        due: false
+      },
+      {
+        id: '403201082020-01-12T12:04:00',
+        trainNumber: '108',
+        destination: 'Forest Park',
+        eta: '2020-01-12T12:04:00',
+        lineName: 'Blue Line',
         due: false
       }
     ]
@@ -2660,35 +2548,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '403902202020-01-11T16:30:41',
-        trainNumber: '220',
+        id: '403901062020-01-12T11:30:01',
+        trainNumber: '106',
         destination: "O'Hare",
-        eta: '2020-01-11T16:30:41',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:30:01',
+        lineName: 'Blue Line',
         due: false
       },
       {
-        id: '403901162020-01-11T16:32:30',
-        trainNumber: '116',
+        id: '403901052020-01-12T11:31:58',
+        trainNumber: '105',
         destination: 'Forest Park',
-        eta: '2020-01-11T16:32:30',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:31:58',
+        lineName: 'Blue Line',
         due: false
       },
       {
-        id: '403902102020-01-11T16:35:20',
-        trainNumber: '210',
+        id: '403901022020-01-12T11:44:00',
+        trainNumber: '102',
         destination: 'Forest Park',
-        eta: '2020-01-11T16:35:20',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:44:00',
+        lineName: 'Blue Line',
         due: false
       },
       {
-        id: '403901182020-01-11T16:45:41',
-        trainNumber: '118',
+        id: '403901052020-01-12T11:45:01',
+        trainNumber: '105',
         destination: "O'Hare",
-        eta: '2020-01-11T16:45:41',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:45:01',
+        lineName: 'Blue Line',
         due: false
       }
     ]
@@ -2699,35 +2587,35 @@ module.exports = [
     wheelchair: false,
     etas: [
       {
-        id: '405205072020-01-11T16:21:19',
-        trainNumber: '507',
+        id: '405205012020-01-12T11:33:01',
+        trainNumber: '501',
         destination: 'Howard',
-        eta: '2020-01-11T16:21:19',
-        route: 'Purple Line',
-        due: true
+        eta: '2020-01-12T11:33:01',
+        lineName: 'Purple Line',
+        due: false
       },
       {
-        id: '405205042020-01-11T16:23:34',
+        id: '405205042020-01-12T11:34:01',
         trainNumber: '504',
         destination: 'Linden',
-        eta: '2020-01-11T16:23:34',
-        route: 'Purple Line',
+        eta: '2020-01-12T11:34:01',
+        lineName: 'Purple Line',
         due: false
       },
       {
-        id: '405205062020-01-11T16:32:41',
-        trainNumber: '506',
+        id: '405205022020-01-12T11:45:01',
+        trainNumber: '502',
         destination: 'Howard',
-        eta: '2020-01-11T16:32:41',
-        route: 'Purple Line',
+        eta: '2020-01-12T11:45:01',
+        lineName: 'Purple Line',
         due: false
       },
       {
-        id: '405205052020-01-11T16:34:41',
+        id: '405205052020-01-12T11:46:01',
         trainNumber: '505',
         destination: 'Linden',
-        eta: '2020-01-11T16:34:41',
-        route: 'Purple Line',
+        eta: '2020-01-12T11:46:01',
+        lineName: 'Purple Line',
         due: false
       }
     ]
@@ -2738,35 +2626,43 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '408704192020-01-11T16:25:41',
-        trainNumber: '419',
-        destination: 'Loop',
-        eta: '2020-01-11T16:25:41',
-        route: 'Brown line',
-        due: false
-      },
-      {
-        id: '408704112020-01-11T16:31:20',
+        id: '408704112020-01-12T11:28:48',
         trainNumber: '411',
         destination: 'Kimball',
-        eta: '2020-01-11T16:31:20',
-        route: 'Brown line',
+        eta: '2020-01-12T11:28:48',
+        lineName: 'Brown line',
         due: false
       },
       {
-        id: '408704242020-01-11T16:33:41',
-        trainNumber: '424',
+        id: '408704042020-01-12T11:33:01',
+        trainNumber: '404',
         destination: 'Loop',
-        eta: '2020-01-11T16:33:41',
-        route: 'Brown line',
+        eta: '2020-01-12T11:33:01',
+        lineName: 'Brown line',
         due: false
       },
       {
-        id: '408704152020-01-11T16:34:21',
-        trainNumber: '415',
+        id: '408704092020-01-12T11:34:54',
+        trainNumber: '409',
         destination: 'Kimball',
-        eta: '2020-01-11T16:34:21',
-        route: 'Brown line',
+        eta: '2020-01-12T11:34:54',
+        lineName: 'Brown line',
+        due: false
+      },
+      {
+        id: '408704012020-01-12T11:42:40',
+        trainNumber: '401',
+        destination: 'Kimball',
+        eta: '2020-01-12T11:42:40',
+        lineName: 'Brown line',
+        due: false
+      },
+      {
+        id: '408704052020-01-12T11:43:01',
+        trainNumber: '405',
+        destination: 'Loop',
+        eta: '2020-01-12T11:43:01',
+        lineName: 'Brown line',
         due: false
       }
     ]
@@ -2777,115 +2673,67 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '412204222020-01-11T16:20:57',
-        trainNumber: '422',
+        id: '412208062020-01-12T11:28:55',
+        trainNumber: '806',
+        destination: 'Howard',
+        eta: '2020-01-12T11:28:55',
+        lineName: 'Red Line',
+        due: false
+      },
+      {
+        id: '412204082020-01-12T11:30:05',
+        trainNumber: '408',
         destination: 'Loop',
-        eta: '2020-01-11T16:20:57',
-        route: 'Brown line',
-        due: true
-      },
-      {
-        id: '412204162020-01-11T16:25:21',
-        trainNumber: '416',
-        destination: 'Kimball',
-        eta: '2020-01-11T16:25:21',
-        route: 'Brown line',
+        eta: '2020-01-12T11:30:05',
+        lineName: 'Brown line',
         due: false
       },
       {
-        id: '412209292020-01-11T16:24:39',
-        trainNumber: '929',
-        destination: 'Howard',
-        eta: '2020-01-11T16:24:39',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '412208192020-01-11T16:25:12',
-        trainNumber: '819',
+        id: '412209062020-01-12T11:31:11',
+        trainNumber: '906',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:25:12',
-        route: 'Red Line',
+        eta: '2020-01-12T11:31:11',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '412204132020-01-11T16:27:32',
-        trainNumber: '413',
+        id: '412204022020-01-12T11:36:56',
+        trainNumber: '402',
+        destination: 'Kimball',
+        eta: '2020-01-12T11:36:56',
+        lineName: 'Brown line',
+        due: false
+      },
+      {
+        id: '412204072020-01-12T11:39:53',
+        trainNumber: '407',
         destination: 'Loop',
-        eta: '2020-01-11T16:27:32',
-        route: 'Brown line',
+        eta: '2020-01-12T11:39:53',
+        lineName: 'Brown line',
         due: false
       },
       {
-        id: '412209192020-01-11T16:27:20',
-        trainNumber: '919',
+        id: '412208072020-01-12T11:41:35',
+        trainNumber: '807',
         destination: 'Howard',
-        eta: '2020-01-11T16:27:20',
-        route: 'Red Line',
+        eta: '2020-01-12T11:41:35',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '412208132020-01-11T16:30:32',
-        trainNumber: '813',
+        id: '412208122020-01-12T11:41:57',
+        trainNumber: '812',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:30:32',
-        route: 'Red Line',
+        eta: '2020-01-12T11:41:57',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '412209102020-01-11T16:27:46',
-        trainNumber: '910',
-        destination: 'Howard',
-        eta: '2020-01-11T16:27:46',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '412204182020-01-11T16:33:24',
-        trainNumber: '418',
+        id: '412204102020-01-12T11:44:58',
+        trainNumber: '410',
         destination: 'Kimball',
-        eta: '2020-01-11T16:33:24',
-        route: 'Brown line',
-        due: false
-      },
-      {
-        id: '412209142020-01-11T16:33:21',
-        trainNumber: '914',
-        destination: 'Howard',
-        eta: '2020-01-11T16:33:21',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '412204232020-01-11T16:34:05',
-        trainNumber: '423',
-        destination: 'Loop',
-        eta: '2020-01-11T16:34:05',
-        route: 'Brown line',
-        due: false
-      },
-      {
-        id: '412208112020-01-11T16:37:27',
-        trainNumber: '811',
-        destination: 'Howard',
-        eta: '2020-01-11T16:37:27',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '412209082020-01-11T16:37:59',
-        trainNumber: '908',
-        destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:37:59',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '412204212020-01-11T16:39:08',
-        trainNumber: '421',
-        destination: 'Kimball',
-        eta: '2020-01-11T16:39:08',
-        route: 'Brown line',
+        eta: '2020-01-12T11:44:58',
+        lineName: 'Brown line',
         due: false
       }
     ]
@@ -2896,35 +2744,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '405100142020-01-11T16:23:47',
-        trainNumber: '014',
-        destination: 'Cottage Grove',
-        eta: '2020-01-11T16:23:47',
-        route: 'Green Line',
-        due: false
-      },
-      {
-        id: '405100122020-01-11T16:26:12',
-        trainNumber: '012',
-        destination: 'Harlem/Lake',
-        eta: '2020-01-11T16:26:12',
-        route: 'Green Line',
-        due: false
-      },
-      {
-        id: '405106082020-01-11T16:36:08',
-        trainNumber: '608',
+        id: '405106092020-01-12T11:30:04',
+        trainNumber: '609',
         destination: 'Ashland/63rd',
-        eta: '2020-01-11T16:36:08',
-        route: 'Green Line',
+        eta: '2020-01-12T11:30:04',
+        lineName: 'Green Line',
         due: false
       },
       {
-        id: '405106142020-01-11T16:39:41',
-        trainNumber: '614',
+        id: '405106032020-01-12T11:33:55',
+        trainNumber: '603',
         destination: 'Harlem/Lake',
-        eta: '2020-01-11T16:39:41',
-        route: 'Green Line',
+        eta: '2020-01-12T11:33:55',
+        lineName: 'Green Line',
+        due: false
+      },
+      {
+        id: '405100062020-01-12T11:42:27',
+        trainNumber: '006',
+        destination: 'Cottage Grove',
+        eta: '2020-01-12T11:42:27',
+        lineName: 'Green Line',
+        due: false
+      },
+      {
+        id: '405106022020-01-12T11:46:01',
+        trainNumber: '602',
+        destination: 'Harlem/Lake',
+        eta: '2020-01-12T11:46:01',
+        lineName: 'Green Line',
         due: false
       }
     ]
@@ -2935,43 +2783,43 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '411708202020-01-11T16:21:26',
-        trainNumber: '820',
+        id: '411708082020-01-12T11:30:17',
+        trainNumber: '808',
         destination: 'Howard',
-        eta: '2020-01-11T16:21:26',
-        route: 'Red Line',
-        due: true
-      },
-      {
-        id: '411708122020-01-11T16:24:19',
-        trainNumber: '812',
-        destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:24:19',
-        route: 'Red Line',
+        eta: '2020-01-12T11:30:17',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '411708212020-01-11T16:28:22',
-        trainNumber: '821',
+        id: '411709082020-01-12T11:35:59',
+        trainNumber: '908',
         destination: 'Howard',
-        eta: '2020-01-11T16:28:22',
-        route: 'Red Line',
+        eta: '2020-01-12T11:35:59',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '411709122020-01-11T16:33:04',
-        trainNumber: '912',
+        id: '411709042020-01-12T11:35:42',
+        trainNumber: '904',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:33:04',
-        route: 'Red Line',
+        eta: '2020-01-12T11:35:42',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '411709172020-01-11T16:39:33',
-        trainNumber: '917',
+        id: '411709042020-01-12T11:35:42',
+        trainNumber: '904',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:39:33',
-        route: 'Red Line',
+        eta: '2020-01-12T11:35:42',
+        lineName: 'Red Line',
+        due: false
+      },
+      {
+        id: '411709092020-01-12T11:43:14',
+        trainNumber: '909',
+        destination: '95th/Dan Ryan',
+        eta: '2020-01-12T11:43:14',
+        lineName: 'Red Line',
         due: false
       }
     ]
@@ -2982,27 +2830,35 @@ module.exports = [
     wheelchair: false,
     etas: [
       {
-        id: '404901222020-01-11T16:22:58',
-        trainNumber: '122',
-        destination: "O'Hare",
-        eta: '2020-01-11T16:22:58',
-        route: 'Blue Line',
-        due: false
-      },
-      {
-        id: '404902122020-01-11T16:31:36',
-        trainNumber: '212',
-        destination: "O'Hare",
-        eta: '2020-01-11T16:31:36',
-        route: 'Blue Line',
-        due: false
-      },
-      {
-        id: '404901202020-01-11T16:51:41',
-        trainNumber: '120',
+        id: '404901162020-01-12T11:27:55',
+        trainNumber: '116',
         destination: 'Forest Park',
-        eta: '2020-01-11T16:51:41',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:27:55',
+        lineName: 'Blue Line',
+        due: true
+      },
+      {
+        id: '404902092020-01-12T11:36:44',
+        trainNumber: '209',
+        destination: "O'Hare",
+        eta: '2020-01-12T11:36:44',
+        lineName: 'Blue Line',
+        due: false
+      },
+      {
+        id: '404901102020-01-12T11:37:01',
+        trainNumber: '110',
+        destination: 'Forest Park',
+        eta: '2020-01-12T11:37:01',
+        lineName: 'Blue Line',
+        due: false
+      },
+      {
+        id: '404901132020-01-12T11:53:00',
+        trainNumber: '113',
+        destination: "O'Hare",
+        eta: '2020-01-12T11:53:00',
+        lineName: 'Blue Line',
         due: false
       }
     ]
@@ -3013,75 +2869,43 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '403309102020-01-11T16:18:46',
-        trainNumber: '910',
-        destination: 'Howard',
-        eta: '2020-01-11T16:18:46',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '403309172020-01-11T16:22:33',
-        trainNumber: '917',
+        id: '403309092020-01-12T11:27:14',
+        trainNumber: '909',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:22:33',
-        route: 'Red Line',
-        due: false
+        eta: '2020-01-12T11:27:14',
+        lineName: 'Red Line',
+        due: true
       },
       {
-        id: '403309142020-01-11T16:25:21',
-        trainNumber: '914',
-        destination: 'Howard',
-        eta: '2020-01-11T16:25:21',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '403308172020-01-11T16:28:05',
-        trainNumber: '817',
+        id: '403309052020-01-12T11:32:56',
+        trainNumber: '905',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:28:05',
-        route: 'Red Line',
+        eta: '2020-01-12T11:32:56',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '403308112020-01-11T16:29:27',
-        trainNumber: '811',
+        id: '403308072020-01-12T11:33:35',
+        trainNumber: '807',
         destination: 'Howard',
-        eta: '2020-01-11T16:29:27',
-        route: 'Red Line',
+        eta: '2020-01-12T11:33:35',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '403308192020-01-11T16:33:12',
-        trainNumber: '819',
+        id: '403308052020-01-12T11:38:56',
+        trainNumber: '805',
+        destination: 'Howard',
+        eta: '2020-01-12T11:38:56',
+        lineName: 'Red Line',
+        due: false
+      },
+      {
+        id: '403309062020-01-12T11:39:11',
+        trainNumber: '906',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:33:12',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '403309152020-01-11T16:34:34',
-        trainNumber: '915',
-        destination: 'Howard',
-        eta: '2020-01-11T16:34:34',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '403308132020-01-11T16:38:32',
-        trainNumber: '813',
-        destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:38:32',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '403308202020-01-11T16:39:26',
-        trainNumber: '820',
-        destination: 'Howard',
-        eta: '2020-01-11T16:39:26',
-        route: 'Red Line',
+        eta: '2020-01-12T11:39:11',
+        lineName: 'Red Line',
         due: false
       }
     ]
@@ -3092,35 +2916,43 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '407609082020-01-11T16:20:59',
-        trainNumber: '908',
+        id: '407608132020-01-12T11:29:01',
+        trainNumber: '813',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:20:59',
-        route: 'Red Line',
-        due: true
-      },
-      {
-        id: '407608242020-01-11T16:24:31',
-        trainNumber: '824',
-        destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:24:31',
-        route: 'Red Line',
+        eta: '2020-01-12T11:29:01',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '407608102020-01-11T16:25:41',
+        id: '407608022020-01-12T11:29:20',
+        trainNumber: '802',
+        destination: 'Howard',
+        eta: '2020-01-12T11:29:20',
+        lineName: 'Red Line',
+        due: false
+      },
+      {
+        id: '407609072020-01-12T11:36:47',
+        trainNumber: '907',
+        destination: 'Howard',
+        eta: '2020-01-12T11:36:47',
+        lineName: 'Red Line',
+        due: false
+      },
+      {
+        id: '407608102020-01-12T11:37:01',
         trainNumber: '810',
-        destination: 'Howard',
-        eta: '2020-01-11T16:25:41',
-        route: 'Red Line',
+        destination: '95th/Dan Ryan',
+        eta: '2020-01-12T11:37:01',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '407608152020-01-11T16:31:30',
-        trainNumber: '815',
+        id: '407608112020-01-12T11:41:59',
+        trainNumber: '811',
         destination: 'Howard',
-        eta: '2020-01-11T16:31:30',
-        route: 'Red Line',
+        eta: '2020-01-12T11:41:59',
+        lineName: 'Red Line',
         due: false
       }
     ]
@@ -3131,35 +2963,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '409406142020-01-11T16:32:41',
-        trainNumber: '614',
+        id: '409406032020-01-12T11:26:55',
+        trainNumber: '603',
         destination: 'Harlem/Lake',
-        eta: '2020-01-11T16:32:41',
-        route: 'Green Line',
+        eta: '2020-01-12T11:26:55',
+        lineName: 'Green Line',
+        due: true
+      },
+      {
+        id: '409406092020-01-12T11:37:04',
+        trainNumber: '609',
+        destination: 'Ashland/63rd',
+        eta: '2020-01-12T11:37:04',
+        lineName: 'Green Line',
         due: false
       },
       {
-        id: '409406082020-01-11T16:36:41',
-        trainNumber: '608',
-        destination: '63rd Street',
-        eta: '2020-01-11T16:36:41',
-        route: 'Green Line',
-        due: false
-      },
-      {
-        id: '409406152020-01-11T16:52:41',
-        trainNumber: '615',
+        id: '409406092020-01-12T11:51:01',
+        trainNumber: '609',
         destination: 'Harlem/Lake',
-        eta: '2020-01-11T16:52:41',
-        route: 'Green Line',
+        eta: '2020-01-12T11:51:01',
+        lineName: 'Green Line',
         due: false
       },
       {
-        id: '409406102020-01-11T16:56:41',
-        trainNumber: '610',
+        id: '409400012020-01-12T11:55:01',
+        trainNumber: '001',
         destination: '63rd Street',
-        eta: '2020-01-11T16:56:41',
-        route: 'Green Line',
+        eta: '2020-01-12T11:55:01',
+        lineName: 'Green Line',
         due: false
       }
     ]
@@ -3170,43 +3002,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '411307082020-01-11T16:21:28',
-        trainNumber: '708',
+        id: '411307062020-01-12T11:27:40',
+        trainNumber: '706',
         destination: 'Loop',
-        eta: '2020-01-11T16:21:28',
-        route: 'Orange Line',
+        eta: '2020-01-12T11:27:40',
+        lineName: 'Orange Line',
         due: true
       },
       {
-        id: '411307102020-01-11T16:22:29',
-        trainNumber: '710',
+        id: '411307032020-01-12T11:27:49',
+        trainNumber: '703',
         destination: 'Midway',
-        eta: '2020-01-11T16:22:29',
-        route: 'Orange Line',
-        due: false
+        eta: '2020-01-12T11:27:49',
+        lineName: 'Orange Line',
+        due: true
       },
       {
-        id: '411307112020-01-11T16:27:36',
-        trainNumber: '711',
-        destination: 'Midway',
-        eta: '2020-01-11T16:27:36',
-        route: 'Orange Line',
-        due: false
-      },
-      {
-        id: '411307132020-01-11T16:30:33',
-        trainNumber: '713',
+        id: '411307042020-01-12T11:40:39',
+        trainNumber: '704',
         destination: 'Loop',
-        eta: '2020-01-11T16:30:33',
-        route: 'Orange Line',
+        eta: '2020-01-12T11:40:39',
+        lineName: 'Orange Line',
         due: false
       },
       {
-        id: '411307152020-01-11T16:37:26',
-        trainNumber: '715',
+        id: '411307082020-01-12T11:40:34',
+        trainNumber: '708',
         destination: 'Midway',
-        eta: '2020-01-11T16:37:26',
-        route: 'Orange Line',
+        eta: '2020-01-12T11:40:34',
+        lineName: 'Orange Line',
         due: false
       }
     ]
@@ -3217,43 +3041,35 @@ module.exports = [
     wheelchair: false,
     etas: [
       {
-        id: '409801162020-01-11T16:21:41',
-        trainNumber: '116',
+        id: '409801052020-01-12T11:30:58',
+        trainNumber: '105',
+        destination: 'Forest Park',
+        eta: '2020-01-12T11:30:58',
+        lineName: 'Blue Line',
+        due: false
+      },
+      {
+        id: '409801062020-01-12T11:33:01',
+        trainNumber: '106',
         destination: "O'Hare",
-        eta: '2020-01-11T16:21:41',
-        route: 'Blue Line',
-        due: true
-      },
-      {
-        id: '409801162020-01-11T16:30:30',
-        trainNumber: '116',
-        destination: 'Forest Park',
-        eta: '2020-01-11T16:30:30',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:33:01',
+        lineName: 'Blue Line',
         due: false
       },
       {
-        id: '409802202020-01-11T16:32:41',
-        trainNumber: '220',
+        id: '409801022020-01-12T11:42:01',
+        trainNumber: '102',
+        destination: 'Forest Park',
+        eta: '2020-01-12T11:42:01',
+        lineName: 'Blue Line',
+        due: false
+      },
+      {
+        id: '409801052020-01-12T11:48:01',
+        trainNumber: '105',
         destination: "O'Hare",
-        eta: '2020-01-11T16:32:41',
-        route: 'Blue Line',
-        due: false
-      },
-      {
-        id: '409802102020-01-11T16:34:20',
-        trainNumber: '210',
-        destination: 'Forest Park',
-        eta: '2020-01-11T16:34:20',
-        route: 'Blue Line',
-        due: false
-      },
-      {
-        id: '409801182020-01-11T16:39:26',
-        trainNumber: '118',
-        destination: 'Forest Park',
-        eta: '2020-01-11T16:39:26',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:48:01',
+        lineName: 'Blue Line',
         due: false
       }
     ]
@@ -3264,35 +3080,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '407502182020-01-11T16:23:59',
-        trainNumber: '218',
-        destination: 'Forest Park',
-        eta: '2020-01-11T16:23:59',
-        route: 'Blue Line',
-        due: false
-      },
-      {
-        id: '407501132020-01-11T16:37:20',
-        trainNumber: '113',
+        id: '407501112020-01-12T11:37:53',
+        trainNumber: '111',
         destination: "O'Hare",
-        eta: '2020-01-11T16:37:20',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:37:53',
+        lineName: 'Blue Line',
         due: false
       },
       {
-        id: '407502192020-01-11T16:40:41',
-        trainNumber: '219',
+        id: '407501082020-01-12T11:41:01',
+        trainNumber: '108',
         destination: 'Forest Park',
-        eta: '2020-01-11T16:40:41',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:41:01',
+        lineName: 'Blue Line',
         due: false
       },
       {
-        id: '407502122020-01-11T16:47:40',
-        trainNumber: '212',
+        id: '407502062020-01-12T11:50:00',
+        trainNumber: '206',
         destination: "O'Hare",
-        eta: '2020-01-11T16:47:40',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:50:00',
+        lineName: 'Blue Line',
+        due: false
+      },
+      {
+        id: '407502032020-01-12T11:56:01',
+        trainNumber: '203',
+        destination: 'Forest Park',
+        eta: '2020-01-12T11:56:01',
+        lineName: 'Blue Line',
         due: false
       }
     ]
@@ -3303,35 +3119,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '400200162020-01-11T16:21:41',
-        trainNumber: '016',
-        destination: '63rd Street',
-        eta: '2020-01-11T16:21:41',
-        route: 'Green Line',
-        due: true
-      },
-      {
-        id: '400200172020-01-11T16:30:41',
-        trainNumber: '017',
-        destination: '63rd Street',
-        eta: '2020-01-11T16:30:41',
-        route: 'Green Line',
+        id: '400200032020-01-12T11:30:57',
+        trainNumber: '003',
+        destination: 'Harlem/Lake',
+        eta: '2020-01-12T11:30:57',
+        lineName: 'Green Line',
         due: false
       },
       {
-        id: '400200092020-01-11T16:35:27',
-        trainNumber: '009',
-        destination: 'Harlem/Lake',
-        eta: '2020-01-11T16:35:27',
-        route: 'Green Line',
+        id: '400200022020-01-12T11:36:01',
+        trainNumber: '002',
+        destination: '63rd Street',
+        eta: '2020-01-12T11:36:01',
+        lineName: 'Green Line',
         due: false
       },
       {
-        id: '400206132020-01-11T16:47:40',
-        trainNumber: '613',
+        id: '400200072020-01-12T11:42:46',
+        trainNumber: '007',
         destination: 'Harlem/Lake',
-        eta: '2020-01-11T16:47:40',
-        route: 'Green Line',
+        eta: '2020-01-12T11:42:46',
+        lineName: 'Green Line',
+        due: false
+      },
+      {
+        id: '400206072020-01-12T11:48:01',
+        trainNumber: '607',
+        destination: '63rd Street',
+        eta: '2020-01-12T11:48:01',
+        lineName: 'Green Line',
         due: false
       }
     ]
@@ -3342,59 +3158,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '408507152020-01-11T16:21:26',
-        trainNumber: '715',
-        destination: 'Midway',
-        eta: '2020-01-11T16:21:26',
-        route: 'Orange Line',
-        due: true
-      },
-      {
-        id: '408503132020-01-11T16:23:30',
-        trainNumber: '313',
-        destination: '54th/Cermak',
-        eta: '2020-01-11T16:23:30',
-        route: 'Pink Line',
-        due: false
-      },
-      {
-        id: '408504122020-01-11T16:27:38',
-        trainNumber: '412',
+        id: '408504032020-01-12T11:34:50',
+        trainNumber: '403',
         destination: 'Kimball',
-        eta: '2020-01-11T16:27:38',
-        route: 'Brown line',
+        eta: '2020-01-12T11:34:50',
+        lineName: 'Brown line',
         due: false
       },
       {
-        id: '408507082020-01-11T16:29:28',
-        trainNumber: '708',
+        id: '408507062020-01-12T11:35:40',
+        trainNumber: '706',
         destination: 'Midway',
-        eta: '2020-01-11T16:29:28',
-        route: 'Orange Line',
+        eta: '2020-01-12T11:35:40',
+        lineName: 'Orange Line',
         due: false
       },
       {
-        id: '408503082020-01-11T16:31:16',
+        id: '408503082020-01-12T11:39:26',
         trainNumber: '308',
         destination: '54th/Cermak',
-        eta: '2020-01-11T16:31:16',
-        route: 'Pink Line',
+        eta: '2020-01-12T11:39:26',
+        lineName: 'Pink Line',
         due: false
       },
       {
-        id: '408504222020-01-11T16:37:57',
-        trainNumber: '422',
-        destination: 'Kimball',
-        eta: '2020-01-11T16:37:57',
-        route: 'Brown line',
-        due: false
-      },
-      {
-        id: '408507132020-01-11T16:39:33',
-        trainNumber: '713',
-        destination: 'Midway',
-        eta: '2020-01-11T16:39:33',
-        route: 'Orange Line',
+        id: '408503012020-01-12T11:44:37',
+        trainNumber: '301',
+        destination: '54th/Cermak',
+        eta: '2020-01-12T11:44:37',
+        lineName: 'Pink Line',
         due: false
       }
     ]
@@ -3405,59 +3197,51 @@ module.exports = [
     wheelchair: false,
     etas: [
       {
-        id: '414908112020-01-11T16:22:27',
-        trainNumber: '811',
+        id: '414908072020-01-12T11:28:35',
+        trainNumber: '807',
         destination: 'Howard',
-        eta: '2020-01-11T16:22:27',
-        route: 'Red Line',
+        eta: '2020-01-12T11:28:35',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '414909122020-01-11T16:21:04',
-        trainNumber: '912',
+        id: '414909092020-01-12T11:32:14',
+        trainNumber: '909',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:21:04',
-        route: 'Red Line',
-        due: true
-      },
-      {
-        id: '414909172020-01-11T16:27:33',
-        trainNumber: '917',
-        destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:27:33',
-        route: 'Red Line',
+        eta: '2020-01-12T11:32:14',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '414909152020-01-11T16:28:34',
-        trainNumber: '915',
+        id: '414908052020-01-12T11:33:56',
+        trainNumber: '805',
         destination: 'Howard',
-        eta: '2020-01-11T16:28:34',
-        route: 'Red Line',
+        eta: '2020-01-12T11:33:56',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '414908202020-01-11T16:33:26',
-        trainNumber: '820',
+        id: '414909052020-01-12T11:37:56',
+        trainNumber: '905',
+        destination: '95th/Dan Ryan',
+        eta: '2020-01-12T11:37:56',
+        lineName: 'Red Line',
+        due: false
+      },
+      {
+        id: '414908082020-01-12T11:43:17',
+        trainNumber: '808',
         destination: 'Howard',
-        eta: '2020-01-11T16:33:26',
-        route: 'Red Line',
+        eta: '2020-01-12T11:43:17',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '414908172020-01-11T16:33:05',
-        trainNumber: '817',
+        id: '414909062020-01-12T11:44:11',
+        trainNumber: '906',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:33:05',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '414908192020-01-11T16:38:12',
-        trainNumber: '819',
-        destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:38:12',
-        route: 'Red Line',
+        eta: '2020-01-12T11:44:11',
+        lineName: 'Red Line',
         due: false
       }
     ]
@@ -3468,107 +3252,99 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '409005942020-01-11T16:21:41',
-        trainNumber: '594',
-        destination: 'Skokie',
-        eta: '2020-01-11T16:21:41',
-        route: 'Yellow Line',
+        id: '409005042020-01-12T11:28:01',
+        trainNumber: '504',
+        destination: 'Linden',
+        eta: '2020-01-12T11:28:01',
+        lineName: 'Purple Line',
         due: true
       },
       {
-        id: '409005942020-01-11T16:20:24',
-        trainNumber: '594',
-        destination: 'Howard',
-        eta: '2020-01-11T16:20:24',
-        route: 'Yellow Line',
-        due: true
-      },
-      {
-        id: '409005072020-01-11T16:25:19',
-        trainNumber: '507',
-        destination: 'Howard',
-        eta: '2020-01-11T16:25:19',
-        route: 'Purple Line',
-        due: false
-      },
-      {
-        id: '409009182020-01-11T16:25:17',
-        trainNumber: '918',
-        destination: 'Howard',
-        eta: '2020-01-11T16:25:17',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '409009092020-01-11T16:25:41',
-        trainNumber: '909',
+        id: '409008132020-01-12T11:28:01',
+        trainNumber: '813',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:25:41',
-        route: 'Red Line',
+        eta: '2020-01-12T11:28:01',
+        lineName: 'Red Line',
+        due: true
+      },
+      {
+        id: '409005052020-01-12T11:27:11',
+        trainNumber: '505',
+        destination: 'Howard',
+        eta: '2020-01-12T11:27:11',
+        lineName: 'Purple Line',
+        due: true
+      },
+      {
+        id: '409005912020-01-12T11:31:01',
+        trainNumber: '591',
+        destination: 'Skokie',
+        eta: '2020-01-12T11:31:01',
+        lineName: 'Yellow Line',
         due: false
       },
       {
-        id: '409005052020-01-11T16:26:41',
+        id: '409005912020-01-12T11:30:45',
+        trainNumber: '591',
+        destination: 'Howard',
+        eta: '2020-01-12T11:30:45',
+        lineName: 'Yellow Line',
+        due: false
+      },
+      {
+        id: '409008102020-01-12T11:32:01',
+        trainNumber: '810',
+        destination: '95th/Dan Ryan',
+        eta: '2020-01-12T11:32:01',
+        lineName: 'Red Line',
+        due: false
+      },
+      {
+        id: '409005052020-01-12T11:38:01',
         trainNumber: '505',
         destination: 'Linden',
-        eta: '2020-01-11T16:26:41',
-        route: 'Purple Line',
+        eta: '2020-01-12T11:38:01',
+        lineName: 'Purple Line',
         due: false
       },
       {
-        id: '409008142020-01-11T16:31:41',
-        trainNumber: '814',
-        destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:31:41',
-        route: 'Red Line',
+        id: '409008022020-01-12T11:38:20',
+        trainNumber: '802',
+        destination: 'Howard',
+        eta: '2020-01-12T11:38:20',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '409005932020-01-11T16:31:41',
-        trainNumber: '593',
+        id: '409005012020-01-12T11:40:01',
+        trainNumber: '501',
+        destination: 'Howard',
+        eta: '2020-01-12T11:40:01',
+        lineName: 'Purple Line',
+        due: false
+      },
+      {
+        id: '409009072020-01-12T11:44:47',
+        trainNumber: '907',
+        destination: 'Howard',
+        eta: '2020-01-12T11:44:47',
+        lineName: 'Red Line',
+        due: false
+      },
+      {
+        id: '409005922020-01-12T11:46:01',
+        trainNumber: '592',
         destination: 'Skokie',
-        eta: '2020-01-11T16:31:41',
-        route: 'Yellow Line',
+        eta: '2020-01-12T11:46:01',
+        lineName: 'Yellow Line',
         due: false
       },
       {
-        id: '409008102020-01-11T16:32:41',
-        trainNumber: '810',
+        id: '409005922020-01-12T12:09:01',
+        trainNumber: '592',
         destination: 'Howard',
-        eta: '2020-01-11T16:32:41',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '409005082020-01-11T16:38:41',
-        trainNumber: '508',
-        destination: 'Linden',
-        eta: '2020-01-11T16:38:41',
-        route: 'Purple Line',
-        due: false
-      },
-      {
-        id: '409008152020-01-11T16:38:30',
-        trainNumber: '815',
-        destination: 'Howard',
-        eta: '2020-01-11T16:38:30',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '409005062020-01-11T16:40:41',
-        trainNumber: '506',
-        destination: 'Howard',
-        eta: '2020-01-11T16:40:41',
-        route: 'Purple Line',
-        due: false
-      },
-      {
-        id: '409005932020-01-11T16:54:41',
-        trainNumber: '593',
-        destination: 'Howard',
-        eta: '2020-01-11T16:54:41',
-        route: 'Yellow Line',
+        eta: '2020-01-12T12:09:01',
+        lineName: 'Yellow Line',
         due: false
       }
     ]
@@ -3579,35 +3355,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '408102132020-01-11T16:29:26',
-        trainNumber: '213',
-        destination: "O'Hare",
-        eta: '2020-01-11T16:29:26',
-        route: 'Blue Line',
-        due: false
-      },
-      {
-        id: '408101252020-01-11T16:33:36',
-        trainNumber: '125',
+        id: '408101022020-01-12T11:27:54',
+        trainNumber: '102',
         destination: 'Forest Park',
-        eta: '2020-01-11T16:33:36',
-        route: 'Blue Line',
-        due: false
+        eta: '2020-01-12T11:27:54',
+        lineName: 'Blue Line',
+        due: true
       },
       {
-        id: '408102182020-01-11T16:51:40',
-        trainNumber: '218',
-        destination: 'Forest Park',
-        eta: '2020-01-11T16:51:40',
-        route: 'Blue Line',
-        due: false
-      },
-      {
-        id: '408102202020-01-11T16:52:40',
-        trainNumber: '220',
+        id: '408101132020-01-12T11:39:01',
+        trainNumber: '113',
         destination: "O'Hare",
-        eta: '2020-01-11T16:52:40',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:39:01',
+        lineName: 'Blue Line',
+        due: false
+      },
+      {
+        id: '408101162020-01-12T11:41:55',
+        trainNumber: '116',
+        destination: 'Forest Park',
+        eta: '2020-01-12T11:41:55',
+        lineName: 'Blue Line',
+        due: false
+      },
+      {
+        id: '408101062020-01-12T11:54:01',
+        trainNumber: '106',
+        destination: "O'Hare",
+        eta: '2020-01-12T11:54:01',
+        lineName: 'Blue Line',
         due: false
       }
     ]
@@ -3618,35 +3394,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '403000112020-01-11T16:24:36',
-        trainNumber: '011',
+        id: '403006012020-01-12T11:30:13',
+        trainNumber: '601',
         destination: 'Harlem/Lake',
-        eta: '2020-01-11T16:24:36',
-        route: 'Green Line',
+        eta: '2020-01-12T11:30:13',
+        lineName: 'Green Line',
         due: false
       },
       {
-        id: '403006082020-01-11T16:29:08',
-        trainNumber: '608',
-        destination: 'Ashland/63rd',
-        eta: '2020-01-11T16:29:08',
-        route: 'Green Line',
-        due: false
-      },
-      {
-        id: '403000122020-01-11T16:33:12',
-        trainNumber: '012',
-        destination: 'Harlem/Lake',
-        eta: '2020-01-11T16:33:12',
-        route: 'Green Line',
-        due: false
-      },
-      {
-        id: '403000152020-01-11T16:37:30',
-        trainNumber: '015',
+        id: '403000062020-01-12T11:36:27',
+        trainNumber: '006',
         destination: 'Cottage Grove',
-        eta: '2020-01-11T16:37:30',
-        route: 'Green Line',
+        eta: '2020-01-12T11:36:27',
+        lineName: 'Green Line',
+        due: false
+      },
+      {
+        id: '403006032020-01-12T11:39:55',
+        trainNumber: '603',
+        destination: 'Harlem/Lake',
+        eta: '2020-01-12T11:39:55',
+        lineName: 'Green Line',
+        due: false
+      },
+      {
+        id: '403000012020-01-12T11:43:58',
+        trainNumber: '001',
+        destination: 'Ashland/63rd',
+        eta: '2020-01-12T11:43:58',
+        lineName: 'Green Line',
         due: false
       }
     ]
@@ -3657,35 +3433,35 @@ module.exports = [
     wheelchair: false,
     etas: [
       {
-        id: '405501132020-01-11T16:29:20',
-        trainNumber: '113',
-        destination: "O'Hare",
-        eta: '2020-01-11T16:29:20',
-        route: 'Blue Line',
-        due: false
-      },
-      {
-        id: '405502182020-01-11T16:33:59',
-        trainNumber: '218',
+        id: '405501102020-01-12T11:27:57',
+        trainNumber: '110',
         destination: 'Forest Park',
-        eta: '2020-01-11T16:33:59',
-        route: 'Blue Line',
-        due: false
+        eta: '2020-01-12T11:27:57',
+        lineName: 'Blue Line',
+        due: true
       },
       {
-        id: '405502122020-01-11T16:38:40',
-        trainNumber: '212',
+        id: '405501112020-01-12T11:29:53',
+        trainNumber: '111',
         destination: "O'Hare",
-        eta: '2020-01-11T16:38:40',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:29:53',
+        lineName: 'Blue Line',
         due: false
       },
       {
-        id: '405502192020-01-11T16:49:41',
-        trainNumber: '219',
+        id: '405502012020-01-12T11:32:47',
+        trainNumber: '201',
         destination: 'Forest Park',
-        eta: '2020-01-11T16:49:41',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:32:47',
+        lineName: 'Blue Line',
+        due: false
+      },
+      {
+        id: '405502062020-01-12T11:40:53',
+        trainNumber: '206',
+        destination: "O'Hare",
+        eta: '2020-01-12T11:40:53',
+        lineName: 'Blue Line',
         due: false
       }
     ]
@@ -3696,43 +3472,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '414604232020-01-11T16:23:05',
-        trainNumber: '423',
+        id: '414604092020-01-12T11:27:54',
+        trainNumber: '409',
+        destination: 'Kimball',
+        eta: '2020-01-12T11:27:54',
+        lineName: 'Brown line',
+        due: false
+      },
+      {
+        id: '414604072020-01-12T11:28:53',
+        trainNumber: '407',
         destination: 'Loop',
-        eta: '2020-01-11T16:23:05',
-        route: 'Brown line',
+        eta: '2020-01-12T11:28:53',
+        lineName: 'Brown line',
         due: false
       },
       {
-        id: '414604112020-01-11T16:24:20',
-        trainNumber: '411',
+        id: '414604012020-01-12T11:35:40',
+        trainNumber: '401',
         destination: 'Kimball',
-        eta: '2020-01-11T16:24:20',
-        route: 'Brown line',
+        eta: '2020-01-12T11:35:40',
+        lineName: 'Brown line',
         due: false
       },
       {
-        id: '414604152020-01-11T16:27:21',
-        trainNumber: '415',
-        destination: 'Kimball',
-        eta: '2020-01-11T16:27:21',
-        route: 'Brown line',
-        due: false
-      },
-      {
-        id: '414604192020-01-11T16:32:41',
-        trainNumber: '419',
+        id: '414604042020-01-12T11:39:01',
+        trainNumber: '404',
         destination: 'Loop',
-        eta: '2020-01-11T16:32:41',
-        route: 'Brown line',
-        due: false
-      },
-      {
-        id: '414604162020-01-11T16:37:21',
-        trainNumber: '416',
-        destination: 'Kimball',
-        eta: '2020-01-11T16:37:21',
-        route: 'Brown line',
+        eta: '2020-01-12T11:39:01',
+        lineName: 'Brown line',
         due: false
       }
     ]
@@ -3743,35 +3511,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '400702122020-01-11T16:24:36',
-        trainNumber: '212',
+        id: '400702092020-01-12T11:30:44',
+        trainNumber: '209',
         destination: "O'Hare",
-        eta: '2020-01-11T16:24:36',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:30:44',
+        lineName: 'Blue Line',
         due: false
       },
       {
-        id: '400701252020-01-11T16:25:36',
-        trainNumber: '125',
+        id: '400701162020-01-12T11:33:55',
+        trainNumber: '116',
         destination: 'Forest Park',
-        eta: '2020-01-11T16:25:36',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:33:55',
+        lineName: 'Blue Line',
         due: false
       },
       {
-        id: '400702132020-01-11T16:38:26',
-        trainNumber: '213',
+        id: '400701102020-01-12T11:43:01',
+        trainNumber: '110',
+        destination: 'Forest Park',
+        eta: '2020-01-12T11:43:01',
+        lineName: 'Blue Line',
+        due: false
+      },
+      {
+        id: '400701132020-01-12T11:47:01',
+        trainNumber: '113',
         destination: "O'Hare",
-        eta: '2020-01-11T16:38:26',
-        route: 'Blue Line',
-        due: false
-      },
-      {
-        id: '400702182020-01-11T16:42:41',
-        trainNumber: '218',
-        destination: 'Forest Park',
-        eta: '2020-01-11T16:42:41',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:47:01',
+        lineName: 'Blue Line',
         due: false
       }
     ]
@@ -3782,59 +3550,51 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '405609142020-01-11T16:21:21',
-        trainNumber: '914',
+        id: '405608072020-01-12T11:30:35',
+        trainNumber: '807',
         destination: 'Howard',
-        eta: '2020-01-11T16:21:21',
-        route: 'Red Line',
-        due: true
-      },
-      {
-        id: '405608112020-01-11T16:24:27',
-        trainNumber: '811',
-        destination: 'Howard',
-        eta: '2020-01-11T16:24:27',
-        route: 'Red Line',
+        eta: '2020-01-12T11:30:35',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '405609172020-01-11T16:25:33',
-        trainNumber: '917',
+        id: '405609092020-01-12T11:30:14',
+        trainNumber: '909',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:25:33',
-        route: 'Red Line',
+        eta: '2020-01-12T11:30:14',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '405609152020-01-11T16:29:34',
-        trainNumber: '915',
+        id: '405608052020-01-12T11:34:56',
+        trainNumber: '805',
         destination: 'Howard',
-        eta: '2020-01-11T16:29:34',
-        route: 'Red Line',
+        eta: '2020-01-12T11:34:56',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '405608172020-01-11T16:32:05',
-        trainNumber: '817',
+        id: '405609052020-01-12T11:36:56',
+        trainNumber: '905',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:32:05',
-        route: 'Red Line',
+        eta: '2020-01-12T11:36:56',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '405608202020-01-11T16:34:26',
-        trainNumber: '820',
+        id: '405609062020-01-12T11:43:11',
+        trainNumber: '906',
+        destination: '95th/Dan Ryan',
+        eta: '2020-01-12T11:43:11',
+        lineName: 'Red Line',
+        due: false
+      },
+      {
+        id: '405608082020-01-12T11:44:17',
+        trainNumber: '808',
         destination: 'Howard',
-        eta: '2020-01-11T16:34:26',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '405608192020-01-11T16:37:12',
-        trainNumber: '819',
-        destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:37:12',
-        route: 'Red Line',
+        eta: '2020-01-12T11:44:17',
+        lineName: 'Red Line',
         due: false
       }
     ]
@@ -3845,43 +3605,35 @@ module.exports = [
     wheelchair: false,
     etas: [
       {
-        id: '411909182020-01-11T16:24:17',
-        trainNumber: '918',
-        destination: 'Howard',
-        eta: '2020-01-11T16:24:17',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '411909092020-01-11T16:25:41',
-        trainNumber: '909',
+        id: '411908132020-01-12T11:28:01',
+        trainNumber: '813',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:25:41',
-        route: 'Red Line',
-        due: false
+        eta: '2020-01-12T11:28:01',
+        lineName: 'Red Line',
+        due: true
       },
       {
-        id: '411908102020-01-11T16:30:41',
+        id: '411908102020-01-12T11:32:01',
         trainNumber: '810',
-        destination: 'Howard',
-        eta: '2020-01-11T16:30:41',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '411908142020-01-11T16:31:41',
-        trainNumber: '814',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:31:41',
-        route: 'Red Line',
+        eta: '2020-01-12T11:32:01',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '411908152020-01-11T16:36:30',
-        trainNumber: '815',
+        id: '411908022020-01-12T11:35:20',
+        trainNumber: '802',
         destination: 'Howard',
-        eta: '2020-01-11T16:36:30',
-        route: 'Red Line',
+        eta: '2020-01-12T11:35:20',
+        lineName: 'Red Line',
+        due: false
+      },
+      {
+        id: '411909072020-01-12T11:41:47',
+        trainNumber: '907',
+        destination: 'Howard',
+        eta: '2020-01-12T11:41:47',
+        lineName: 'Red Line',
         due: false
       }
     ]
@@ -3892,35 +3644,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '412802182020-01-11T16:29:59',
-        trainNumber: '218',
+        id: '412802012020-01-12T11:28:47',
+        trainNumber: '201',
         destination: 'Forest Park',
-        eta: '2020-01-11T16:29:59',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:28:47',
+        lineName: 'Blue Line',
         due: false
       },
       {
-        id: '412801132020-01-11T16:33:20',
-        trainNumber: '113',
+        id: '412801112020-01-12T11:33:53',
+        trainNumber: '111',
         destination: "O'Hare",
-        eta: '2020-01-11T16:33:20',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:33:53',
+        lineName: 'Blue Line',
         due: false
       },
       {
-        id: '412802122020-01-11T16:43:41',
-        trainNumber: '212',
+        id: '412802062020-01-12T11:44:53',
+        trainNumber: '206',
         destination: "O'Hare",
-        eta: '2020-01-11T16:43:41',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:44:53',
+        lineName: 'Blue Line',
         due: false
       },
       {
-        id: '412802192020-01-11T16:45:41',
-        trainNumber: '219',
+        id: '412801082020-01-12T11:45:01',
+        trainNumber: '108',
         destination: 'Forest Park',
-        eta: '2020-01-11T16:45:41',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:45:01',
+        lineName: 'Blue Line',
         due: false
       }
     ]
@@ -3931,43 +3683,43 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '411804142020-01-11T16:21:30',
-        trainNumber: '414',
-        destination: 'Kimball',
-        eta: '2020-01-11T16:21:30',
-        route: 'Brown line',
-        due: true
-      },
-      {
-        id: '411804192020-01-11T16:24:41',
-        trainNumber: '419',
-        destination: 'Loop',
-        eta: '2020-01-11T16:24:41',
-        route: 'Brown line',
-        due: false
-      },
-      {
-        id: '411804242020-01-11T16:32:41',
-        trainNumber: '424',
-        destination: 'Loop',
-        eta: '2020-01-11T16:32:41',
-        route: 'Brown line',
-        due: false
-      },
-      {
-        id: '411804112020-01-11T16:33:20',
+        id: '411804112020-01-12T11:29:48',
         trainNumber: '411',
         destination: 'Kimball',
-        eta: '2020-01-11T16:33:20',
-        route: 'Brown line',
+        eta: '2020-01-12T11:29:48',
+        lineName: 'Brown line',
         due: false
       },
       {
-        id: '411804152020-01-11T16:36:21',
-        trainNumber: '415',
+        id: '411804042020-01-12T11:32:01',
+        trainNumber: '404',
+        destination: 'Loop',
+        eta: '2020-01-12T11:32:01',
+        lineName: 'Brown line',
+        due: false
+      },
+      {
+        id: '411804092020-01-12T11:35:54',
+        trainNumber: '409',
         destination: 'Kimball',
-        eta: '2020-01-11T16:36:21',
-        route: 'Brown line',
+        eta: '2020-01-12T11:35:54',
+        lineName: 'Brown line',
+        due: false
+      },
+      {
+        id: '411804052020-01-12T11:42:01',
+        trainNumber: '405',
+        destination: 'Loop',
+        eta: '2020-01-12T11:42:01',
+        lineName: 'Brown line',
+        due: false
+      },
+      {
+        id: '411804012020-01-12T11:43:40',
+        trainNumber: '401',
+        destination: 'Kimball',
+        eta: '2020-01-12T11:43:40',
+        lineName: 'Brown line',
         due: false
       }
     ]
@@ -3978,43 +3730,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '410700092020-01-11T16:21:27',
-        trainNumber: '009',
+        id: '410700072020-01-12T11:28:46',
+        trainNumber: '007',
         destination: 'Harlem/Lake',
-        eta: '2020-01-11T16:21:27',
-        route: 'Green Line',
-        due: true
-      },
-      {
-        id: '410706112020-01-11T16:25:38',
-        trainNumber: '611',
-        destination: 'Cottage Grove',
-        eta: '2020-01-11T16:25:38',
-        route: 'Green Line',
+        eta: '2020-01-12T11:28:46',
+        lineName: 'Green Line',
         due: false
       },
       {
-        id: '410700102020-01-11T16:26:39',
-        trainNumber: '010',
-        destination: 'Harlem/Lake',
-        eta: '2020-01-11T16:26:39',
-        route: 'Green Line',
+        id: '410706062020-01-12T11:37:53',
+        trainNumber: '606',
+        destination: 'Ashland/63rd',
+        eta: '2020-01-12T11:37:53',
+        lineName: 'Green Line',
         due: false
       },
       {
-        id: '410700162020-01-11T16:36:41',
-        trainNumber: '016',
+        id: '410700042020-01-12T11:41:54',
+        trainNumber: '004',
+        destination: 'Harlem/Lake',
+        eta: '2020-01-12T11:41:54',
+        lineName: 'Green Line',
+        due: false
+      },
+      {
+        id: '410700022020-01-12T11:51:01',
+        trainNumber: '002',
         destination: '63rd Street',
-        eta: '2020-01-11T16:36:41',
-        route: 'Green Line',
-        due: false
-      },
-      {
-        id: '410706132020-01-11T16:38:20',
-        trainNumber: '613',
-        destination: 'Harlem/Lake',
-        eta: '2020-01-11T16:38:20',
-        route: 'Green Line',
+        eta: '2020-01-12T11:51:01',
+        lineName: 'Green Line',
         due: false
       }
     ]
@@ -4025,43 +3769,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '411507122020-01-11T16:21:38',
-        trainNumber: '712',
+        id: '411507022020-01-12T11:28:54',
+        trainNumber: '702',
         destination: 'Midway',
-        eta: '2020-01-11T16:21:38',
-        route: 'Orange Line',
-        due: true
+        eta: '2020-01-12T11:28:54',
+        lineName: 'Orange Line',
+        due: false
       },
       {
-        id: '411507172020-01-11T16:27:41',
-        trainNumber: '717',
+        id: '411507042020-01-12T11:29:39',
+        trainNumber: '704',
         destination: 'Loop',
-        eta: '2020-01-11T16:27:41',
-        route: 'Orange Line',
+        eta: '2020-01-12T11:29:39',
+        lineName: 'Orange Line',
         due: false
       },
       {
-        id: '411507102020-01-11T16:33:29',
-        trainNumber: '710',
+        id: '411507032020-01-12T11:37:49',
+        trainNumber: '703',
         destination: 'Midway',
-        eta: '2020-01-11T16:33:29',
-        route: 'Orange Line',
+        eta: '2020-01-12T11:37:49',
+        lineName: 'Orange Line',
         due: false
       },
       {
-        id: '411507142020-01-11T16:35:41',
-        trainNumber: '714',
+        id: '411507052020-01-12T11:42:01',
+        trainNumber: '705',
         destination: 'Loop',
-        eta: '2020-01-11T16:35:41',
-        route: 'Orange Line',
-        due: false
-      },
-      {
-        id: '411507112020-01-11T16:38:36',
-        trainNumber: '711',
-        destination: 'Midway',
-        eta: '2020-01-11T16:38:36',
-        route: 'Orange Line',
+        eta: '2020-01-12T11:42:01',
+        lineName: 'Orange Line',
         due: false
       }
     ]
@@ -4072,35 +3808,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '410403142020-01-11T16:26:39',
-        trainNumber: '314',
+        id: '410403052020-01-12T11:35:01',
+        trainNumber: '305',
         destination: 'Loop',
-        eta: '2020-01-11T16:26:39',
-        route: 'Pink Line',
+        eta: '2020-01-12T11:35:01',
+        lineName: 'Pink Line',
         due: false
       },
       {
-        id: '410403102020-01-11T16:30:27',
-        trainNumber: '310',
+        id: '410403042020-01-12T11:36:58',
+        trainNumber: '304',
         destination: '54th/Cermak',
-        eta: '2020-01-11T16:30:27',
-        route: 'Pink Line',
+        eta: '2020-01-12T11:36:58',
+        lineName: 'Pink Line',
         due: false
       },
       {
-        id: '410403112020-01-11T16:34:40',
-        trainNumber: '311',
+        id: '410403072020-01-12T11:45:58',
+        trainNumber: '307',
+        destination: '54th/Cermak',
+        eta: '2020-01-12T11:45:58',
+        lineName: 'Pink Line',
+        due: false
+      },
+      {
+        id: '410403022020-01-12T11:47:01',
+        trainNumber: '302',
         destination: 'Loop',
-        eta: '2020-01-11T16:34:40',
-        route: 'Pink Line',
-        due: false
-      },
-      {
-        id: '410403132020-01-11T16:45:40',
-        trainNumber: '313',
-        destination: '54th/Cermak',
-        eta: '2020-01-11T16:45:40',
-        route: 'Pink Line',
+        eta: '2020-01-12T11:47:01',
+        lineName: 'Pink Line',
         due: false
       }
     ]
@@ -4111,35 +3847,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '402501182020-01-11T16:23:26',
-        trainNumber: '118',
+        id: '402501022020-01-12T11:32:54',
+        trainNumber: '102',
         destination: 'Forest Park',
-        eta: '2020-01-11T16:23:26',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:32:54',
+        lineName: 'Blue Line',
         due: false
       },
       {
-        id: '402502132020-01-11T16:24:26',
-        trainNumber: '213',
+        id: '402501132020-01-12T11:41:44',
+        trainNumber: '113',
         destination: "O'Hare",
-        eta: '2020-01-11T16:24:26',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:41:44',
+        lineName: 'Blue Line',
         due: false
       },
       {
-        id: '402501252020-01-11T16:38:36',
-        trainNumber: '125',
+        id: '402501162020-01-12T11:43:00',
+        trainNumber: '116',
         destination: 'Forest Park',
-        eta: '2020-01-11T16:38:36',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:43:00',
+        lineName: 'Blue Line',
         due: false
       },
       {
-        id: '402502202020-01-11T16:45:41',
-        trainNumber: '220',
+        id: '402501052020-01-12T12:02:01',
+        trainNumber: '105',
         destination: "O'Hare",
-        eta: '2020-01-11T16:45:41',
-        route: 'Blue Line',
+        eta: '2020-01-12T12:02:01',
+        lineName: 'Blue Line',
         due: false
       }
     ]
@@ -4150,43 +3886,43 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '412904142020-01-11T16:22:30',
-        trainNumber: '414',
-        destination: 'Kimball',
-        eta: '2020-01-11T16:22:30',
-        route: 'Brown line',
-        due: false
-      },
-      {
-        id: '412904192020-01-11T16:22:41',
-        trainNumber: '419',
+        id: '412904042020-01-12T11:30:01',
+        trainNumber: '404',
         destination: 'Loop',
-        eta: '2020-01-11T16:22:41',
-        route: 'Brown line',
+        eta: '2020-01-12T11:30:01',
+        lineName: 'Brown line',
         due: false
       },
       {
-        id: '412904242020-01-11T16:30:41',
-        trainNumber: '424',
-        destination: 'Loop',
-        eta: '2020-01-11T16:30:41',
-        route: 'Brown line',
-        due: false
-      },
-      {
-        id: '412904112020-01-11T16:34:20',
+        id: '412904112020-01-12T11:30:48',
         trainNumber: '411',
         destination: 'Kimball',
-        eta: '2020-01-11T16:34:20',
-        route: 'Brown line',
+        eta: '2020-01-12T11:30:48',
+        lineName: 'Brown line',
         due: false
       },
       {
-        id: '412904152020-01-11T16:37:21',
-        trainNumber: '415',
+        id: '412904092020-01-12T11:36:54',
+        trainNumber: '409',
         destination: 'Kimball',
-        eta: '2020-01-11T16:37:21',
-        route: 'Brown line',
+        eta: '2020-01-12T11:36:54',
+        lineName: 'Brown line',
+        due: false
+      },
+      {
+        id: '412904052020-01-12T11:40:01',
+        trainNumber: '405',
+        destination: 'Loop',
+        eta: '2020-01-12T11:40:01',
+        lineName: 'Brown line',
+        due: false
+      },
+      {
+        id: '412904012020-01-12T11:45:40',
+        trainNumber: '401',
+        destination: 'Kimball',
+        eta: '2020-01-12T11:45:40',
+        lineName: 'Brown line',
         due: false
       }
     ]
@@ -4197,35 +3933,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '411400132020-01-11T16:25:41',
-        trainNumber: '013',
-        destination: 'Harlem/Lake',
-        eta: '2020-01-11T16:25:41',
-        route: 'Green Line',
-        due: false
-      },
-      {
-        id: '411400142020-01-11T16:28:47',
-        trainNumber: '014',
-        destination: 'Cottage Grove',
-        eta: '2020-01-11T16:28:47',
-        route: 'Green Line',
-        due: false
-      },
-      {
-        id: '411400152020-01-11T16:44:40',
-        trainNumber: '015',
+        id: '411400062020-01-12T11:41:01',
+        trainNumber: '006',
         destination: '63rd Street',
-        eta: '2020-01-11T16:44:40',
-        route: 'Green Line',
+        eta: '2020-01-12T11:41:01',
+        lineName: 'Green Line',
         due: false
       },
       {
-        id: '411406092020-01-11T16:45:41',
-        trainNumber: '609',
+        id: '411406022020-01-12T11:43:01',
+        trainNumber: '602',
         destination: 'Harlem/Lake',
-        eta: '2020-01-11T16:45:41',
-        route: 'Green Line',
+        eta: '2020-01-12T11:43:01',
+        lineName: 'Green Line',
+        due: false
+      },
+      {
+        id: '411400082020-01-12T12:05:01',
+        trainNumber: '008',
+        destination: '63rd Street',
+        eta: '2020-01-12T12:05:01',
+        lineName: 'Green Line',
+        due: false
+      },
+      {
+        id: '411400062020-01-12T12:07:01',
+        trainNumber: '006',
+        destination: 'Harlem/Lake',
+        eta: '2020-01-12T12:07:01',
+        lineName: 'Green Line',
         due: false
       }
     ]
@@ -4236,35 +3972,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '406003142020-01-11T16:22:39',
-        trainNumber: '314',
-        destination: 'Loop',
-        eta: '2020-01-11T16:22:39',
-        route: 'Pink Line',
-        due: false
-      },
-      {
-        id: '406003112020-01-11T16:30:40',
-        trainNumber: '311',
-        destination: 'Loop',
-        eta: '2020-01-11T16:30:40',
-        route: 'Pink Line',
-        due: false
-      },
-      {
-        id: '406003102020-01-11T16:34:27',
-        trainNumber: '310',
+        id: '406003032020-01-12T11:28:23',
+        trainNumber: '303',
         destination: '54th/Cermak',
-        eta: '2020-01-11T16:34:27',
-        route: 'Pink Line',
+        eta: '2020-01-12T11:28:23',
+        lineName: 'Pink Line',
         due: false
       },
       {
-        id: '406003132020-01-11T16:49:40',
-        trainNumber: '313',
+        id: '406003052020-01-12T11:31:01',
+        trainNumber: '305',
+        destination: 'Loop',
+        eta: '2020-01-12T11:31:01',
+        lineName: 'Pink Line',
+        due: false
+      },
+      {
+        id: '406003042020-01-12T11:41:58',
+        trainNumber: '304',
         destination: '54th/Cermak',
-        eta: '2020-01-11T16:49:40',
-        route: 'Pink Line',
+        eta: '2020-01-12T11:41:58',
+        lineName: 'Pink Line',
+        due: false
+      },
+      {
+        id: '406003022020-01-12T11:43:01',
+        trainNumber: '302',
+        destination: 'Loop',
+        eta: '2020-01-12T11:43:01',
+        lineName: 'Pink Line',
         due: false
       }
     ]
@@ -4275,35 +4011,35 @@ module.exports = [
     wheelchair: false,
     etas: [
       {
-        id: '413402122020-01-11T16:22:36',
-        trainNumber: '212',
+        id: '413402092020-01-12T11:28:44',
+        trainNumber: '209',
         destination: "O'Hare",
-        eta: '2020-01-11T16:22:36',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:28:44',
+        lineName: 'Blue Line',
         due: false
       },
       {
-        id: '413401252020-01-11T16:27:36',
-        trainNumber: '125',
+        id: '413401162020-01-12T11:34:55',
+        trainNumber: '116',
         destination: 'Forest Park',
-        eta: '2020-01-11T16:27:36',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:34:55',
+        lineName: 'Blue Line',
         due: false
       },
       {
-        id: '413402132020-01-11T16:37:26',
-        trainNumber: '213',
+        id: '413401132020-01-12T11:45:00',
+        trainNumber: '113',
         destination: "O'Hare",
-        eta: '2020-01-11T16:37:26',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:45:00',
+        lineName: 'Blue Line',
         due: false
       },
       {
-        id: '413402182020-01-11T16:44:40',
-        trainNumber: '218',
+        id: '413401102020-01-12T11:45:01',
+        trainNumber: '110',
         destination: 'Forest Park',
-        eta: '2020-01-11T16:44:40',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:45:01',
+        lineName: 'Blue Line',
         due: false
       }
     ]
@@ -4314,51 +4050,51 @@ module.exports = [
     wheelchair: false,
     etas: [
       {
-        id: '401607152020-01-11T16:22:26',
-        trainNumber: '715',
-        destination: 'Midway',
-        eta: '2020-01-11T16:22:26',
-        route: 'Orange Line',
-        due: false
-      },
-      {
-        id: '401603132020-01-11T16:24:30',
-        trainNumber: '313',
+        id: '401603072020-01-12T11:27:58',
+        trainNumber: '307',
         destination: '54th/Cermak',
-        eta: '2020-01-11T16:24:30',
-        route: 'Pink Line',
-        due: false
+        eta: '2020-01-12T11:27:58',
+        lineName: 'Pink Line',
+        due: true
       },
       {
-        id: '401604122020-01-11T16:26:38',
-        trainNumber: '412',
+        id: '401604032020-01-12T11:33:50',
+        trainNumber: '403',
         destination: 'Kimball',
-        eta: '2020-01-11T16:26:38',
-        route: 'Brown line',
+        eta: '2020-01-12T11:33:50',
+        lineName: 'Brown line',
         due: false
       },
       {
-        id: '401607082020-01-11T16:30:28',
-        trainNumber: '708',
+        id: '401607062020-01-12T11:36:40',
+        trainNumber: '706',
         destination: 'Midway',
-        eta: '2020-01-11T16:30:28',
-        route: 'Orange Line',
+        eta: '2020-01-12T11:36:40',
+        lineName: 'Orange Line',
         due: false
       },
       {
-        id: '401603082020-01-11T16:32:16',
+        id: '401603082020-01-12T11:40:26',
         trainNumber: '308',
         destination: '54th/Cermak',
-        eta: '2020-01-11T16:32:16',
-        route: 'Pink Line',
+        eta: '2020-01-12T11:40:26',
+        lineName: 'Pink Line',
         due: false
       },
       {
-        id: '401604222020-01-11T16:36:57',
-        trainNumber: '422',
+        id: '401604082020-01-12T11:45:05',
+        trainNumber: '408',
         destination: 'Kimball',
-        eta: '2020-01-11T16:36:57',
-        route: 'Brown line',
+        eta: '2020-01-12T11:45:05',
+        lineName: 'Brown line',
+        due: false
+      },
+      {
+        id: '401603012020-01-12T11:45:37',
+        trainNumber: '301',
+        destination: '54th/Cermak',
+        eta: '2020-01-12T11:45:37',
+        lineName: 'Pink Line',
         due: false
       }
     ]
@@ -4369,67 +4105,43 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '416609102020-01-11T16:17:46',
-        trainNumber: '910',
-        destination: 'Howard',
-        eta: '2020-01-11T16:17:46',
-        route: 'Red Line',
-        due: true
-      },
-      {
-        id: '416609142020-01-11T16:23:21',
-        trainNumber: '914',
-        destination: 'Howard',
-        eta: '2020-01-11T16:23:21',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '416609172020-01-11T16:23:33',
-        trainNumber: '917',
+        id: '416609092020-01-12T11:28:14',
+        trainNumber: '909',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:23:33',
-        route: 'Red Line',
+        eta: '2020-01-12T11:28:14',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '416608112020-01-11T16:27:27',
-        trainNumber: '811',
+        id: '416608072020-01-12T11:32:35',
+        trainNumber: '807',
         destination: 'Howard',
-        eta: '2020-01-11T16:27:27',
-        route: 'Red Line',
+        eta: '2020-01-12T11:32:35',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '416608172020-01-11T16:29:05',
-        trainNumber: '817',
+        id: '416609052020-01-12T11:34:56',
+        trainNumber: '905',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:29:05',
-        route: 'Red Line',
+        eta: '2020-01-12T11:34:56',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '416609152020-01-11T16:33:34',
-        trainNumber: '915',
+        id: '416608052020-01-12T11:36:56',
+        trainNumber: '805',
         destination: 'Howard',
-        eta: '2020-01-11T16:33:34',
-        route: 'Red Line',
+        eta: '2020-01-12T11:36:56',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '416608192020-01-11T16:34:12',
-        trainNumber: '819',
+        id: '416609062020-01-12T11:40:11',
+        trainNumber: '906',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:34:12',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '416608202020-01-11T16:38:26',
-        trainNumber: '820',
-        destination: 'Howard',
-        eta: '2020-01-11T16:38:26',
-        route: 'Red Line',
+        eta: '2020-01-12T11:40:11',
+        lineName: 'Red Line',
         due: false
       }
     ]
@@ -4440,35 +4152,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '407000092020-01-11T16:28:27',
-        trainNumber: '009',
+        id: '407006062020-01-12T11:30:53',
+        trainNumber: '606',
+        destination: 'Ashland/63rd',
+        eta: '2020-01-12T11:30:53',
+        lineName: 'Green Line',
+        due: false
+      },
+      {
+        id: '407000072020-01-12T11:35:46',
+        trainNumber: '007',
         destination: 'Harlem/Lake',
-        eta: '2020-01-11T16:28:27',
-        route: 'Green Line',
+        eta: '2020-01-12T11:35:46',
+        lineName: 'Green Line',
         due: false
       },
       {
-        id: '407000162020-01-11T16:28:41',
-        trainNumber: '016',
+        id: '407000022020-01-12T11:44:00',
+        trainNumber: '002',
         destination: '63rd Street',
-        eta: '2020-01-11T16:28:41',
-        route: 'Green Line',
+        eta: '2020-01-12T11:44:00',
+        lineName: 'Green Line',
         due: false
       },
       {
-        id: '407000102020-01-11T16:33:39',
-        trainNumber: '010',
+        id: '407000042020-01-12T11:50:00',
+        trainNumber: '004',
         destination: 'Harlem/Lake',
-        eta: '2020-01-11T16:33:39',
-        route: 'Green Line',
-        due: false
-      },
-      {
-        id: '407000172020-01-11T16:38:41',
-        trainNumber: '017',
-        destination: '63rd Street',
-        eta: '2020-01-11T16:38:41',
-        route: 'Green Line',
+        eta: '2020-01-12T11:50:00',
+        lineName: 'Green Line',
         due: false
       }
     ]
@@ -4479,43 +4191,43 @@ module.exports = [
     wheelchair: false,
     etas: [
       {
-        id: '407708152020-01-11T16:25:30',
-        trainNumber: '815',
+        id: '407709072020-01-12T11:29:47',
+        trainNumber: '907',
         destination: 'Howard',
-        eta: '2020-01-11T16:25:30',
-        route: 'Red Line',
+        eta: '2020-01-12T11:29:47',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '407709082020-01-11T16:26:59',
-        trainNumber: '908',
+        id: '407708122020-01-12T11:29:57',
+        trainNumber: '812',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:26:59',
-        route: 'Red Line',
+        eta: '2020-01-12T11:29:57',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '407708242020-01-11T16:31:31',
-        trainNumber: '824',
+        id: '407708112020-01-12T11:34:59',
+        trainNumber: '811',
+        destination: 'Howard',
+        eta: '2020-01-12T11:34:59',
+        lineName: 'Red Line',
+        due: false
+      },
+      {
+        id: '407708132020-01-12T11:35:00',
+        trainNumber: '813',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:31:31',
-        route: 'Red Line',
+        eta: '2020-01-12T11:35:00',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '407709292020-01-11T16:35:39',
-        trainNumber: '929',
+        id: '407708062020-01-12T11:40:55',
+        trainNumber: '806',
         destination: 'Howard',
-        eta: '2020-01-11T16:35:39',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '407709192020-01-11T16:39:20',
-        trainNumber: '919',
-        destination: 'Howard',
-        eta: '2020-01-11T16:39:20',
-        route: 'Red Line',
+        eta: '2020-01-12T11:40:55',
+        lineName: 'Red Line',
         due: false
       }
     ]
@@ -4526,35 +4238,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '410505042020-01-11T16:28:34',
+        id: '410505012020-01-12T11:28:01',
+        trainNumber: '501',
+        destination: 'Howard',
+        eta: '2020-01-12T11:28:01',
+        lineName: 'Purple Line',
+        due: true
+      },
+      {
+        id: '410505022020-01-12T11:28:54',
+        trainNumber: '502',
+        destination: 'Linden',
+        eta: '2020-01-12T11:28:54',
+        lineName: 'Purple Line',
+        due: false
+      },
+      {
+        id: '410505042020-01-12T11:38:00',
         trainNumber: '504',
         destination: 'Linden',
-        eta: '2020-01-11T16:28:34',
-        route: 'Purple Line',
+        eta: '2020-01-12T11:38:00',
+        lineName: 'Purple Line',
         due: false
       },
       {
-        id: '410505062020-01-11T16:28:41',
-        trainNumber: '506',
+        id: '410505022020-01-12T11:40:01',
+        trainNumber: '502',
         destination: 'Howard',
-        eta: '2020-01-11T16:28:41',
-        route: 'Purple Line',
-        due: false
-      },
-      {
-        id: '410505052020-01-11T16:38:40',
-        trainNumber: '505',
-        destination: 'Linden',
-        eta: '2020-01-11T16:38:40',
-        route: 'Purple Line',
-        due: false
-      },
-      {
-        id: '410505042020-01-11T16:40:41',
-        trainNumber: '504',
-        destination: 'Howard',
-        eta: '2020-01-11T16:40:41',
-        route: 'Purple Line',
+        eta: '2020-01-12T11:40:01',
+        lineName: 'Purple Line',
         due: false
       }
     ]
@@ -4565,27 +4277,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '410201132020-01-11T16:22:20',
-        trainNumber: '113',
+        id: '410202062020-01-12T11:33:53',
+        trainNumber: '206',
         destination: "O'Hare",
-        eta: '2020-01-11T16:22:20',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:33:53',
+        lineName: 'Blue Line',
         due: false
       },
       {
-        id: '410201202020-01-11T16:26:38',
-        trainNumber: '120',
+        id: '410201102020-01-12T11:33:57',
+        trainNumber: '110',
         destination: 'Forest Park',
-        eta: '2020-01-11T16:26:38',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:33:57',
+        lineName: 'Blue Line',
         due: false
       },
       {
-        id: '410201222020-01-11T16:34:58',
-        trainNumber: '122',
+        id: '410202012020-01-12T11:38:47',
+        trainNumber: '201',
+        destination: 'Forest Park',
+        eta: '2020-01-12T11:38:47',
+        lineName: 'Blue Line',
+        due: false
+      },
+      {
+        id: '410202092020-01-12T11:51:01',
+        trainNumber: '209',
         destination: "O'Hare",
-        eta: '2020-01-11T16:34:58',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:51:01',
+        lineName: 'Blue Line',
         due: false
       }
     ]
@@ -4596,43 +4316,43 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '413009182020-01-11T16:21:17',
-        trainNumber: '918',
-        destination: 'Howard',
-        eta: '2020-01-11T16:21:17',
-        route: 'Red Line',
+        id: '413008132020-01-12T11:28:01',
+        trainNumber: '813',
+        destination: '95th/Dan Ryan',
+        eta: '2020-01-12T11:28:01',
+        lineName: 'Red Line',
         due: true
       },
       {
-        id: '413008242020-01-11T16:22:31',
-        trainNumber: '824',
-        destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:22:31',
-        route: 'Red Line',
+        id: '413008022020-01-12T11:31:20',
+        trainNumber: '802',
+        destination: 'Howard',
+        eta: '2020-01-12T11:31:20',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '413008102020-01-11T16:26:41',
+        id: '413008102020-01-12T11:35:01',
         trainNumber: '810',
-        destination: 'Howard',
-        eta: '2020-01-11T16:26:41',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '413009092020-01-11T16:28:41',
-        trainNumber: '909',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:28:41',
-        route: 'Red Line',
+        eta: '2020-01-12T11:35:01',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '413008152020-01-11T16:32:30',
-        trainNumber: '815',
+        id: '413009072020-01-12T11:37:47',
+        trainNumber: '907',
         destination: 'Howard',
-        eta: '2020-01-11T16:32:30',
-        route: 'Red Line',
+        eta: '2020-01-12T11:37:47',
+        lineName: 'Red Line',
+        due: false
+      },
+      {
+        id: '413008112020-01-12T11:43:59',
+        trainNumber: '811',
+        destination: 'Howard',
+        eta: '2020-01-12T11:43:59',
+        lineName: 'Red Line',
         due: false
       }
     ]
@@ -4643,35 +4363,35 @@ module.exports = [
     wheelchair: false,
     etas: [
       {
-        id: '402705072020-01-11T16:23:19',
-        trainNumber: '507',
-        destination: 'Howard',
-        eta: '2020-01-11T16:23:19',
-        route: 'Purple Line',
+        id: '402705042020-01-12T11:29:01',
+        trainNumber: '504',
+        destination: 'Linden',
+        eta: '2020-01-12T11:29:01',
+        lineName: 'Purple Line',
         due: false
       },
       {
-        id: '402705052020-01-11T16:29:41',
+        id: '402705012020-01-12T11:37:01',
+        trainNumber: '501',
+        destination: 'Howard',
+        eta: '2020-01-12T11:37:01',
+        lineName: 'Purple Line',
+        due: false
+      },
+      {
+        id: '402705052020-01-12T11:41:01',
         trainNumber: '505',
         destination: 'Linden',
-        eta: '2020-01-11T16:29:41',
-        route: 'Purple Line',
+        eta: '2020-01-12T11:41:01',
+        lineName: 'Purple Line',
         due: false
       },
       {
-        id: '402705062020-01-11T16:37:40',
-        trainNumber: '506',
+        id: '402705022020-01-12T11:49:01',
+        trainNumber: '502',
         destination: 'Howard',
-        eta: '2020-01-11T16:37:40',
-        route: 'Purple Line',
-        due: false
-      },
-      {
-        id: '402705082020-01-11T16:41:41',
-        trainNumber: '508',
-        destination: 'Linden',
-        eta: '2020-01-11T16:41:41',
-        route: 'Purple Line',
+        eta: '2020-01-12T11:49:01',
+        lineName: 'Purple Line',
         due: false
       }
     ]
@@ -4682,51 +4402,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '404604182020-01-11T16:22:24',
-        trainNumber: '418',
-        destination: 'Kimball',
-        eta: '2020-01-11T16:22:24',
-        route: 'Brown line',
-        due: false
-      },
-      {
-        id: '404604122020-01-11T16:21:38',
-        trainNumber: '412',
+        id: '404604032020-01-12T11:28:50',
+        trainNumber: '403',
         destination: 'Loop',
-        eta: '2020-01-11T16:21:38',
-        route: 'Brown line',
-        due: true
+        eta: '2020-01-12T11:28:50',
+        lineName: 'Brown line',
+        due: false
       },
       {
-        id: '404604212020-01-11T16:28:08',
-        trainNumber: '421',
+        id: '404604102020-01-12T11:33:58',
+        trainNumber: '410',
         destination: 'Kimball',
-        eta: '2020-01-11T16:28:08',
-        route: 'Brown line',
+        eta: '2020-01-12T11:33:58',
+        lineName: 'Brown line',
         due: false
       },
       {
-        id: '404604222020-01-11T16:31:57',
-        trainNumber: '422',
+        id: '404604082020-01-12T11:40:05',
+        trainNumber: '408',
         destination: 'Loop',
-        eta: '2020-01-11T16:31:57',
-        route: 'Brown line',
+        eta: '2020-01-12T11:40:05',
+        lineName: 'Brown line',
         due: false
       },
       {
-        id: '404604122020-01-11T16:36:38',
-        trainNumber: '412',
+        id: '404604032020-01-12T11:43:50',
+        trainNumber: '403',
         destination: 'Kimball',
-        eta: '2020-01-11T16:36:38',
-        route: 'Brown line',
-        due: false
-      },
-      {
-        id: '404604132020-01-11T16:37:32',
-        trainNumber: '413',
-        destination: 'Loop',
-        eta: '2020-01-11T16:37:32',
-        route: 'Brown line',
+        eta: '2020-01-12T11:43:50',
+        lineName: 'Brown line',
         due: false
       }
     ]
@@ -4737,35 +4441,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '409307172020-01-11T16:22:41',
-        trainNumber: '717',
-        destination: 'Loop',
-        eta: '2020-01-11T16:22:41',
-        route: 'Orange Line',
-        due: false
-      },
-      {
-        id: '409307122020-01-11T16:26:38',
-        trainNumber: '712',
+        id: '409307022020-01-12T11:33:54',
+        trainNumber: '702',
         destination: 'Midway',
-        eta: '2020-01-11T16:26:38',
-        route: 'Orange Line',
+        eta: '2020-01-12T11:33:54',
+        lineName: 'Orange Line',
         due: false
       },
       {
-        id: '409307142020-01-11T16:30:41',
-        trainNumber: '714',
+        id: '409307052020-01-12T11:37:01',
+        trainNumber: '705',
         destination: 'Loop',
-        eta: '2020-01-11T16:30:41',
-        route: 'Orange Line',
+        eta: '2020-01-12T11:37:01',
+        lineName: 'Orange Line',
         due: false
       },
       {
-        id: '409307102020-01-11T16:38:29',
-        trainNumber: '710',
+        id: '409307032020-01-12T11:42:49',
+        trainNumber: '703',
         destination: 'Midway',
-        eta: '2020-01-11T16:38:29',
-        route: 'Orange Line',
+        eta: '2020-01-12T11:42:49',
+        lineName: 'Orange Line',
+        due: false
+      },
+      {
+        id: '409307012020-01-12T11:49:01',
+        trainNumber: '701',
+        destination: 'Loop',
+        eta: '2020-01-12T11:49:01',
+        lineName: 'Orange Line',
         due: false
       }
     ]
@@ -4776,35 +4480,35 @@ module.exports = [
     wheelchair: false,
     etas: [
       {
-        id: '407901252020-01-11T16:23:36',
-        trainNumber: '125',
-        destination: 'Forest Park',
-        eta: '2020-01-11T16:23:36',
-        route: 'Blue Line',
-        due: false
-      },
-      {
-        id: '407902122020-01-11T16:25:36',
-        trainNumber: '212',
+        id: '407902092020-01-12T11:31:44',
+        trainNumber: '209',
         destination: "O'Hare",
-        eta: '2020-01-11T16:25:36',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:31:44',
+        lineName: 'Blue Line',
         due: false
       },
       {
-        id: '407902182020-01-11T16:41:41',
-        trainNumber: '218',
-        destination: 'Forest Park',
-        eta: '2020-01-11T16:41:41',
-        route: 'Blue Line',
-        due: false
-      },
-      {
-        id: '407901162020-01-11T16:46:41',
+        id: '407901162020-01-12T11:32:55',
         trainNumber: '116',
+        destination: 'Forest Park',
+        eta: '2020-01-12T11:32:55',
+        lineName: 'Blue Line',
+        due: false
+      },
+      {
+        id: '407901102020-01-12T11:42:01',
+        trainNumber: '110',
+        destination: 'Forest Park',
+        eta: '2020-01-12T11:42:01',
+        lineName: 'Blue Line',
+        due: false
+      },
+      {
+        id: '407901132020-01-12T11:48:01',
+        trainNumber: '113',
         destination: "O'Hare",
-        eta: '2020-01-11T16:46:41',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:48:01',
+        lineName: 'Blue Line',
         due: false
       }
     ]
@@ -4815,67 +4519,51 @@ module.exports = [
     wheelchair: false,
     etas: [
       {
-        id: '410909102020-01-11T16:17:46',
-        trainNumber: '910',
-        destination: 'Howard',
-        eta: '2020-01-11T16:17:46',
-        route: 'Red Line',
-        due: true
-      },
-      {
-        id: '410909142020-01-11T16:22:21',
-        trainNumber: '914',
-        destination: 'Howard',
-        eta: '2020-01-11T16:22:21',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '410909172020-01-11T16:24:33',
-        trainNumber: '917',
+        id: '410909092020-01-12T11:29:14',
+        trainNumber: '909',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:24:33',
-        route: 'Red Line',
+        eta: '2020-01-12T11:29:14',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '410908112020-01-11T16:26:27',
-        trainNumber: '811',
+        id: '410908072020-01-12T11:31:35',
+        trainNumber: '807',
         destination: 'Howard',
-        eta: '2020-01-11T16:26:27',
-        route: 'Red Line',
+        eta: '2020-01-12T11:31:35',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '410908172020-01-11T16:31:05',
-        trainNumber: '817',
+        id: '410908052020-01-12T11:35:56',
+        trainNumber: '805',
+        destination: 'Howard',
+        eta: '2020-01-12T11:35:56',
+        lineName: 'Red Line',
+        due: false
+      },
+      {
+        id: '410909052020-01-12T11:35:56',
+        trainNumber: '905',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:31:05',
-        route: 'Red Line',
+        eta: '2020-01-12T11:35:56',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '410909152020-01-11T16:32:34',
-        trainNumber: '915',
-        destination: 'Howard',
-        eta: '2020-01-11T16:32:34',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '410908192020-01-11T16:36:12',
-        trainNumber: '819',
+        id: '410909062020-01-12T11:42:11',
+        trainNumber: '906',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:36:12',
-        route: 'Red Line',
+        eta: '2020-01-12T11:42:11',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '410908202020-01-11T16:37:26',
-        trainNumber: '820',
+        id: '410908082020-01-12T11:45:17',
+        trainNumber: '808',
         destination: 'Howard',
-        eta: '2020-01-11T16:37:26',
-        route: 'Red Line',
+        eta: '2020-01-12T11:45:17',
+        lineName: 'Red Line',
         due: false
       }
     ]
@@ -4886,35 +4574,35 @@ module.exports = [
     wheelchair: false,
     etas: [
       {
-        id: '413301132020-01-11T16:31:20',
-        trainNumber: '113',
-        destination: "O'Hare",
-        eta: '2020-01-11T16:31:20',
-        route: 'Blue Line',
-        due: false
-      },
-      {
-        id: '413302182020-01-11T16:31:59',
-        trainNumber: '218',
+        id: '413302012020-01-12T11:29:47',
+        trainNumber: '201',
         destination: 'Forest Park',
-        eta: '2020-01-11T16:31:59',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:29:47',
+        lineName: 'Blue Line',
         due: false
       },
       {
-        id: '413302122020-01-11T16:40:40',
-        trainNumber: '212',
+        id: '413301112020-01-12T11:31:53',
+        trainNumber: '111',
         destination: "O'Hare",
-        eta: '2020-01-11T16:40:40',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:31:53',
+        lineName: 'Blue Line',
         due: false
       },
       {
-        id: '413302192020-01-11T16:47:41',
-        trainNumber: '219',
+        id: '413302062020-01-12T11:42:53',
+        trainNumber: '206',
+        destination: "O'Hare",
+        eta: '2020-01-12T11:42:53',
+        lineName: 'Blue Line',
+        due: false
+      },
+      {
+        id: '413301082020-01-12T11:47:01',
+        trainNumber: '108',
         destination: 'Forest Park',
-        eta: '2020-01-11T16:47:41',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:47:01',
+        lineName: 'Blue Line',
         due: false
       }
     ]
@@ -4925,43 +4613,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '415004232020-01-11T16:22:05',
-        trainNumber: '423',
+        id: '415004072020-01-12T11:27:53',
+        trainNumber: '407',
         destination: 'Loop',
-        eta: '2020-01-11T16:22:05',
-        route: 'Brown line',
-        due: false
+        eta: '2020-01-12T11:27:53',
+        lineName: 'Brown line',
+        due: true
       },
       {
-        id: '415004112020-01-11T16:26:20',
-        trainNumber: '411',
+        id: '415004092020-01-12T11:28:54',
+        trainNumber: '409',
         destination: 'Kimball',
-        eta: '2020-01-11T16:26:20',
-        route: 'Brown line',
+        eta: '2020-01-12T11:28:54',
+        lineName: 'Brown line',
         due: false
       },
       {
-        id: '415004152020-01-11T16:29:21',
-        trainNumber: '415',
+        id: '415004012020-01-12T11:37:40',
+        trainNumber: '401',
         destination: 'Kimball',
-        eta: '2020-01-11T16:29:21',
-        route: 'Brown line',
+        eta: '2020-01-12T11:37:40',
+        lineName: 'Brown line',
         due: false
       },
       {
-        id: '415004192020-01-11T16:31:41',
-        trainNumber: '419',
+        id: '415004042020-01-12T11:38:01',
+        trainNumber: '404',
         destination: 'Loop',
-        eta: '2020-01-11T16:31:41',
-        route: 'Brown line',
-        due: false
-      },
-      {
-        id: '415004162020-01-11T16:39:21',
-        trainNumber: '416',
-        destination: 'Kimball',
-        eta: '2020-01-11T16:39:21',
-        route: 'Brown line',
+        eta: '2020-01-12T11:38:01',
+        lineName: 'Brown line',
         due: false
       }
     ]
@@ -4972,51 +4652,51 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '415103082020-01-11T16:23:16',
+        id: '415103082020-01-12T11:31:26',
         trainNumber: '308',
         destination: 'Loop',
-        eta: '2020-01-11T16:23:16',
-        route: 'Pink Line',
+        eta: '2020-01-12T11:31:26',
+        lineName: 'Pink Line',
         due: false
       },
       {
-        id: '415106102020-01-11T16:26:36',
-        trainNumber: '610',
-        destination: 'Ashland/63rd',
-        eta: '2020-01-11T16:26:36',
-        route: 'Green Line',
-        due: false
-      },
-      {
-        id: '415106132020-01-11T16:31:20',
-        trainNumber: '613',
-        destination: 'Harlem/Lake',
-        eta: '2020-01-11T16:31:20',
-        route: 'Green Line',
-        due: false
-      },
-      {
-        id: '415103132020-01-11T16:31:30',
-        trainNumber: '313',
+        id: '415103072020-01-12T11:33:58',
+        trainNumber: '307',
         destination: '54th/Cermak',
-        eta: '2020-01-11T16:31:30',
-        route: 'Pink Line',
+        eta: '2020-01-12T11:33:58',
+        lineName: 'Pink Line',
         due: false
       },
       {
-        id: '415106112020-01-11T16:33:38',
-        trainNumber: '611',
+        id: '415100082020-01-12T11:33:40',
+        trainNumber: '008',
         destination: 'Cottage Grove',
-        eta: '2020-01-11T16:33:38',
-        route: 'Green Line',
+        eta: '2020-01-12T11:33:40',
+        lineName: 'Green Line',
         due: false
       },
       {
-        id: '415103082020-01-11T16:39:16',
-        trainNumber: '308',
-        destination: '54th/Cermak',
-        eta: '2020-01-11T16:39:16',
-        route: 'Pink Line',
+        id: '415100042020-01-12T11:34:54',
+        trainNumber: '004',
+        destination: 'Harlem/Lake',
+        eta: '2020-01-12T11:34:54',
+        lineName: 'Green Line',
+        due: false
+      },
+      {
+        id: '415103012020-01-12T11:36:37',
+        trainNumber: '301',
+        destination: 'Loop',
+        eta: '2020-01-12T11:36:37',
+        lineName: 'Pink Line',
+        due: false
+      },
+      {
+        id: '415106062020-01-12T11:45:53',
+        trainNumber: '606',
+        destination: 'Ashland/63rd',
+        eta: '2020-01-12T11:45:53',
+        lineName: 'Green Line',
         due: false
       }
     ]
@@ -5027,43 +4707,43 @@ module.exports = [
     wheelchair: false,
     etas: [
       {
-        id: '401009182020-01-11T16:22:17',
-        trainNumber: '918',
-        destination: 'Howard',
-        eta: '2020-01-11T16:22:17',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '401008242020-01-11T16:21:31',
-        trainNumber: '824',
+        id: '401008132020-01-12T11:28:01',
+        trainNumber: '813',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:21:31',
-        route: 'Red Line',
+        eta: '2020-01-12T11:28:01',
+        lineName: 'Red Line',
         due: true
       },
       {
-        id: '401009092020-01-11T16:27:40',
-        trainNumber: '909',
-        destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:27:40',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '401008102020-01-11T16:28:41',
+        id: '401008102020-01-12T11:33:01',
         trainNumber: '810',
-        destination: 'Howard',
-        eta: '2020-01-11T16:28:41',
-        route: 'Red Line',
+        destination: '95th/Dan Ryan',
+        eta: '2020-01-12T11:33:01',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '401008152020-01-11T16:35:30',
-        trainNumber: '815',
+        id: '401008022020-01-12T11:33:20',
+        trainNumber: '802',
         destination: 'Howard',
-        eta: '2020-01-11T16:35:30',
-        route: 'Red Line',
+        eta: '2020-01-12T11:33:20',
+        lineName: 'Red Line',
+        due: false
+      },
+      {
+        id: '401009072020-01-12T11:40:47',
+        trainNumber: '907',
+        destination: 'Howard',
+        eta: '2020-01-12T11:40:47',
+        lineName: 'Red Line',
+        due: false
+      },
+      {
+        id: '401008112020-01-12T11:45:59',
+        trainNumber: '811',
+        destination: 'Howard',
+        eta: '2020-01-12T11:45:59',
+        lineName: 'Red Line',
         due: false
       }
     ]
@@ -5074,67 +4754,51 @@ module.exports = [
     wheelchair: false,
     etas: [
       {
-        id: '406509292020-01-11T16:21:39',
-        trainNumber: '929',
+        id: '406508062020-01-12T11:27:55',
+        trainNumber: '806',
         destination: 'Howard',
-        eta: '2020-01-11T16:21:39',
-        route: 'Red Line',
-        due: false
+        eta: '2020-01-12T11:27:55',
+        lineName: 'Red Line',
+        due: true
       },
       {
-        id: '406508172020-01-11T16:22:05',
-        trainNumber: '817',
+        id: '406509052020-01-12T11:27:56',
+        trainNumber: '905',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:22:05',
-        route: 'Red Line',
-        due: false
+        eta: '2020-01-12T11:27:56',
+        lineName: 'Red Line',
+        due: true
       },
       {
-        id: '406509192020-01-11T16:24:20',
-        trainNumber: '919',
-        destination: 'Howard',
-        eta: '2020-01-11T16:24:20',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '406508192020-01-11T16:27:12',
-        trainNumber: '819',
+        id: '406509062020-01-12T11:33:11',
+        trainNumber: '906',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:27:12',
-        route: 'Red Line',
+        eta: '2020-01-12T11:33:11',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '406509102020-01-11T16:24:46',
-        trainNumber: '910',
+        id: '406508072020-01-12T11:39:35',
+        trainNumber: '807',
         destination: 'Howard',
-        eta: '2020-01-11T16:24:46',
-        route: 'Red Line',
+        eta: '2020-01-12T11:39:35',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '406509142020-01-11T16:30:21',
-        trainNumber: '914',
+        id: '406508052020-01-12T11:43:56',
+        trainNumber: '805',
         destination: 'Howard',
-        eta: '2020-01-11T16:30:21',
-        route: 'Red Line',
+        eta: '2020-01-12T11:43:56',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '406508132020-01-11T16:32:32',
-        trainNumber: '813',
+        id: '406508122020-01-12T11:43:57',
+        trainNumber: '812',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:32:32',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '406508112020-01-11T16:35:27',
-        trainNumber: '811',
-        destination: 'Howard',
-        eta: '2020-01-11T16:35:27',
-        route: 'Red Line',
+        eta: '2020-01-12T11:43:57',
+        lineName: 'Red Line',
         due: false
       }
     ]
@@ -5145,35 +4809,35 @@ module.exports = [
     wheelchair: false,
     etas: [
       {
-        id: '404005042020-01-11T16:24:34',
+        id: '404005012020-01-12T11:32:01',
+        trainNumber: '501',
+        destination: 'Howard',
+        eta: '2020-01-12T11:32:01',
+        lineName: 'Purple Line',
+        due: false
+      },
+      {
+        id: '404005042020-01-12T11:35:01',
         trainNumber: '504',
         destination: 'Linden',
-        eta: '2020-01-11T16:24:34',
-        route: 'Purple Line',
+        eta: '2020-01-12T11:35:01',
+        lineName: 'Purple Line',
         due: false
       },
       {
-        id: '404005062020-01-11T16:31:41',
-        trainNumber: '506',
+        id: '404005022020-01-12T11:44:01',
+        trainNumber: '502',
         destination: 'Howard',
-        eta: '2020-01-11T16:31:41',
-        route: 'Purple Line',
+        eta: '2020-01-12T11:44:01',
+        lineName: 'Purple Line',
         due: false
       },
       {
-        id: '404005052020-01-11T16:34:41',
+        id: '404005052020-01-12T11:47:01',
         trainNumber: '505',
         destination: 'Linden',
-        eta: '2020-01-11T16:34:41',
-        route: 'Purple Line',
-        due: false
-      },
-      {
-        id: '404005042020-01-11T16:43:41',
-        trainNumber: '504',
-        destination: 'Howard',
-        eta: '2020-01-11T16:43:41',
-        route: 'Purple Line',
+        eta: '2020-01-12T11:47:01',
+        lineName: 'Purple Line',
         due: false
       }
     ]
@@ -5184,35 +4848,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '408902192020-01-11T16:26:34',
-        trainNumber: '219',
-        destination: "O'Hare",
-        eta: '2020-01-11T16:26:34',
-        route: 'Blue Line',
-        due: false
-      },
-      {
-        id: '408902192020-01-11T16:30:41',
-        trainNumber: '219',
+        id: '408901082020-01-12T11:30:01',
+        trainNumber: '108',
         destination: 'Forest Park',
-        eta: '2020-01-11T16:30:41',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:30:01',
+        lineName: 'Blue Line',
         due: false
       },
       {
-        id: '408901222020-01-11T16:43:40',
-        trainNumber: '122',
+        id: '408902072020-01-12T11:31:58',
+        trainNumber: '207',
         destination: "O'Hare",
-        eta: '2020-01-11T16:43:40',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:31:58',
+        lineName: 'Blue Line',
         due: false
       },
       {
-        id: '408901172020-01-11T16:45:41',
-        trainNumber: '117',
+        id: '408902032020-01-12T11:45:01',
+        trainNumber: '203',
         destination: 'Forest Park',
-        eta: '2020-01-11T16:45:41',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:45:01',
+        lineName: 'Blue Line',
+        due: false
+      },
+      {
+        id: '408901112020-01-12T11:46:01',
+        trainNumber: '111',
+        destination: "O'Hare",
+        eta: '2020-01-12T11:46:01',
+        lineName: 'Blue Line',
         due: false
       }
     ]
@@ -5223,43 +4887,35 @@ module.exports = [
     wheelchair: false,
     etas: [
       {
-        id: '401801162020-01-11T16:21:41',
-        trainNumber: '116',
+        id: '401801132020-01-12T11:28:44',
+        trainNumber: '113',
         destination: "O'Hare",
-        eta: '2020-01-11T16:21:41',
-        route: 'Blue Line',
-        due: true
-      },
-      {
-        id: '401801162020-01-11T16:28:30',
-        trainNumber: '116',
-        destination: 'Forest Park',
-        eta: '2020-01-11T16:28:30',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:28:44',
+        lineName: 'Blue Line',
         due: false
       },
       {
-        id: '401802102020-01-11T16:31:20',
-        trainNumber: '210',
+        id: '401801052020-01-12T11:28:58',
+        trainNumber: '105',
         destination: 'Forest Park',
-        eta: '2020-01-11T16:31:20',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:28:58',
+        lineName: 'Blue Line',
         due: false
       },
       {
-        id: '401802202020-01-11T16:34:41',
-        trainNumber: '220',
+        id: '401801022020-01-12T11:44:54',
+        trainNumber: '102',
+        destination: 'Forest Park',
+        eta: '2020-01-12T11:44:54',
+        lineName: 'Blue Line',
+        due: false
+      },
+      {
+        id: '401801052020-01-12T11:50:00',
+        trainNumber: '105',
         destination: "O'Hare",
-        eta: '2020-01-11T16:34:41',
-        route: 'Blue Line',
-        due: false
-      },
-      {
-        id: '401801182020-01-11T16:36:26',
-        trainNumber: '118',
-        destination: 'Forest Park',
-        eta: '2020-01-11T16:36:26',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:50:00',
+        lineName: 'Blue Line',
         due: false
       }
     ]
@@ -5270,35 +4926,35 @@ module.exports = [
     wheelchair: false,
     etas: [
       {
-        id: '413500162020-01-11T16:21:41',
-        trainNumber: '016',
-        destination: '63rd Street',
-        eta: '2020-01-11T16:21:41',
-        route: 'Green Line',
-        due: true
-      },
-      {
-        id: '413500172020-01-11T16:32:41',
-        trainNumber: '017',
-        destination: '63rd Street',
-        eta: '2020-01-11T16:32:41',
-        route: 'Green Line',
+        id: '413500032020-01-12T11:29:57',
+        trainNumber: '003',
+        destination: 'Harlem/Lake',
+        eta: '2020-01-12T11:29:57',
+        lineName: 'Green Line',
         due: false
       },
       {
-        id: '413500092020-01-11T16:34:27',
-        trainNumber: '009',
-        destination: 'Harlem/Lake',
-        eta: '2020-01-11T16:34:27',
-        route: 'Green Line',
+        id: '413500022020-01-12T11:38:01',
+        trainNumber: '002',
+        destination: '63rd Street',
+        eta: '2020-01-12T11:38:01',
+        lineName: 'Green Line',
         due: false
       },
       {
-        id: '413500102020-01-11T16:38:39',
-        trainNumber: '010',
+        id: '413500072020-01-12T11:40:46',
+        trainNumber: '007',
         destination: 'Harlem/Lake',
-        eta: '2020-01-11T16:38:39',
-        route: 'Green Line',
+        eta: '2020-01-12T11:40:46',
+        lineName: 'Green Line',
+        due: false
+      },
+      {
+        id: '413506072020-01-12T11:50:01',
+        trainNumber: '607',
+        destination: '63rd Street',
+        eta: '2020-01-12T11:50:01',
+        lineName: 'Green Line',
         due: false
       }
     ]
@@ -5309,35 +4965,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '416805932020-01-11T16:21:41',
-        trainNumber: '593',
-        destination: 'Howard',
-        eta: '2020-01-11T16:21:41',
-        route: 'Yellow Line',
+        id: '416805922020-01-12T11:28:01',
+        trainNumber: '592',
+        destination: 'Skokie',
+        eta: '2020-01-12T11:28:01',
+        lineName: 'Yellow Line',
         due: true
       },
       {
-        id: '416805932020-01-11T16:24:22',
-        trainNumber: '593',
-        destination: 'Skokie',
-        eta: '2020-01-11T16:24:22',
-        route: 'Yellow Line',
-        due: false
-      },
-      {
-        id: '416805942020-01-11T16:32:41',
-        trainNumber: '594',
+        id: '416805922020-01-12T11:32:01',
+        trainNumber: '592',
         destination: 'Howard',
-        eta: '2020-01-11T16:32:41',
-        route: 'Yellow Line',
+        eta: '2020-01-12T11:32:01',
+        lineName: 'Yellow Line',
         due: false
       },
       {
-        id: '416805942020-01-11T16:52:40',
-        trainNumber: '594',
+        id: '416805912020-01-12T11:38:01',
+        trainNumber: '591',
         destination: 'Skokie',
-        eta: '2020-01-11T16:52:40',
-        route: 'Yellow Line',
+        eta: '2020-01-12T11:38:01',
+        lineName: 'Yellow Line',
+        due: false
+      },
+      {
+        id: '416805912020-01-12T11:47:01',
+        trainNumber: '591',
+        destination: 'Howard',
+        eta: '2020-01-12T11:47:01',
+        lineName: 'Yellow Line',
         due: false
       }
     ]
@@ -5348,43 +5004,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '413104112020-01-11T16:21:20',
-        trainNumber: '411',
-        destination: 'Kimball',
-        eta: '2020-01-11T16:21:20',
-        route: 'Brown line',
-        due: true
-      },
-      {
-        id: '413104152020-01-11T16:24:21',
-        trainNumber: '415',
-        destination: 'Kimball',
-        eta: '2020-01-11T16:24:21',
-        route: 'Brown line',
-        due: false
-      },
-      {
-        id: '413104232020-01-11T16:26:05',
-        trainNumber: '423',
+        id: '413104072020-01-12T11:31:53',
+        trainNumber: '407',
         destination: 'Loop',
-        eta: '2020-01-11T16:26:05',
-        route: 'Brown line',
+        eta: '2020-01-12T11:31:53',
+        lineName: 'Brown line',
         due: false
       },
       {
-        id: '413104162020-01-11T16:34:21',
-        trainNumber: '416',
+        id: '413104012020-01-12T11:32:40',
+        trainNumber: '401',
         destination: 'Kimball',
-        eta: '2020-01-11T16:34:21',
-        route: 'Brown line',
+        eta: '2020-01-12T11:32:40',
+        lineName: 'Brown line',
         due: false
       },
       {
-        id: '413104192020-01-11T16:35:40',
-        trainNumber: '419',
+        id: '413104042020-01-12T11:42:00',
+        trainNumber: '404',
         destination: 'Loop',
-        eta: '2020-01-11T16:35:40',
-        route: 'Brown line',
+        eta: '2020-01-12T11:42:00',
+        lineName: 'Brown line',
+        due: false
+      },
+      {
+        id: '413104022020-01-12T11:45:56',
+        trainNumber: '402',
+        destination: 'Kimball',
+        eta: '2020-01-12T11:45:56',
+        lineName: 'Brown line',
         due: false
       }
     ]
@@ -5395,35 +5043,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '410303102020-01-11T16:22:27',
-        trainNumber: '310',
+        id: '410303042020-01-12T11:28:58',
+        trainNumber: '304',
         destination: '54th/Cermak',
-        eta: '2020-01-11T16:22:27',
-        route: 'Pink Line',
+        eta: '2020-01-12T11:28:58',
+        lineName: 'Pink Line',
         due: false
       },
       {
-        id: '410303142020-01-11T16:35:39',
-        trainNumber: '314',
+        id: '410303012020-01-12T11:30:37',
+        trainNumber: '301',
         destination: 'Loop',
-        eta: '2020-01-11T16:35:39',
-        route: 'Pink Line',
+        eta: '2020-01-12T11:30:37',
+        lineName: 'Pink Line',
         due: false
       },
       {
-        id: '410303132020-01-11T16:36:30',
-        trainNumber: '313',
+        id: '410303072020-01-12T11:38:58',
+        trainNumber: '307',
         destination: '54th/Cermak',
-        eta: '2020-01-11T16:36:30',
-        route: 'Pink Line',
+        eta: '2020-01-12T11:38:58',
+        lineName: 'Pink Line',
         due: false
       },
       {
-        id: '410303112020-01-11T16:43:40',
-        trainNumber: '311',
+        id: '410303052020-01-12T11:44:01',
+        trainNumber: '305',
         destination: 'Loop',
-        eta: '2020-01-11T16:43:40',
-        route: 'Pink Line',
+        eta: '2020-01-12T11:44:01',
+        lineName: 'Pink Line',
         due: false
       }
     ]
@@ -5434,35 +5082,35 @@ module.exports = [
     wheelchair: false,
     etas: [
       {
-        id: '409202132020-01-11T16:22:26',
-        trainNumber: '213',
-        destination: "O'Hare",
-        eta: '2020-01-11T16:22:26',
-        route: 'Blue Line',
+        id: '409201022020-01-12T11:34:54',
+        trainNumber: '102',
+        destination: 'Forest Park',
+        eta: '2020-01-12T11:34:54',
+        lineName: 'Blue Line',
         due: false
       },
       {
-        id: '409202102020-01-11T16:21:20',
-        trainNumber: '210',
-        destination: 'Forest Park',
-        eta: '2020-01-11T16:21:20',
-        route: 'Blue Line',
-        due: true
-      },
-      {
-        id: '409201182020-01-11T16:26:26',
-        trainNumber: '118',
-        destination: 'Forest Park',
-        eta: '2020-01-11T16:26:26',
-        route: 'Blue Line',
+        id: '409201132020-01-12T11:38:44',
+        trainNumber: '113',
+        destination: "O'Hare",
+        eta: '2020-01-12T11:38:44',
+        lineName: 'Blue Line',
         due: false
       },
       {
-        id: '409202202020-01-11T16:43:41',
-        trainNumber: '220',
+        id: '409201162020-01-12T11:46:01',
+        trainNumber: '116',
+        destination: 'Forest Park',
+        eta: '2020-01-12T11:46:01',
+        lineName: 'Blue Line',
+        due: false
+      },
+      {
+        id: '409201052020-01-12T11:59:01',
+        trainNumber: '105',
         destination: "O'Hare",
-        eta: '2020-01-11T16:43:41',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:59:01',
+        lineName: 'Blue Line',
         due: false
       }
     ]
@@ -5473,35 +5121,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '400306112020-01-11T16:22:38',
-        trainNumber: '611',
-        destination: 'Cottage Grove',
-        eta: '2020-01-11T16:22:38',
-        route: 'Green Line',
-        due: false
-      },
-      {
-        id: '400300092020-01-11T16:24:27',
-        trainNumber: '009',
+        id: '400300072020-01-12T11:31:46',
+        trainNumber: '007',
         destination: 'Harlem/Lake',
-        eta: '2020-01-11T16:24:27',
-        route: 'Green Line',
+        eta: '2020-01-12T11:31:46',
+        lineName: 'Green Line',
         due: false
       },
       {
-        id: '400300102020-01-11T16:29:39',
-        trainNumber: '010',
+        id: '400306062020-01-12T11:34:53',
+        trainNumber: '606',
+        destination: 'Ashland/63rd',
+        eta: '2020-01-12T11:34:53',
+        lineName: 'Green Line',
+        due: false
+      },
+      {
+        id: '400300042020-01-12T11:43:54',
+        trainNumber: '004',
         destination: 'Harlem/Lake',
-        eta: '2020-01-11T16:29:39',
-        route: 'Green Line',
+        eta: '2020-01-12T11:43:54',
+        lineName: 'Green Line',
         due: false
       },
       {
-        id: '400300162020-01-11T16:32:40',
-        trainNumber: '016',
+        id: '400300022020-01-12T11:48:00',
+        trainNumber: '002',
         destination: '63rd Street',
-        eta: '2020-01-11T16:32:40',
-        route: 'Green Line',
+        eta: '2020-01-12T11:48:00',
+        lineName: 'Green Line',
         due: false
       }
     ]
@@ -5512,35 +5160,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '409607122020-01-11T16:23:38',
-        trainNumber: '712',
-        destination: 'Midway',
-        eta: '2020-01-11T16:23:38',
-        route: 'Orange Line',
-        due: false
-      },
-      {
-        id: '409607172020-01-11T16:25:41',
-        trainNumber: '717',
+        id: '409607042020-01-12T11:27:39',
+        trainNumber: '704',
         destination: 'Loop',
-        eta: '2020-01-11T16:25:41',
-        route: 'Orange Line',
-        due: false
+        eta: '2020-01-12T11:27:39',
+        lineName: 'Orange Line',
+        due: true
       },
       {
-        id: '409607142020-01-11T16:33:41',
-        trainNumber: '714',
-        destination: 'Loop',
-        eta: '2020-01-11T16:33:41',
-        route: 'Orange Line',
-        due: false
-      },
-      {
-        id: '409607102020-01-11T16:35:29',
-        trainNumber: '710',
+        id: '409607022020-01-12T11:30:54',
+        trainNumber: '702',
         destination: 'Midway',
-        eta: '2020-01-11T16:35:29',
-        route: 'Orange Line',
+        eta: '2020-01-12T11:30:54',
+        lineName: 'Orange Line',
+        due: false
+      },
+      {
+        id: '409607052020-01-12T11:40:01',
+        trainNumber: '705',
+        destination: 'Loop',
+        eta: '2020-01-12T11:40:01',
+        lineName: 'Orange Line',
+        due: false
+      },
+      {
+        id: '409607032020-01-12T11:40:49',
+        trainNumber: '703',
+        destination: 'Midway',
+        eta: '2020-01-12T11:40:49',
+        lineName: 'Orange Line',
         due: false
       }
     ]
@@ -5551,35 +5199,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '401503142020-01-11T16:24:39',
-        trainNumber: '314',
+        id: '401503052020-01-12T11:33:01',
+        trainNumber: '305',
         destination: 'Loop',
-        eta: '2020-01-11T16:24:39',
-        route: 'Pink Line',
+        eta: '2020-01-12T11:33:01',
+        lineName: 'Pink Line',
         due: false
       },
       {
-        id: '401503112020-01-11T16:31:40',
-        trainNumber: '311',
+        id: '401503042020-01-12T11:39:58',
+        trainNumber: '304',
+        destination: '54th/Cermak',
+        eta: '2020-01-12T11:39:58',
+        lineName: 'Pink Line',
+        due: false
+      },
+      {
+        id: '401503022020-01-12T11:45:01',
+        trainNumber: '302',
         destination: 'Loop',
-        eta: '2020-01-11T16:31:40',
-        route: 'Pink Line',
+        eta: '2020-01-12T11:45:01',
+        lineName: 'Pink Line',
         due: false
       },
       {
-        id: '401503102020-01-11T16:32:27',
-        trainNumber: '310',
+        id: '401503072020-01-12T11:47:00',
+        trainNumber: '307',
         destination: '54th/Cermak',
-        eta: '2020-01-11T16:32:27',
-        route: 'Pink Line',
-        due: false
-      },
-      {
-        id: '401503132020-01-11T16:47:40',
-        trainNumber: '313',
-        destination: '54th/Cermak',
-        eta: '2020-01-11T16:47:40',
-        route: 'Pink Line',
+        eta: '2020-01-12T11:47:00',
+        lineName: 'Pink Line',
         due: false
       }
     ]
@@ -5590,51 +5238,43 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '400407152020-01-11T16:23:26',
-        trainNumber: '715',
-        destination: 'Midway',
-        eta: '2020-01-11T16:23:26',
-        route: 'Orange Line',
-        due: false
-      },
-      {
-        id: '400404122020-01-11T16:25:38',
-        trainNumber: '412',
-        destination: 'Kimball',
-        eta: '2020-01-11T16:25:38',
-        route: 'Brown line',
-        due: false
-      },
-      {
-        id: '400403132020-01-11T16:25:30',
-        trainNumber: '313',
+        id: '400403072020-01-12T11:28:58',
+        trainNumber: '307',
         destination: '54th/Cermak',
-        eta: '2020-01-11T16:25:30',
-        route: 'Pink Line',
+        eta: '2020-01-12T11:28:58',
+        lineName: 'Pink Line',
         due: false
       },
       {
-        id: '400407082020-01-11T16:32:28',
-        trainNumber: '708',
+        id: '400404032020-01-12T11:31:50',
+        trainNumber: '403',
+        destination: 'Kimball',
+        eta: '2020-01-12T11:31:50',
+        lineName: 'Brown line',
+        due: false
+      },
+      {
+        id: '400407062020-01-12T11:38:40',
+        trainNumber: '706',
         destination: 'Midway',
-        eta: '2020-01-11T16:32:28',
-        route: 'Orange Line',
+        eta: '2020-01-12T11:38:40',
+        lineName: 'Orange Line',
         due: false
       },
       {
-        id: '400403082020-01-11T16:34:16',
+        id: '400403082020-01-12T11:42:26',
         trainNumber: '308',
         destination: '54th/Cermak',
-        eta: '2020-01-11T16:34:16',
-        route: 'Pink Line',
+        eta: '2020-01-12T11:42:26',
+        lineName: 'Pink Line',
         due: false
       },
       {
-        id: '400404222020-01-11T16:34:57',
-        trainNumber: '422',
+        id: '400404082020-01-12T11:44:05',
+        trainNumber: '408',
         destination: 'Kimball',
-        eta: '2020-01-11T16:34:57',
-        route: 'Brown line',
+        eta: '2020-01-12T11:44:05',
+        lineName: 'Brown line',
         due: false
       }
     ]
@@ -5645,35 +5285,35 @@ module.exports = [
     wheelchair: false,
     etas: [
       {
-        id: '404701252020-01-11T16:31:36',
-        trainNumber: '125',
+        id: '404701162020-01-12T11:38:55',
+        trainNumber: '116',
         destination: 'Forest Park',
-        eta: '2020-01-11T16:31:36',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:38:55',
+        lineName: 'Blue Line',
         due: false
       },
       {
-        id: '404702132020-01-11T16:32:26',
-        trainNumber: '213',
+        id: '404701132020-01-12T11:41:01',
+        trainNumber: '113',
         destination: "O'Hare",
-        eta: '2020-01-11T16:32:26',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:41:01',
+        lineName: 'Blue Line',
         due: false
       },
       {
-        id: '404702182020-01-11T16:49:41',
-        trainNumber: '218',
+        id: '404701102020-01-12T11:50:01',
+        trainNumber: '110',
         destination: 'Forest Park',
-        eta: '2020-01-11T16:49:41',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:50:01',
+        lineName: 'Blue Line',
         due: false
       },
       {
-        id: '404702202020-01-11T16:54:41',
-        trainNumber: '220',
+        id: '404701062020-01-12T11:56:01',
+        trainNumber: '106',
         destination: "O'Hare",
-        eta: '2020-01-11T16:54:41',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:56:01',
+        lineName: 'Blue Line',
         due: false
       }
     ]
@@ -5684,35 +5324,35 @@ module.exports = [
     wheelchair: false,
     etas: [
       {
-        id: '406100162020-01-11T16:23:41',
-        trainNumber: '016',
-        destination: '63rd Street',
-        eta: '2020-01-11T16:23:41',
-        route: 'Green Line',
-        due: false
-      },
-      {
-        id: '406100092020-01-11T16:32:27',
-        trainNumber: '009',
+        id: '406100032020-01-12T11:28:57',
+        trainNumber: '003',
         destination: 'Harlem/Lake',
-        eta: '2020-01-11T16:32:27',
-        route: 'Green Line',
+        eta: '2020-01-12T11:28:57',
+        lineName: 'Green Line',
         due: false
       },
       {
-        id: '406100172020-01-11T16:33:41',
-        trainNumber: '017',
+        id: '406106062020-01-12T11:27:53',
+        trainNumber: '606',
+        destination: 'Ashland/63rd',
+        eta: '2020-01-12T11:27:53',
+        lineName: 'Green Line',
+        due: true
+      },
+      {
+        id: '406100022020-01-12T11:39:01',
+        trainNumber: '002',
         destination: '63rd Street',
-        eta: '2020-01-11T16:33:41',
-        route: 'Green Line',
+        eta: '2020-01-12T11:39:01',
+        lineName: 'Green Line',
         due: false
       },
       {
-        id: '406100102020-01-11T16:37:39',
-        trainNumber: '010',
+        id: '406100072020-01-12T11:39:46',
+        trainNumber: '007',
         destination: 'Harlem/Lake',
-        eta: '2020-01-11T16:37:39',
-        route: 'Green Line',
+        eta: '2020-01-12T11:39:46',
+        lineName: 'Green Line',
         due: false
       }
     ]
@@ -5723,35 +5363,43 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '410104192020-01-11T16:27:41',
-        trainNumber: '419',
-        destination: 'Loop',
-        eta: '2020-01-11T16:27:41',
-        route: 'Brown line',
-        due: false
-      },
-      {
-        id: '410104112020-01-11T16:30:20',
+        id: '410104112020-01-12T11:27:48',
         trainNumber: '411',
         destination: 'Kimball',
-        eta: '2020-01-11T16:30:20',
-        route: 'Brown line',
-        due: false
+        eta: '2020-01-12T11:27:48',
+        lineName: 'Brown line',
+        due: true
       },
       {
-        id: '410104152020-01-11T16:33:21',
-        trainNumber: '415',
+        id: '410104092020-01-12T11:32:54',
+        trainNumber: '409',
         destination: 'Kimball',
-        eta: '2020-01-11T16:33:21',
-        route: 'Brown line',
+        eta: '2020-01-12T11:32:54',
+        lineName: 'Brown line',
         due: false
       },
       {
-        id: '410104242020-01-11T16:34:41',
-        trainNumber: '424',
+        id: '410104042020-01-12T11:35:01',
+        trainNumber: '404',
         destination: 'Loop',
-        eta: '2020-01-11T16:34:41',
-        route: 'Brown line',
+        eta: '2020-01-12T11:35:01',
+        lineName: 'Brown line',
+        due: false
+      },
+      {
+        id: '410104012020-01-12T11:41:40',
+        trainNumber: '401',
+        destination: 'Kimball',
+        eta: '2020-01-12T11:41:40',
+        lineName: 'Brown line',
+        due: false
+      },
+      {
+        id: '410104052020-01-12T11:45:01',
+        trainNumber: '405',
+        destination: 'Loop',
+        eta: '2020-01-12T11:45:01',
+        lineName: 'Brown line',
         due: false
       }
     ]
@@ -5762,123 +5410,99 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '414006082020-01-11T16:20:08',
-        trainNumber: '608',
-        destination: 'Ashland/63rd',
-        eta: '2020-01-11T16:20:08',
-        route: 'Green Line',
-        due: true
-      },
-      {
-        id: '414008112020-01-11T16:21:27',
-        trainNumber: '811',
+        id: '414008072020-01-12T11:27:35',
+        trainNumber: '807',
         destination: 'Howard',
-        eta: '2020-01-11T16:21:27',
-        route: 'Red Line',
+        eta: '2020-01-12T11:27:35',
+        lineName: 'Red Line',
         due: true
       },
       {
-        id: '414009122020-01-11T16:22:04',
-        trainNumber: '912',
+        id: '414007062020-01-12T11:32:40',
+        trainNumber: '706',
+        destination: 'Loop',
+        eta: '2020-01-12T11:32:40',
+        lineName: 'Orange Line',
+        due: false
+      },
+      {
+        id: '414008052020-01-12T11:32:56',
+        trainNumber: '805',
+        destination: 'Howard',
+        eta: '2020-01-12T11:32:56',
+        lineName: 'Red Line',
+        due: false
+      },
+      {
+        id: '414000012020-01-12T11:33:58',
+        trainNumber: '001',
+        destination: 'Ashland/63rd',
+        eta: '2020-01-12T11:33:58',
+        lineName: 'Green Line',
+        due: false
+      },
+      {
+        id: '414009092020-01-12T11:33:14',
+        trainNumber: '909',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:22:04',
-        route: 'Red Line',
+        eta: '2020-01-12T11:33:14',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '414007112020-01-11T16:23:36',
-        trainNumber: '711',
-        destination: 'Midway',
-        eta: '2020-01-11T16:23:36',
-        route: 'Orange Line',
-        due: false
-      },
-      {
-        id: '414007082020-01-11T16:26:28',
+        id: '414007082020-01-12T11:35:34',
         trainNumber: '708',
-        destination: 'Loop',
-        eta: '2020-01-11T16:26:28',
-        route: 'Orange Line',
-        due: false
-      },
-      {
-        id: '414000152020-01-11T16:27:30',
-        trainNumber: '015',
-        destination: 'Cottage Grove',
-        eta: '2020-01-11T16:27:30',
-        route: 'Green Line',
-        due: false
-      },
-      {
-        id: '414009152020-01-11T16:27:34',
-        trainNumber: '915',
-        destination: 'Howard',
-        eta: '2020-01-11T16:27:34',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '414009172020-01-11T16:28:33',
-        trainNumber: '917',
-        destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:28:33',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '414007152020-01-11T16:32:26',
-        trainNumber: '715',
         destination: 'Midway',
-        eta: '2020-01-11T16:32:26',
-        route: 'Orange Line',
+        eta: '2020-01-12T11:35:34',
+        lineName: 'Orange Line',
         due: false
       },
       {
-        id: '414008202020-01-11T16:32:26',
-        trainNumber: '820',
-        destination: 'Howard',
-        eta: '2020-01-11T16:32:26',
-        route: 'Red Line',
+        id: '414009052020-01-12T11:38:56',
+        trainNumber: '905',
+        destination: '95th/Dan Ryan',
+        eta: '2020-01-12T11:38:56',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '414000112020-01-11T16:34:36',
-        trainNumber: '011',
+        id: '414006012020-01-12T11:39:13',
+        trainNumber: '601',
         destination: 'Harlem/Lake',
-        eta: '2020-01-11T16:34:36',
-        route: 'Green Line',
+        eta: '2020-01-12T11:39:13',
+        lineName: 'Green Line',
         due: false
       },
       {
-        id: '414008172020-01-11T16:34:05',
-        trainNumber: '817',
-        destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:34:05',
-        route: 'Red Line',
+        id: '414008082020-01-12T11:41:17',
+        trainNumber: '808',
+        destination: 'Howard',
+        eta: '2020-01-12T11:41:17',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '414006102020-01-11T16:35:36',
-        trainNumber: '610',
-        destination: 'Ashland/63rd',
-        eta: '2020-01-11T16:35:36',
-        route: 'Green Line',
+        id: '414000082020-01-12T11:42:40',
+        trainNumber: '008',
+        destination: 'Cottage Grove',
+        eta: '2020-01-12T11:42:40',
+        lineName: 'Green Line',
         due: false
       },
       {
-        id: '414007132020-01-11T16:36:33',
-        trainNumber: '713',
+        id: '414007042020-01-12T11:45:39',
+        trainNumber: '704',
         destination: 'Loop',
-        eta: '2020-01-11T16:36:33',
-        route: 'Orange Line',
+        eta: '2020-01-12T11:45:39',
+        lineName: 'Orange Line',
         due: false
       },
       {
-        id: '414008192020-01-11T16:39:12',
-        trainNumber: '819',
+        id: '414009062020-01-12T11:45:11',
+        trainNumber: '906',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:39:12',
-        route: 'Red Line',
+        eta: '2020-01-12T11:45:11',
+        lineName: 'Red Line',
         due: false
       }
     ]
@@ -5889,35 +5513,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '408201202020-01-11T16:21:41',
-        trainNumber: '120',
-        destination: 'Forest Park',
-        eta: '2020-01-11T16:21:41',
-        route: 'Blue Line',
-        due: true
-      },
-      {
-        id: '408202192020-01-11T16:21:34',
-        trainNumber: '219',
+        id: '408202072020-01-12T11:27:58',
+        trainNumber: '207',
         destination: "O'Hare",
-        eta: '2020-01-11T16:21:34',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:27:58',
+        lineName: 'Blue Line',
         due: true
       },
       {
-        id: '408202192020-01-11T16:35:41',
-        trainNumber: '219',
+        id: '408201082020-01-12T11:35:01',
+        trainNumber: '108',
         destination: 'Forest Park',
-        eta: '2020-01-11T16:35:41',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:35:01',
+        lineName: 'Blue Line',
         due: false
       },
       {
-        id: '408201222020-01-11T16:38:40',
-        trainNumber: '122',
+        id: '408201112020-01-12T11:42:53',
+        trainNumber: '111',
         destination: "O'Hare",
-        eta: '2020-01-11T16:38:40',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:42:53',
+        lineName: 'Blue Line',
+        due: false
+      },
+      {
+        id: '408202032020-01-12T11:50:01',
+        trainNumber: '203',
+        destination: 'Forest Park',
+        eta: '2020-01-12T11:50:01',
+        lineName: 'Blue Line',
         due: false
       }
     ]
@@ -5928,35 +5552,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '408004222020-01-11T16:25:57',
-        trainNumber: '422',
-        destination: 'Loop',
-        eta: '2020-01-11T16:25:57',
-        route: 'Brown line',
-        due: false
-      },
-      {
-        id: '408004182020-01-11T16:28:24',
-        trainNumber: '418',
+        id: '408004022020-01-12T11:31:56',
+        trainNumber: '402',
         destination: 'Kimball',
-        eta: '2020-01-11T16:28:24',
-        route: 'Brown line',
+        eta: '2020-01-12T11:31:56',
+        lineName: 'Brown line',
         due: false
       },
       {
-        id: '408004132020-01-11T16:32:32',
-        trainNumber: '413',
+        id: '408004082020-01-12T11:35:05',
+        trainNumber: '408',
         destination: 'Loop',
-        eta: '2020-01-11T16:32:32',
-        route: 'Brown line',
+        eta: '2020-01-12T11:35:05',
+        lineName: 'Brown line',
         due: false
       },
       {
-        id: '408004212020-01-11T16:34:08',
-        trainNumber: '421',
+        id: '408004102020-01-12T11:38:58',
+        trainNumber: '410',
         destination: 'Kimball',
-        eta: '2020-01-11T16:34:08',
-        route: 'Brown line',
+        eta: '2020-01-12T11:38:58',
+        lineName: 'Brown line',
+        due: false
+      },
+      {
+        id: '408004072020-01-12T11:45:53',
+        trainNumber: '407',
+        destination: 'Loop',
+        eta: '2020-01-12T11:45:53',
+        lineName: 'Brown line',
         due: false
       }
     ]
@@ -5967,51 +5591,43 @@ module.exports = [
     wheelchair: false,
     etas: [
       {
-        id: '400808132020-01-11T16:23:32',
+        id: '400808112020-01-12T11:29:59',
+        trainNumber: '811',
+        destination: 'Howard',
+        eta: '2020-01-12T11:29:59',
+        lineName: 'Red Line',
+        due: false
+      },
+      {
+        id: '400808122020-01-12T11:34:57',
+        trainNumber: '812',
+        destination: '95th/Dan Ryan',
+        eta: '2020-01-12T11:34:57',
+        lineName: 'Red Line',
+        due: false
+      },
+      {
+        id: '400808062020-01-12T11:35:55',
+        trainNumber: '806',
+        destination: 'Howard',
+        eta: '2020-01-12T11:35:55',
+        lineName: 'Red Line',
+        due: false
+      },
+      {
+        id: '400808132020-01-12T11:40:01',
         trainNumber: '813',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:23:32',
-        route: 'Red Line',
+        eta: '2020-01-12T11:40:01',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '400809292020-01-11T16:30:39',
-        trainNumber: '929',
-        destination: 'Howard',
-        eta: '2020-01-11T16:30:39',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '400809082020-01-11T16:30:59',
-        trainNumber: '908',
+        id: '400808102020-01-12T11:47:01',
+        trainNumber: '810',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:30:59',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '400809192020-01-11T16:34:20',
-        trainNumber: '919',
-        destination: 'Howard',
-        eta: '2020-01-11T16:34:20',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '400808242020-01-11T16:35:31',
-        trainNumber: '824',
-        destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:35:31',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '400809102020-01-11T16:34:46',
-        trainNumber: '910',
-        destination: 'Howard',
-        eta: '2020-01-11T16:34:46',
-        route: 'Red Line',
+        eta: '2020-01-12T11:47:01',
+        lineName: 'Red Line',
         due: false
       }
     ]
@@ -6022,35 +5638,35 @@ module.exports = [
     wheelchair: false,
     etas: [
       {
-        id: '408405072020-01-11T16:24:19',
-        trainNumber: '507',
+        id: '408405042020-01-12T11:28:01',
+        trainNumber: '504',
+        destination: 'Linden',
+        eta: '2020-01-12T11:28:01',
+        lineName: 'Purple Line',
+        due: true
+      },
+      {
+        id: '408405012020-01-12T11:39:01',
+        trainNumber: '501',
         destination: 'Howard',
-        eta: '2020-01-11T16:24:19',
-        route: 'Purple Line',
+        eta: '2020-01-12T11:39:01',
+        lineName: 'Purple Line',
         due: false
       },
       {
-        id: '408405052020-01-11T16:27:41',
+        id: '408405052020-01-12T11:40:01',
         trainNumber: '505',
         destination: 'Linden',
-        eta: '2020-01-11T16:27:41',
-        route: 'Purple Line',
+        eta: '2020-01-12T11:40:01',
+        lineName: 'Purple Line',
         due: false
       },
       {
-        id: '408405062020-01-11T16:38:41',
-        trainNumber: '506',
+        id: '408405022020-01-12T11:51:01',
+        trainNumber: '502',
         destination: 'Howard',
-        eta: '2020-01-11T16:38:41',
-        route: 'Purple Line',
-        due: false
-      },
-      {
-        id: '408405082020-01-11T16:39:41',
-        trainNumber: '508',
-        destination: 'Linden',
-        eta: '2020-01-11T16:39:41',
-        route: 'Purple Line',
+        eta: '2020-01-12T11:51:01',
+        lineName: 'Purple Line',
         due: false
       }
     ]
@@ -6061,35 +5677,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '403604152020-01-11T16:23:21',
-        trainNumber: '415',
+        id: '403604012020-01-12T11:30:40',
+        trainNumber: '401',
         destination: 'Kimball',
-        eta: '2020-01-11T16:23:21',
-        route: 'Brown line',
+        eta: '2020-01-12T11:30:40',
+        lineName: 'Brown line',
         due: false
       },
       {
-        id: '403604232020-01-11T16:27:05',
-        trainNumber: '423',
+        id: '403604072020-01-12T11:32:53',
+        trainNumber: '407',
         destination: 'Loop',
-        eta: '2020-01-11T16:27:05',
-        route: 'Brown line',
+        eta: '2020-01-12T11:32:53',
+        lineName: 'Brown line',
         due: false
       },
       {
-        id: '403604162020-01-11T16:33:21',
-        trainNumber: '416',
+        id: '403604042020-01-12T11:43:00',
+        trainNumber: '404',
+        destination: 'Loop',
+        eta: '2020-01-12T11:43:00',
+        lineName: 'Brown line',
+        due: false
+      },
+      {
+        id: '403604022020-01-12T11:44:56',
+        trainNumber: '402',
         destination: 'Kimball',
-        eta: '2020-01-11T16:33:21',
-        route: 'Brown line',
-        due: false
-      },
-      {
-        id: '403604192020-01-11T16:36:40',
-        trainNumber: '419',
-        destination: 'Loop',
-        eta: '2020-01-11T16:36:40',
-        route: 'Brown line',
+        eta: '2020-01-12T11:44:56',
+        lineName: 'Brown line',
         due: false
       }
     ]
@@ -6100,43 +5716,59 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '401909152020-01-11T16:21:34',
-        trainNumber: '915',
+        id: '401908052020-01-12T11:27:56',
+        trainNumber: '805',
         destination: 'Howard',
-        eta: '2020-01-11T16:21:34',
-        route: 'Red Line',
+        eta: '2020-01-12T11:27:56',
+        lineName: 'Red Line',
         due: true
       },
       {
-        id: '401908202020-01-11T16:25:26',
-        trainNumber: '820',
-        destination: 'Howard',
-        eta: '2020-01-11T16:25:26',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '401909122020-01-11T16:29:04',
-        trainNumber: '912',
+        id: '401909042020-01-12T11:31:42',
+        trainNumber: '904',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:29:04',
-        route: 'Red Line',
+        eta: '2020-01-12T11:31:42',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '401908212020-01-11T16:33:22',
-        trainNumber: '821',
-        destination: 'Howard',
-        eta: '2020-01-11T16:33:22',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '401909172020-01-11T16:34:33',
-        trainNumber: '917',
+        id: '401909042020-01-12T11:31:42',
+        trainNumber: '904',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:34:33',
-        route: 'Red Line',
+        eta: '2020-01-12T11:31:42',
+        lineName: 'Red Line',
+        due: false
+      },
+      {
+        id: '401908082020-01-12T11:35:17',
+        trainNumber: '808',
+        destination: 'Howard',
+        eta: '2020-01-12T11:35:17',
+        lineName: 'Red Line',
+        due: false
+      },
+      {
+        id: '401909092020-01-12T11:39:14',
+        trainNumber: '909',
+        destination: '95th/Dan Ryan',
+        eta: '2020-01-12T11:39:14',
+        lineName: 'Red Line',
+        due: false
+      },
+      {
+        id: '401909082020-01-12T11:40:59',
+        trainNumber: '908',
+        destination: 'Howard',
+        eta: '2020-01-12T11:40:59',
+        lineName: 'Red Line',
+        due: false
+      },
+      {
+        id: '401909052020-01-12T11:45:56',
+        trainNumber: '905',
+        destination: '95th/Dan Ryan',
+        eta: '2020-01-12T11:45:56',
+        lineName: 'Red Line',
         due: false
       }
     ]
@@ -6147,75 +5779,83 @@ module.exports = [
     wheelchair: false,
     etas: [
       {
-        id: '402600152020-01-11T16:22:30',
-        trainNumber: '015',
-        destination: 'Cottage Grove',
-        eta: '2020-01-11T16:22:30',
-        route: 'Green Line',
-        due: false
-      },
-      {
-        id: '402604212020-01-11T16:24:08',
-        trainNumber: '421',
-        destination: 'Kimball',
-        eta: '2020-01-11T16:24:08',
-        route: 'Brown line',
-        due: false
-      },
-      {
-        id: '402606132020-01-11T16:26:20',
-        trainNumber: '613',
-        destination: 'Harlem/Lake',
-        eta: '2020-01-11T16:26:20',
-        route: 'Green Line',
-        due: false
-      },
-      {
-        id: '402607152020-01-11T16:27:26',
-        trainNumber: '715',
-        destination: 'Midway',
-        eta: '2020-01-11T16:27:26',
-        route: 'Orange Line',
-        due: false
-      },
-      {
-        id: '402603082020-01-11T16:27:16',
-        trainNumber: '308',
-        destination: '54th/Cermak',
-        eta: '2020-01-11T16:27:16',
-        route: 'Pink Line',
-        due: false
-      },
-      {
-        id: '402606102020-01-11T16:30:36',
-        trainNumber: '610',
+        id: '402600012020-01-12T11:28:58',
+        trainNumber: '001',
         destination: 'Ashland/63rd',
-        eta: '2020-01-11T16:30:36',
-        route: 'Green Line',
+        eta: '2020-01-12T11:28:58',
+        lineName: 'Green Line',
         due: false
       },
       {
-        id: '402604122020-01-11T16:32:38',
-        trainNumber: '412',
+        id: '402600042020-01-12T11:29:54',
+        trainNumber: '004',
+        destination: 'Harlem/Lake',
+        eta: '2020-01-12T11:29:54',
+        lineName: 'Green Line',
+        due: false
+      },
+      {
+        id: '402604102020-01-12T11:29:58',
+        trainNumber: '410',
         destination: 'Kimball',
-        eta: '2020-01-11T16:32:38',
-        route: 'Brown line',
+        eta: '2020-01-12T11:29:58',
+        lineName: 'Brown line',
         due: false
       },
       {
-        id: '402607082020-01-11T16:36:28',
+        id: '402607082020-01-12T11:30:34',
         trainNumber: '708',
         destination: 'Midway',
-        eta: '2020-01-11T16:36:28',
-        route: 'Orange Line',
+        eta: '2020-01-12T11:30:34',
+        lineName: 'Orange Line',
         due: false
       },
       {
-        id: '402606112020-01-11T16:37:38',
-        trainNumber: '611',
+        id: '402603082020-01-12T11:35:26',
+        trainNumber: '308',
+        destination: '54th/Cermak',
+        eta: '2020-01-12T11:35:26',
+        lineName: 'Pink Line',
+        due: false
+      },
+      {
+        id: '402600082020-01-12T11:37:40',
+        trainNumber: '008',
         destination: 'Cottage Grove',
-        eta: '2020-01-11T16:37:38',
-        route: 'Green Line',
+        eta: '2020-01-12T11:37:40',
+        lineName: 'Green Line',
+        due: false
+      },
+      {
+        id: '402604032020-01-12T11:38:50',
+        trainNumber: '403',
+        destination: 'Kimball',
+        eta: '2020-01-12T11:38:50',
+        lineName: 'Brown line',
+        due: false
+      },
+      {
+        id: '402603012020-01-12T11:40:37',
+        trainNumber: '301',
+        destination: '54th/Cermak',
+        eta: '2020-01-12T11:40:37',
+        lineName: 'Pink Line',
+        due: false
+      },
+      {
+        id: '402607062020-01-12T11:42:40',
+        trainNumber: '706',
+        destination: 'Midway',
+        eta: '2020-01-12T11:42:40',
+        lineName: 'Orange Line',
+        due: false
+      },
+      {
+        id: '402606012020-01-12T11:45:13',
+        trainNumber: '601',
+        destination: 'Harlem/Lake',
+        eta: '2020-01-12T11:45:13',
+        lineName: 'Green Line',
         due: false
       }
     ]
@@ -6226,35 +5866,51 @@ module.exports = [
     wheelchair: false,
     etas: [
       {
-        id: '408809082020-01-11T16:21:59',
-        trainNumber: '908',
-        destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:21:59',
-        route: 'Red Line',
+        id: '408808022020-01-12T11:28:20',
+        trainNumber: '802',
+        destination: 'Howard',
+        eta: '2020-01-12T11:28:20',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '408808102020-01-11T16:23:41',
+        id: '408808132020-01-12T11:30:01',
+        trainNumber: '813',
+        destination: '95th/Dan Ryan',
+        eta: '2020-01-12T11:30:01',
+        lineName: 'Red Line',
+        due: false
+      },
+      {
+        id: '408809072020-01-12T11:34:47',
+        trainNumber: '907',
+        destination: 'Howard',
+        eta: '2020-01-12T11:34:47',
+        lineName: 'Red Line',
+        due: false
+      },
+      {
+        id: '408808102020-01-12T11:38:01',
         trainNumber: '810',
-        destination: 'Howard',
-        eta: '2020-01-11T16:23:41',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '408808242020-01-11T16:25:31',
-        trainNumber: '824',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:25:31',
-        route: 'Red Line',
+        eta: '2020-01-12T11:38:01',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '408808152020-01-11T16:30:30',
-        trainNumber: '815',
+        id: '408808112020-01-12T11:40:59',
+        trainNumber: '811',
         destination: 'Howard',
-        eta: '2020-01-11T16:30:30',
-        route: 'Red Line',
+        eta: '2020-01-12T11:40:59',
+        lineName: 'Red Line',
+        due: false
+      },
+      {
+        id: '408808062020-01-12T11:45:55',
+        trainNumber: '806',
+        destination: 'Howard',
+        eta: '2020-01-12T11:45:55',
+        lineName: 'Red Line',
         due: false
       }
     ]
@@ -6265,35 +5921,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '403501252020-01-11T16:29:36',
-        trainNumber: '125',
+        id: '403501162020-01-12T11:36:55',
+        trainNumber: '116',
         destination: 'Forest Park',
-        eta: '2020-01-11T16:29:36',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:36:55',
+        lineName: 'Blue Line',
         due: false
       },
       {
-        id: '403502132020-01-11T16:34:26',
-        trainNumber: '213',
+        id: '403501132020-01-12T11:43:01',
+        trainNumber: '113',
         destination: "O'Hare",
-        eta: '2020-01-11T16:34:26',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:43:01',
+        lineName: 'Blue Line',
         due: false
       },
       {
-        id: '403502182020-01-11T16:47:40',
-        trainNumber: '218',
+        id: '403501102020-01-12T11:48:00',
+        trainNumber: '110',
         destination: 'Forest Park',
-        eta: '2020-01-11T16:47:40',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:48:00',
+        lineName: 'Blue Line',
         due: false
       },
       {
-        id: '403502202020-01-11T16:56:40',
-        trainNumber: '220',
+        id: '403501062020-01-12T11:58:01',
+        trainNumber: '106',
         destination: "O'Hare",
-        eta: '2020-01-11T16:56:40',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:58:01',
+        lineName: 'Blue Line',
         due: false
       }
     ]
@@ -6304,35 +5960,35 @@ module.exports = [
     wheelchair: false,
     etas: [
       {
-        id: '403701252020-01-11T16:22:36',
-        trainNumber: '125',
-        destination: 'Forest Park',
-        eta: '2020-01-11T16:22:36',
-        route: 'Blue Line',
-        due: false
-      },
-      {
-        id: '403702122020-01-11T16:26:36',
-        trainNumber: '212',
-        destination: "O'Hare",
-        eta: '2020-01-11T16:26:36',
-        route: 'Blue Line',
-        due: false
-      },
-      {
-        id: '403702182020-01-11T16:40:41',
-        trainNumber: '218',
-        destination: 'Forest Park',
-        eta: '2020-01-11T16:40:41',
-        route: 'Blue Line',
-        due: false
-      },
-      {
-        id: '403701162020-01-11T16:47:41',
+        id: '403701162020-01-12T11:30:55',
         trainNumber: '116',
+        destination: 'Forest Park',
+        eta: '2020-01-12T11:30:55',
+        lineName: 'Blue Line',
+        due: false
+      },
+      {
+        id: '403702092020-01-12T11:32:44',
+        trainNumber: '209',
         destination: "O'Hare",
-        eta: '2020-01-11T16:47:41',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:32:44',
+        lineName: 'Blue Line',
+        due: false
+      },
+      {
+        id: '403701102020-01-12T11:41:01',
+        trainNumber: '110',
+        destination: 'Forest Park',
+        eta: '2020-01-12T11:41:01',
+        lineName: 'Blue Line',
+        due: false
+      },
+      {
+        id: '403701132020-01-12T11:49:01',
+        trainNumber: '113',
+        destination: "O'Hare",
+        eta: '2020-01-12T11:49:01',
+        lineName: 'Blue Line',
         due: false
       }
     ]
@@ -6343,91 +5999,83 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '417004212020-01-11T16:22:08',
-        trainNumber: '421',
-        destination: 'Kimball',
-        eta: '2020-01-11T16:22:08',
-        route: 'Brown line',
+        id: '417000042020-01-12T11:28:54',
+        trainNumber: '004',
+        destination: 'Harlem/Lake',
+        eta: '2020-01-12T11:28:54',
+        lineName: 'Green Line',
         due: false
       },
       {
-        id: '417003132020-01-11T16:21:30',
-        trainNumber: '313',
-        destination: '54th/Cermak',
-        eta: '2020-01-11T16:21:30',
-        route: 'Pink Line',
+        id: '417004102020-01-12T11:27:58',
+        trainNumber: '410',
+        destination: 'Kimball',
+        eta: '2020-01-12T11:27:58',
+        lineName: 'Brown line',
         due: true
       },
       {
-        id: '417006132020-01-11T16:24:20',
-        trainNumber: '613',
-        destination: 'Harlem/Lake',
-        eta: '2020-01-11T16:24:20',
-        route: 'Green Line',
-        due: false
-      },
-      {
-        id: '417000152020-01-11T16:24:30',
-        trainNumber: '015',
-        destination: 'Cottage Grove',
-        eta: '2020-01-11T16:24:30',
-        route: 'Green Line',
-        due: false
-      },
-      {
-        id: '417007152020-01-11T16:29:26',
-        trainNumber: '715',
-        destination: 'Midway',
-        eta: '2020-01-11T16:29:26',
-        route: 'Orange Line',
-        due: false
-      },
-      {
-        id: '417003082020-01-11T16:29:16',
-        trainNumber: '308',
-        destination: '54th/Cermak',
-        eta: '2020-01-11T16:29:16',
-        route: 'Pink Line',
-        due: false
-      },
-      {
-        id: '417004122020-01-11T16:30:38',
-        trainNumber: '412',
-        destination: 'Kimball',
-        eta: '2020-01-11T16:30:38',
-        route: 'Brown line',
-        due: false
-      },
-      {
-        id: '417006102020-01-11T16:32:36',
-        trainNumber: '610',
+        id: '417000012020-01-12T11:29:58',
+        trainNumber: '001',
         destination: 'Ashland/63rd',
-        eta: '2020-01-11T16:32:36',
-        route: 'Green Line',
+        eta: '2020-01-12T11:29:58',
+        lineName: 'Green Line',
         due: false
       },
       {
-        id: '417007082020-01-11T16:38:28',
+        id: '417007082020-01-12T11:32:34',
         trainNumber: '708',
         destination: 'Midway',
-        eta: '2020-01-11T16:38:28',
-        route: 'Orange Line',
+        eta: '2020-01-12T11:32:34',
+        lineName: 'Orange Line',
         due: false
       },
       {
-        id: '417000112020-01-11T16:39:36',
-        trainNumber: '011',
-        destination: 'Harlem/Lake',
-        eta: '2020-01-11T16:39:36',
-        route: 'Green Line',
+        id: '417004032020-01-12T11:37:50',
+        trainNumber: '403',
+        destination: 'Kimball',
+        eta: '2020-01-12T11:37:50',
+        lineName: 'Brown line',
         due: false
       },
       {
-        id: '417006112020-01-11T16:39:38',
-        trainNumber: '611',
+        id: '417003082020-01-12T11:37:26',
+        trainNumber: '308',
+        destination: '54th/Cermak',
+        eta: '2020-01-12T11:37:26',
+        lineName: 'Pink Line',
+        due: false
+      },
+      {
+        id: '417000082020-01-12T11:39:40',
+        trainNumber: '008',
         destination: 'Cottage Grove',
-        eta: '2020-01-11T16:39:38',
-        route: 'Green Line',
+        eta: '2020-01-12T11:39:40',
+        lineName: 'Green Line',
+        due: false
+      },
+      {
+        id: '417003012020-01-12T11:41:37',
+        trainNumber: '301',
+        destination: '54th/Cermak',
+        eta: '2020-01-12T11:41:37',
+        lineName: 'Pink Line',
+        due: false
+      },
+      {
+        id: '417006012020-01-12T11:43:13',
+        trainNumber: '601',
+        destination: 'Harlem/Lake',
+        eta: '2020-01-12T11:43:13',
+        lineName: 'Green Line',
+        due: false
+      },
+      {
+        id: '417007062020-01-12T11:44:40',
+        trainNumber: '706',
+        destination: 'Midway',
+        eta: '2020-01-12T11:44:40',
+        lineName: 'Orange Line',
         due: false
       }
     ]
@@ -6438,51 +6086,51 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '407304122020-01-11T16:24:38',
-        trainNumber: '412',
-        destination: 'Kimball',
-        eta: '2020-01-11T16:24:38',
-        route: 'Brown line',
-        due: false
-      },
-      {
-        id: '407307152020-01-11T16:24:26',
-        trainNumber: '715',
-        destination: 'Midway',
-        eta: '2020-01-11T16:24:26',
-        route: 'Orange Line',
-        due: false
-      },
-      {
-        id: '407303132020-01-11T16:26:30',
-        trainNumber: '313',
-        destination: '54th/Cermak',
-        eta: '2020-01-11T16:26:30',
-        route: 'Pink Line',
-        due: false
-      },
-      {
-        id: '407307082020-01-11T16:33:28',
+        id: '407307082020-01-12T11:27:34',
         trainNumber: '708',
         destination: 'Midway',
-        eta: '2020-01-11T16:33:28',
-        route: 'Orange Line',
+        eta: '2020-01-12T11:27:34',
+        lineName: 'Orange Line',
+        due: true
+      },
+      {
+        id: '407303072020-01-12T11:28:58',
+        trainNumber: '307',
+        destination: '54th/Cermak',
+        eta: '2020-01-12T11:28:58',
+        lineName: 'Pink Line',
         due: false
       },
       {
-        id: '407304222020-01-11T16:33:57',
-        trainNumber: '422',
+        id: '407304032020-01-12T11:30:50',
+        trainNumber: '403',
         destination: 'Kimball',
-        eta: '2020-01-11T16:33:57',
-        route: 'Brown line',
+        eta: '2020-01-12T11:30:50',
+        lineName: 'Brown line',
         due: false
       },
       {
-        id: '407303082020-01-11T16:35:16',
+        id: '407307062020-01-12T11:39:40',
+        trainNumber: '706',
+        destination: 'Midway',
+        eta: '2020-01-12T11:39:40',
+        lineName: 'Orange Line',
+        due: false
+      },
+      {
+        id: '407304082020-01-12T11:43:05',
+        trainNumber: '408',
+        destination: 'Kimball',
+        eta: '2020-01-12T11:43:05',
+        lineName: 'Brown line',
+        due: false
+      },
+      {
+        id: '407303082020-01-12T11:43:26',
         trainNumber: '308',
         destination: '54th/Cermak',
-        eta: '2020-01-11T16:35:16',
-        route: 'Pink Line',
+        eta: '2020-01-12T11:43:26',
+        lineName: 'Pink Line',
         due: false
       }
     ]
@@ -6493,35 +6141,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '412104132020-01-11T16:24:32',
-        trainNumber: '413',
-        destination: 'Loop',
-        eta: '2020-01-11T16:24:32',
-        route: 'Brown line',
-        due: false
-      },
-      {
-        id: '412104162020-01-11T16:29:21',
-        trainNumber: '416',
+        id: '412104012020-01-12T11:27:40',
+        trainNumber: '401',
         destination: 'Kimball',
-        eta: '2020-01-11T16:29:21',
-        route: 'Brown line',
-        due: false
+        eta: '2020-01-12T11:27:40',
+        lineName: 'Brown line',
+        due: true
       },
       {
-        id: '412104232020-01-11T16:31:05',
-        trainNumber: '423',
+        id: '412104082020-01-12T11:27:05',
+        trainNumber: '408',
         destination: 'Loop',
-        eta: '2020-01-11T16:31:05',
-        route: 'Brown line',
+        eta: '2020-01-12T11:27:05',
+        lineName: 'Brown line',
+        due: true
+      },
+      {
+        id: '412104072020-01-12T11:36:53',
+        trainNumber: '407',
+        destination: 'Loop',
+        eta: '2020-01-12T11:36:53',
+        lineName: 'Brown line',
         due: false
       },
       {
-        id: '412104182020-01-11T16:37:24',
-        trainNumber: '418',
+        id: '412104022020-01-12T11:40:56',
+        trainNumber: '402',
         destination: 'Kimball',
-        eta: '2020-01-11T16:37:24',
-        route: 'Brown line',
+        eta: '2020-01-12T11:40:56',
+        lineName: 'Brown line',
         due: false
       }
     ]
@@ -6532,35 +6180,35 @@ module.exports = [
     wheelchair: false,
     etas: [
       {
-        id: '402201182020-01-11T16:21:26',
-        trainNumber: '118',
+        id: '402201022020-01-12T11:29:54',
+        trainNumber: '102',
         destination: 'Forest Park',
-        eta: '2020-01-11T16:21:26',
-        route: 'Blue Line',
-        due: true
-      },
-      {
-        id: '402202132020-01-11T16:27:26',
-        trainNumber: '213',
-        destination: "O'Hare",
-        eta: '2020-01-11T16:27:26',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:29:54',
+        lineName: 'Blue Line',
         due: false
       },
       {
-        id: '402201252020-01-11T16:36:36',
-        trainNumber: '125',
+        id: '402201162020-01-12T11:43:55',
+        trainNumber: '116',
         destination: 'Forest Park',
-        eta: '2020-01-11T16:36:36',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:43:55',
+        lineName: 'Blue Line',
         due: false
       },
       {
-        id: '402202202020-01-11T16:49:41',
-        trainNumber: '220',
+        id: '402201132020-01-12T11:44:44',
+        trainNumber: '113',
         destination: "O'Hare",
-        eta: '2020-01-11T16:49:41',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:44:44',
+        lineName: 'Blue Line',
+        due: false
+      },
+      {
+        id: '402201052020-01-12T12:05:01',
+        trainNumber: '105',
+        destination: "O'Hare",
+        eta: '2020-01-12T12:05:01',
+        lineName: 'Blue Line',
         due: false
       }
     ]
@@ -6571,27 +6219,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '406701222020-01-11T16:29:58',
-        trainNumber: '122',
+        id: '406702062020-01-12T11:28:53',
+        trainNumber: '206',
         destination: "O'Hare",
-        eta: '2020-01-11T16:29:58',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:28:53',
+        lineName: 'Blue Line',
         due: false
       },
       {
-        id: '406701202020-01-11T16:33:38',
-        trainNumber: '120',
+        id: '406701102020-01-12T11:39:57',
+        trainNumber: '110',
         destination: 'Forest Park',
-        eta: '2020-01-11T16:33:38',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:39:57',
+        lineName: 'Blue Line',
         due: false
       },
       {
-        id: '406702122020-01-11T16:38:36',
-        trainNumber: '212',
+        id: '406702092020-01-12T11:44:44',
+        trainNumber: '209',
         destination: "O'Hare",
-        eta: '2020-01-11T16:38:36',
-        route: 'Blue Line',
+        eta: '2020-01-12T11:44:44',
+        lineName: 'Blue Line',
+        due: false
+      },
+      {
+        id: '406702012020-01-12T11:45:47',
+        trainNumber: '201',
+        destination: 'Forest Park',
+        eta: '2020-01-12T11:45:47',
+        lineName: 'Blue Line',
         due: false
       }
     ]
@@ -6602,35 +6258,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '414804112020-01-11T16:28:20',
-        trainNumber: '411',
+        id: '414804092020-01-12T11:31:54',
+        trainNumber: '409',
         destination: 'Kimball',
-        eta: '2020-01-11T16:28:20',
-        route: 'Brown line',
+        eta: '2020-01-12T11:31:54',
+        lineName: 'Brown line',
         due: false
       },
       {
-        id: '414804192020-01-11T16:28:41',
-        trainNumber: '419',
+        id: '414804042020-01-12T11:36:01',
+        trainNumber: '404',
         destination: 'Loop',
-        eta: '2020-01-11T16:28:41',
-        route: 'Brown line',
+        eta: '2020-01-12T11:36:01',
+        lineName: 'Brown line',
         due: false
       },
       {
-        id: '414804152020-01-11T16:31:21',
-        trainNumber: '415',
+        id: '414804012020-01-12T11:39:40',
+        trainNumber: '401',
         destination: 'Kimball',
-        eta: '2020-01-11T16:31:21',
-        route: 'Brown line',
+        eta: '2020-01-12T11:39:40',
+        lineName: 'Brown line',
         due: false
       },
       {
-        id: '414804242020-01-11T16:35:41',
-        trainNumber: '424',
+        id: '414804052020-01-12T11:46:01',
+        trainNumber: '405',
         destination: 'Loop',
-        eta: '2020-01-11T16:35:41',
-        route: 'Brown line',
+        eta: '2020-01-12T11:46:01',
+        lineName: 'Brown line',
         due: false
       }
     ]
@@ -6641,35 +6297,35 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '403107132020-01-11T16:21:33',
-        trainNumber: '713',
-        destination: 'Loop',
-        eta: '2020-01-11T16:21:33',
-        route: 'Orange Line',
+        id: '403107022020-01-12T11:27:54',
+        trainNumber: '702',
+        destination: 'Midway',
+        eta: '2020-01-12T11:27:54',
+        lineName: 'Orange Line',
         due: true
       },
       {
-        id: '403107172020-01-11T16:29:41',
-        trainNumber: '717',
+        id: '403107042020-01-12T11:31:39',
+        trainNumber: '704',
         destination: 'Loop',
-        eta: '2020-01-11T16:29:41',
-        route: 'Orange Line',
+        eta: '2020-01-12T11:31:39',
+        lineName: 'Orange Line',
         due: false
       },
       {
-        id: '403107102020-01-11T16:30:29',
-        trainNumber: '710',
+        id: '403107032020-01-12T11:35:49',
+        trainNumber: '703',
         destination: 'Midway',
-        eta: '2020-01-11T16:30:29',
-        route: 'Orange Line',
+        eta: '2020-01-12T11:35:49',
+        lineName: 'Orange Line',
         due: false
       },
       {
-        id: '403107112020-01-11T16:35:36',
-        trainNumber: '711',
-        destination: 'Midway',
-        eta: '2020-01-11T16:35:36',
-        route: 'Orange Line',
+        id: '403107052020-01-12T11:44:01',
+        trainNumber: '705',
+        destination: 'Loop',
+        eta: '2020-01-12T11:44:01',
+        lineName: 'Orange Line',
         due: false
       }
     ]
@@ -6680,35 +6336,19 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '407403102020-01-11T16:27:27',
-        trainNumber: '310',
+        id: '407403042020-01-12T11:33:58',
+        trainNumber: '304',
         destination: '54th/Cermak',
-        eta: '2020-01-11T16:27:27',
-        route: 'Pink Line',
+        eta: '2020-01-12T11:33:58',
+        lineName: 'Pink Line',
         due: false
       },
       {
-        id: '407403142020-01-11T16:29:39',
-        trainNumber: '314',
-        destination: 'Loop',
-        eta: '2020-01-11T16:29:39',
-        route: 'Pink Line',
-        due: false
-      },
-      {
-        id: '407403112020-01-11T16:37:40',
-        trainNumber: '311',
-        destination: 'Loop',
-        eta: '2020-01-11T16:37:40',
-        route: 'Pink Line',
-        due: false
-      },
-      {
-        id: '407403132020-01-11T16:42:40',
-        trainNumber: '313',
+        id: '407403072020-01-12T11:43:58',
+        trainNumber: '307',
         destination: '54th/Cermak',
-        eta: '2020-01-11T16:42:40',
-        route: 'Pink Line',
+        eta: '2020-01-12T11:43:58',
+        lineName: 'Pink Line',
         due: false
       }
     ]
@@ -6719,51 +6359,51 @@ module.exports = [
     wheelchair: true,
     etas: [
       {
-        id: '405408132020-01-11T16:21:32',
+        id: '405409072020-01-12T11:28:47',
+        trainNumber: '907',
+        destination: 'Howard',
+        eta: '2020-01-12T11:28:47',
+        lineName: 'Red Line',
+        due: false
+      },
+      {
+        id: '405408122020-01-12T11:31:57',
+        trainNumber: '812',
+        destination: '95th/Dan Ryan',
+        eta: '2020-01-12T11:31:57',
+        lineName: 'Red Line',
+        due: false
+      },
+      {
+        id: '405408112020-01-12T11:34:59',
+        trainNumber: '811',
+        destination: 'Howard',
+        eta: '2020-01-12T11:34:59',
+        lineName: 'Red Line',
+        due: false
+      },
+      {
+        id: '405408132020-01-12T11:36:01',
         trainNumber: '813',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:21:32',
-        route: 'Red Line',
-        due: true
-      },
-      {
-        id: '405408152020-01-11T16:24:30',
-        trainNumber: '815',
-        destination: 'Howard',
-        eta: '2020-01-11T16:24:30',
-        route: 'Red Line',
+        eta: '2020-01-12T11:36:01',
+        lineName: 'Red Line',
         due: false
       },
       {
-        id: '405409082020-01-11T16:27:59',
-        trainNumber: '908',
+        id: '405408062020-01-12T11:39:55',
+        trainNumber: '806',
+        destination: 'Howard',
+        eta: '2020-01-12T11:39:55',
+        lineName: 'Red Line',
+        due: false
+      },
+      {
+        id: '405408102020-01-12T11:44:01',
+        trainNumber: '810',
         destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:27:59',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '405408242020-01-11T16:32:31',
-        trainNumber: '824',
-        destination: '95th/Dan Ryan',
-        eta: '2020-01-11T16:32:31',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '405409292020-01-11T16:34:39',
-        trainNumber: '929',
-        destination: 'Howard',
-        eta: '2020-01-11T16:34:39',
-        route: 'Red Line',
-        due: false
-      },
-      {
-        id: '405409192020-01-11T16:38:20',
-        trainNumber: '919',
-        destination: 'Howard',
-        eta: '2020-01-11T16:38:20',
-        route: 'Red Line',
+        eta: '2020-01-12T11:44:01',
+        lineName: 'Red Line',
         due: false
       }
     ]

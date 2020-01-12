@@ -10,9 +10,7 @@ import testData from './testData';
 function App() {
   return (
     <Container>
-      <Container>
-        <Header />
-      </Container>
+      <Header />
       <StationList stations={testData} />
     </Container>
   );

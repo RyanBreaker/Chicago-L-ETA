@@ -66,7 +66,7 @@ const getStation = async mapid => {
 app.get('/api/station/all', async (req, res) => {
   const etas = await Promise.all(
     stationStops.map(async station => {
-      const eta = getStation(station.id);
+      const eta = await getStation(station.id);
 
       // Generation of data here.
       return {
