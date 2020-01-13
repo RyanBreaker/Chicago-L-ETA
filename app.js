@@ -89,9 +89,9 @@ app.get('/api/station/all', async (req, res) => {
             generatedAt: train.prdt,
             eta: train.arrT,
             lineName: lineNames[train.rt],
-            due: train.isApp === '1',
-            scheduled: train.isSchd === '1',
-            delayed: train.isDly === '1'
+            due: train.isApp !== '0',
+            scheduled: train.isSch !== '0',
+            delayed: train.isDly !== '0'
           };
         })
       };
