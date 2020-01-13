@@ -9749,7 +9749,7 @@ body {
 .station-card .card-body .train-dest {
   font-size: 1.75rem;
 }
-.station-card .card-body svg {
+.station-card .card-body .eta-display svg {
   margin-left: 0.5rem;
 }
 
