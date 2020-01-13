@@ -1,3 +1,5 @@
+@import '../../node_modules/bootstrap/scss/bootstrap';
+
 $cta-blue: #2166b1;
 $red-line: #c82032;
 $blue-line: #17a0db;
@@ -8,6 +10,7 @@ $pink-line: #e37fa7;
 $purple-line: #542e91;
 $yellow-line: #f5e50b;
 
+$header-text: #ffffff;
 $text-color-white: #f1f2f2;
 $text-color-black: #1c1c1c;
 
@@ -23,7 +26,34 @@ $hover-darken: 5%;
 
 .cta-header {
   background-color: $cta-blue;
-  color: $text-color-white;
+  color: $header-text;
+
+  & > .row {
+    align-items: center;
+
+    svg {
+      width: 6rem;
+    }
+  }
+}
+
+// Override number of columns per screen size
+.card-columns {
+  @include media-breakpoint-down(xs) {
+    column-count: 1;
+  }
+
+  @include media-breakpoint-between(sm, md) {
+    column-count: 2;
+  }
+
+  @include media-breakpoint-only(lg) {
+    column-count: 3;
+  }
+
+  @include media-breakpoint-up(xl) {
+    column-count: 4;
+  }
 }
 
 .station-card {

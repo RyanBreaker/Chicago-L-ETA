@@ -72,13 +72,17 @@ app.get('/api/station/all', async (req, res) => {
       return {
         ...station,
         etas: eta.map(train => {
+          // noinspection JSUnresolvedVariable
           return {
             id: station.id + train.rn + train.arrT,
             trainNumber: train.rn,
             destination: train.destNm,
+            generated: train.prdt,
             eta: train.arrT,
             lineName: lineNames[train.rt],
-            due: train.isApp === '1'
+            due: train.isApp === '1',
+            scheduled: train.isSchd === '1',
+            delayed: train.isDly === '1'
           };
         })
       };

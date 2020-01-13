@@ -4,6 +4,9 @@ import { FaWheelchair } from 'react-icons/fa';
 
 import TrainList from './TrainList';
 
+const traintrackerUrl =
+  'https://www.transitchicago.com/traintracker/arrivaltimes/?sid=';
+
 class StationList extends React.Component {
   state = { stations: [] };
 
@@ -19,7 +22,9 @@ class StationList extends React.Component {
             <Card.Body>
               <Card.Title className="font-weight-bold">
                 <a
-                  href={`https://www.transitchicago.com/traintracker/arrivaltimes/?sid=${station.id}`}
+                  href={`${traintrackerUrl}${station.id}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   {station.name} {station.wheelchair && <FaWheelchair />}
                 </a>

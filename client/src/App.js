@@ -9,7 +9,7 @@ import testData from './testData';
 
 function App() {
   return (
-    <Container>
+    <Container fluid={true}>
       <Header />
       <StationList stations={testData} />
     </Container>
