@@ -68,6 +68,10 @@ app.get('/api/station/all', async (req, res) => {
     stationStops.map(async station => {
       const eta = await getStation(station.id);
 
+      if (eta === undefined) {
+        return { ...station, etas: [] };
+      }
+
       // Generation of data here.
       return {
         ...station,
