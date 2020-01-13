@@ -18,6 +18,8 @@ $text-color-black: #1c1c1c;
 
 $hover-darken: 5%;
 
+$footer-height: 3.5rem;
+
 * {
   font-family: 'FreeSans', Helvetica, Arial, sans-serif;
 }
@@ -32,12 +34,39 @@ $hover-darken: 5%;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 
-  & > .row {
+  > .row {
     align-items: center;
 
     svg {
       width: 6rem;
     }
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: $footer-height;
+  line-height: $footer-height;
+  color: $text-color-white;
+  background-color: $sign-grey;
+  text-align: center;
+  font-size: 1.2rem;
+
+  a:link,
+  a:visited {
+    color: darken($text-color-white, 15%) !important;
+    font-style: italic;
   }
 }
 

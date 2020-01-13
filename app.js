@@ -16,7 +16,6 @@ app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'client')));
 
 /*
 On server startup, load the local list of stops supplied by the CTA as a CSV into an object,
@@ -98,5 +97,17 @@ const testData = require('./client/src/testData');
 app.get('/api/testdata', (req, res) => {
   res.json(testData);
 });
+
+// For prod environments only.
+if (process.env.NODE_ENV === 'production') {
+  const staticPath = path.join(__dirname, 'client', 'build');
+
+  // Set static files.
+  app.use(express.static(path.join(staticPath)));
+  // Send the React index.html for any other unknown routes.
+  app.get('*', (req, res) => {
+    res.sendFile(path.resolve(staticPath, 'index.html'));
+  });
+}
 
 module.exports = app;

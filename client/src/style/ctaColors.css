@@ -9676,6 +9676,32 @@ h3 {
   width: 6rem;
 }
 
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 3.5rem;
+  line-height: 3.5rem;
+  color: #ffffff;
+  background-color: #565a5c;
+  text-align: center;
+  font-size: 1.2rem;
+}
+.footer a:link,
+.footer a:visited {
+  color: #d9d9d9 !important;
+  font-style: italic;
+}
+
 .cta-dropdown .dropdown-menu {
   padding: 0;
 }
