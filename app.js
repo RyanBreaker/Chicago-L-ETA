@@ -60,17 +60,14 @@ const getStation = async mapid => {
     params: { key: ctaKey, mapid: mapid, outputType: 'JSON' }
   });
 
-  return eta;
+  // Return an empty array if no etas were returned.
+  return eta || [];
 };
 
 app.get('/api/station/all', async (req, res) => {
   const etas = await Promise.all(
     stationStops.map(async station => {
       const eta = await getStation(station.id);
-
-      if (eta === undefined) {
-        return { ...station, etas: [] };
-      }
 
       // Generation of data here.
       return {
