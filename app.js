@@ -17,6 +17,14 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 
+if (process.env.NODE_ENV === 'production') {
+  // Force HTTPS in prod.
+  const enforce = require('express-sslify');
+  app.use(
+    enforce.HTTPS({ trustProtoHeader: true, trustXForwardedHostHeader: true })
+  );
+}
+
 /*
 On server startup, load the local list of stops supplied by the CTA as a CSV into an object,
 filtering out the stops and data we don't care about (i.e. bus stops).
@@ -109,12 +117,6 @@ if (process.env.NODE_ENV === 'production') {
   app.get('*', (req, res) => {
     res.sendFile(path.resolve(staticPath, 'index.html'));
   });
-
-  // Force HTTPS in prod.
-  const enforce = require('express-sslify');
-  app.use(
-    enforce.HTTPS({ trustProtoHeader: true, trustXForwardedHostHeader: true })
-  );
 }
 
 module.exports = app;
