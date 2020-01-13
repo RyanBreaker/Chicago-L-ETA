@@ -112,7 +112,9 @@ if (process.env.NODE_ENV === 'production') {
 
   // Force HTTPS in prod.
   const enforce = require('express-sslify');
-  app.use(enforce.HTTPS({ trustProtoHeader: true }));
+  app.use(
+    enforce.HTTPS({ trustProtoHeader: true, trustXForwardedHostHeader: true })
+  );
 }
 
 module.exports = app;
