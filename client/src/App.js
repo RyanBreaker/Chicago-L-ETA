@@ -4,16 +4,14 @@ import { Container } from 'react-bootstrap';
 
 import './style/ctaColors.css';
 import Header from './components/Header';
+import Filter from './components/Filter';
 
-import testData from './testData';
-
-function App() {
-  return (
-    <Container fluid={true}>
-      <Header />
-      <StationList stations={testData} />
-    </Container>
-  );
-}
+const App = () => (
+  <Container fluid={true}>
+    <Header />
+    <Filter />
+    <StationList />
+  </Container>
+);
 
 export default App;
