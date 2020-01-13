@@ -1,20 +1,40 @@
 import React from 'react';
-import { Card, CardColumns } from 'react-bootstrap';
+import { Card, CardColumns, Spinner } from 'react-bootstrap';
 import { FaWheelchair } from 'react-icons/fa';
 
 import TrainList from './TrainList';
+import axios from 'axios';
 
 const traintrackerUrl =
   'https://www.transitchicago.com/traintracker/arrivaltimes/?sid=';
 
 class StationList extends React.Component {
-  state = { stations: [] };
+  state = { loading: true, stations: [] };
+
+  updateData() {
+    axios
+      .get('/api/station/all')
+      .then(res => {
+        this.setState({ stations: res.data });
+      })
+      .then(() => {
+        this.setState({ loading: false });
+      });
+  }
 
   componentDidMount() {
-    this.setState({ stations: this.props.stations });
+    this.updateData();
   }
 
   render() {
+    if (this.state.loading) {
+      return (
+        <div className="d-flex justify-content-center">
+          <Spinner animation={'border'} role={'status'} />
+        </div>
+      );
+    }
+
     return (
       <CardColumns>
         {this.state.stations.map(station => (

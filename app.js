@@ -3,6 +3,7 @@ const path = require('path');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 const fs = require('fs');
+const hash = require('object-hash');
 
 const ctaApi = require('./api/cta');
 
@@ -74,10 +75,10 @@ app.get('/api/station/all', async (req, res) => {
         etas: eta.map(train => {
           // noinspection JSUnresolvedVariable
           return {
-            id: station.id + train.rn + train.arrT,
+            id: hash.MD5(train), // MD5 for speed, security not a factor
             trainNumber: train.rn,
             destination: train.destNm,
-            generated: train.prdt,
+            generatedAt: train.prdt,
             eta: train.arrT,
             lineName: lineNames[train.rt],
             due: train.isApp === '1',

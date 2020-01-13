@@ -9666,12 +9666,18 @@ h3 {
 .cta-header {
   background-color: #2166b1;
   color: #ffffff;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
 }
 .cta-header > .row {
   align-items: center;
 }
 .cta-header > .row svg {
   width: 6rem;
+}
+
+.cta-dropdown .dropdown-menu {
+  padding: 0;
 }
 
 @media (max-width: 575.98px) {
@@ -9701,7 +9707,7 @@ h3 {
   border-radius: 5px;
 }
 .station-card, .station-card a:link, .station-card a:visited {
-  color: #f1f2f2;
+  color: #ffffff;
 }
 .station-card .card-title {
   padding: 1rem;
@@ -9723,58 +9729,65 @@ h3 {
 
 .red-line {
   background-color: #c82032;
-  color: #f1f2f2;
+  color: #ffffff;
 }
 .red-line:hover {
   background-color: #b21c2d;
+  color: #ffffff;
 }
 
 .blue-line {
   background-color: #17a0db;
-  color: #f1f2f2;
+  color: #ffffff;
 }
 .blue-line:hover {
   background-color: #158fc4;
+  color: #ffffff;
 }
 
 .brown-line {
   background-color: #63361c;
-  color: #f1f2f2;
+  color: #ffffff;
 }
 .brown-line:hover {
   background-color: #4f2b16;
+  color: #ffffff;
 }
 
 .green-line {
   background-color: #049b49;
-  color: #f1f2f2;
+  color: #ffffff;
 }
 .green-line:hover {
   background-color: #03823d;
+  color: #ffffff;
 }
 
 .orange-line {
   background-color: #ef4925;
-  color: #f1f2f2;
+  color: #ffffff;
 }
 .orange-line:hover {
   background-color: #e93811;
+  color: #ffffff;
 }
 
 .pink-line {
   background-color: #e37fa7;
-  color: #f1f2f2;
+  color: #ffffff;
 }
 .pink-line:hover {
   background-color: #de6a99;
+  color: #ffffff;
 }
 
 .purple-line {
   background-color: #542e91;
-  color: #f1f2f2;
+  color: #ffffff;
 }
 .purple-line:hover {
   background-color: #49287e;
+  color: #ffffff;
 }
 
 .yellow-line {
