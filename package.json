@@ -17,6 +17,7 @@
     "csv-parse": "^4.8.3",
     "debug": "~2.6.9",
     "express": "~4.16.1",
+    "express-sslify": "^1.2.0",
     "morgan": "~1.9.1",
     "object-hash": "^2.0.1"
   },
