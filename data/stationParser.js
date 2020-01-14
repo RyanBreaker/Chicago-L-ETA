@@ -1,7 +1,7 @@
 // Explicitly using synchronous form of the function.
 const csvParse = require('csv-parse/lib/sync');
 
-// Range of stop_ids we care about to filter out bus stops, etc.
+// Range of stop_ids we care about to filters out bus stops, etc.
 // The CTA API documentation defines a range of 40000 through 49999 for the stop_id property for station stops.
 const stationRange = {
   start: 40000,
@@ -19,7 +19,7 @@ const checkRecord = record => {
     return {
       id: record.stop_id,
       name: record.stop_name,
-      wheelchair: record.wheelchair_boarding === '1'
+      accessible: record.wheelchair_boarding === '1'
     };
     // Otherwise, discard the record.
   }

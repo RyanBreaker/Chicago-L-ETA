@@ -1,30 +1,57 @@
 import React from 'react';
 import { Card, CardColumns, Spinner } from 'react-bootstrap';
-import { FaWheelchair } from 'react-icons/fa';
+import { FaWheelchair as AccessibleIcon } from 'react-icons/fa';
 
-import TrainList from './TrainList';
 import axios from 'axios';
+import TrainList from './TrainList';
+import Filter from './Filter';
 
 const traintrackerUrl =
   'https://www.transitchicago.com/traintracker/arrivaltimes/?sid=';
 
-class StationList extends React.Component {
-  state = { loading: true, stations: [] };
+class StationList extends React.PureComponent {
+  state = {
+    loading: true,
+    stations: [],
+    filters: { name: '', accessible: false },
+    filteredStations: []
+  };
 
-  updateData() {
-    axios
-      .get('/api/station/all')
-      .then(res => {
-        this.setState({ stations: res.data });
-      })
-      .then(() => {
-        this.setState({ loading: false });
-      });
-  }
+  filters = { name: '', accessible: false };
 
   componentDidMount() {
     this.updateData();
   }
+
+  updateData = () => {
+    axios.get('/api/station/all').then(res => {
+      this.setState({
+        stations: res.data,
+        loading: false
+      });
+
+      this.filterStations();
+    });
+  };
+
+  filterStations = () => {
+    const { stations, filters } = this.state;
+
+    let filteredStations = stations;
+    if (filters.name.length > 0)
+      filteredStations = filteredStations.filter(sta =>
+        sta.name.toLowerCase().includes(filters.name.toLowerCase())
+      );
+    if (filters.accessible)
+      filteredStations = filteredStations.filter(sta => sta.accessible);
+
+    this.setState({ filteredStations: filteredStations });
+  };
+
+  setFilters = filters => {
+    this.setState({ filters: filters });
+    this.filterStations();
+  };
 
   render() {
     if (this.state.loading) {
@@ -36,24 +63,27 @@ class StationList extends React.Component {
     }
 
     return (
-      <CardColumns>
-        {this.state.stations.map(station => (
-          <Card key={station.id} className="station-card">
-            <Card.Body>
-              <Card.Title className="font-weight-bold">
-                <a
-                  href={`${traintrackerUrl}${station.id}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {station.name} {station.wheelchair && <FaWheelchair />}
-                </a>
-              </Card.Title>
-              <TrainList etas={station.etas} />
-            </Card.Body>
-          </Card>
-        ))}
-      </CardColumns>
+      <div>
+        <Filter onChange={this.setFilters} />
+        <CardColumns>
+          {this.state.filteredStations.map(station => (
+            <Card key={station.id} className="station-card">
+              <Card.Body>
+                <Card.Title className="font-weight-bold">
+                  <a
+                    href={`${traintrackerUrl}${station.id}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {station.name} {station.accessible && <AccessibleIcon />}
+                  </a>
+                </Card.Title>
+                <TrainList etas={station.etas} />
+              </Card.Body>
+            </Card>
+          ))}
+        </CardColumns>
+      </div>
     );
   }
 }

@@ -33,7 +33,7 @@ This has to be done locally due to a lack of API functionality for getting said 
 frequently-updated files for download to use instead. Everything else will be completed via CTA's API.
 */
 
-const stationStops = stationParser(fs.readFileSync(stopsFile));
+const allStations = stationParser(fs.readFileSync(stopsFile));
 
 /*
  Station schema:
@@ -72,9 +72,9 @@ const getStation = async mapid => {
   return eta || [];
 };
 
-app.get('/api/station/all', async (req, res) => {
-  const etas = await Promise.all(
-    stationStops.map(async station => {
+const generateData = async stations => {
+  return Promise.all(
+    stations.map(async station => {
       const eta = await getStation(station.id);
 
       // Generation of data here.
@@ -97,12 +97,33 @@ app.get('/api/station/all', async (req, res) => {
       };
     })
   );
+};
 
-  res.json(etas);
+app.get('/api/station/all', (req, res) => {
+  generateData(allStations).then(v => res.json(v));
+});
+
+// TODO: Input validation/sanitation.
+app.get('/api/station/search', (req, res) => {
+  let stationsFiltered = allStations;
+  const query = req.query;
+
+  // Check for name filter.
+  if (query.name) {
+    stationsFiltered = stationsFiltered.filter(sta =>
+      sta.name.toLowerCase().includes(query.name.toLowerCase().trim())
+    );
+  }
+
+  // Check for accessibility filter.
+  if (req.query.accessible) {
+    stationsFiltered = stationsFiltered.filter(sta => sta.accessible);
+  }
+
+  generateData(stationsFiltered).then(v => res.json(v));
 });
 
 const testData = require('./client/src/testData');
-
 app.get('/api/testdata', (req, res) => {
   res.json(testData);
 });
