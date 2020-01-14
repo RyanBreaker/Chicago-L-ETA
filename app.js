@@ -5,6 +5,7 @@ const logger = require('morgan');
 const fs = require('fs');
 const hash = require('object-hash');
 
+const Queue = require('bull');
 const redis = require('redis');
 const { promisify } = require('util');
 
@@ -52,6 +53,39 @@ const allStations = stationParser(fs.readFileSync(stopsFile));
 
 const ctaKey = require('./config/keys').ctaKey;
 
+const stationUpdateQueue = new Queue(
+  'update station data',
+  process.env.REDIS_URL || null
+);
+// noinspection JSUnusedLocalSymbols
+stationUpdateQueue.process(job => {
+  console.log('start');
+  return Promise.all(
+    allStations.map(sta => {
+      return ctaApi
+        .request({
+          params: { key: ctaKey, mapid: sta.id, outputType: 'JSON' }
+        })
+        .then(response => {
+          const ctatt = response.data.ctatt;
+          redisClient.set(
+            `ctaapi:${sta.id}`,
+            JSON.stringify(ctatt.eta || []),
+            'EX',
+            300
+          );
+        });
+    })
+  ).then(() => console.log('done'));
+});
+stationUpdateQueue.add({}, { repeat: { every: 45000 } });
+// stationUpdateQueue.on('completed', job => console.log(job, 'completed'));
+// stationUpdateQueue.on('stalled', job => console.log('stalled', job));
+// stationUpdateQueue.on('error', error => console.log('error', error));
+// stationUpdateQueue.on('waiting', job => console.log('waiting', job));
+// stationUpdateQueue.on('active', job => console.log('active', job));
+// stationUpdateQueue.on('failed', (job, err) => console.log('failed', err));
+
 const lineNames = {
   Pink: 'Pink Line',
   Blue: 'Blue Line',
@@ -74,7 +108,7 @@ const getStation = mapid => {
       })
       .then(response => {
         const etas = response.data.ctatt.eta || [];
-        redisClient.setex(`ctaapi:${mapid}`, 60, JSON.stringify(etas));
+        redisClient.set(`ctaapi:${mapid}`, JSON.stringify(etas), 'EX', 30);
         return etas;
       });
   });
