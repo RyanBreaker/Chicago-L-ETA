@@ -116,11 +116,13 @@ app.get('/api/station/search', (req, res) => {
   }
 
   // Check for accessibility filter.
-  if (req.query.accessible) {
+  if (query.accessible) {
     stationsFiltered = stationsFiltered.filter(sta => sta.accessible);
   }
 
-  generateData(stationsFiltered).then(v => res.json(v));
+  generateData(stationsFiltered).then(v => {
+    res.json(v);
+  });
 });
 
 const testData = require('./client/src/testData');

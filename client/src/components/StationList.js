@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardColumns, Spinner } from 'react-bootstrap';
+import { Card, CardColumns, Row, Col, Spinner } from 'react-bootstrap';
 import { FaWheelchair as AccessibleIcon } from 'react-icons/fa';
 
 import axios from 'axios';
@@ -13,60 +13,61 @@ class StationList extends React.PureComponent {
   state = {
     loading: true,
     stations: [],
-    filters: { name: '', accessible: false },
-    filteredStations: []
+    filterName: '',
+    filterAccessible: ''
   };
 
-  filters = { name: '', accessible: false };
+  updateData = () => {
+    this.setState({ loading: true }, () => {
+      if (!this.state.filterName) {
+        axios.get('/api/station/all').then(res => {
+          this.setState({ stations: res.data, loading: false });
+        });
+        return;
+      }
+
+      const params = {
+        name: this.state.filterName,
+        accessible: this.state.filterAccessible
+      };
+
+      axios.get('/api/station/search', { params: params }).then(res => {
+        this.setState({ stations: res.data, loading: false });
+      });
+    });
+  };
+
+  updateFilter = name => {
+    this.setState({ filterName: name }, () => {
+      this.updateData();
+    });
+  };
 
   componentDidMount() {
     this.updateData();
   }
 
-  updateData = () => {
-    axios.get('/api/station/all').then(res => {
-      this.setState({
-        stations: res.data,
-        loading: false
-      });
-
-      this.filterStations();
-    });
-  };
-
-  filterStations = () => {
-    const { stations, filters } = this.state;
-
-    let filteredStations = stations;
-    if (filters.name.length > 0)
-      filteredStations = filteredStations.filter(sta =>
-        sta.name.toLowerCase().includes(filters.name.toLowerCase())
-      );
-    if (filters.accessible)
-      filteredStations = filteredStations.filter(sta => sta.accessible);
-
-    this.setState({ filteredStations: filteredStations });
-  };
-
-  setFilters = filters => {
-    this.setState({ filters: filters });
-    this.filterStations();
-  };
-
   render() {
     if (this.state.loading) {
       return (
-        <div className="d-flex justify-content-center">
-          <Spinner animation={'border'} role={'status'} />
+        <div>
+          <Filter updateFilter={this.updateFilter} />
+          <Row>
+            <Col className="text-center">
+              {/*<div className="d-flex justify-content-center align-items-center">*/}
+              <Spinner animation={'border'} role={'status'} />
+              {/*</div>*/}
+            </Col>
+          </Row>
         </div>
       );
     }
 
     return (
       <div>
-        <Filter onChange={this.setFilters} />
+        <Filter updateFilter={this.updateFilter} />
         <CardColumns>
-          {this.state.filteredStations.map(station => (
+          {this.state.stations.map(station => (
             <Card key={station.id} className="station-card">
               <Card.Body>
                 <Card.Title className="font-weight-bold">

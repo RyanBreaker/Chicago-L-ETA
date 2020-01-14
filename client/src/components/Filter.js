@@ -1,14 +1,15 @@
-import React from 'react';
-import { Col, Dropdown, DropdownButton, Form, Row } from 'react-bootstrap';
+import React, { useState } from 'react';
+import { Col, Form, Row } from 'react-bootstrap';
 
-import { lines, lineToStyle } from '../helpers';
+const SearchBar = props => {
+  const [text, setText] = useState('');
 
-function SearchBar(props) {
   return (
     <Form
       inline={true}
       onSubmit={e => {
         e.preventDefault();
+        props.onSubmit(text);
       }}
     >
       <Form.Group>
@@ -16,33 +17,31 @@ function SearchBar(props) {
           type="text"
           placeholder="Station Name"
           onChange={e => {
-            props.onChange({ name: e.target.value.trim(), accessible: false });
+            setText(e.target.value);
           }}
         />
       </Form.Group>
     </Form>
   );
-}
+};
 
-class Filter extends React.Component {
-  render() {
-    return (
-      <Row>
-        <Col>
-          <DropdownButton className="cta-dropdown" title={'Filter by Line'}>
-            {lines.map((line, i) => (
-              <Dropdown.Item key={i} className={lineToStyle(line)}>
-                {line}
-              </Dropdown.Item>
-            ))}
-          </DropdownButton>
-        </Col>
-        <Col>
-          <SearchBar onChange={this.props.onChange} />
-        </Col>
-      </Row>
-    );
-  }
-}
+const Filter = props => {
+  return (
+    <Row className="filter">
+      {/*<Col>*/}
+      {/*  <DropdownButton className="cta-dropdown" title={'Filter by Line'}>*/}
+      {/*    {lines.map((line, i) => (*/}
+      {/*      <Dropdown.Item key={i} className={lineToStyle(line)}>*/}
+      {/*        {line}*/}
+      {/*      </Dropdown.Item>*/}
+      {/*    ))}*/}
+      {/*  </DropdownButton>*/}
+      {/*</Col>*/}
+      <Col xs={12}>
+        <SearchBar onSubmit={props.updateFilter} />
+      </Col>
+    </Row>
+  );
+};
 
 export default Filter;

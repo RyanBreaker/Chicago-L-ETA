@@ -74,6 +74,10 @@ body {
   padding: 0;
 }
 
+.filter {
+  margin-bottom: 1rem;
+}
+
 // Override number of columns per screen size
 .card-columns {
   @include media-breakpoint-down(xs) {

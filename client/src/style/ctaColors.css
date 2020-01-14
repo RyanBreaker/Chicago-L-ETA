@@ -9706,6 +9706,10 @@ body {
   padding: 0;
 }
 
+.filter {
+  margin-bottom: 1rem;
+}
+
 @media (max-width: 575.98px) {
   .card-columns {
     column-count: 1;
