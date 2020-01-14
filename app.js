@@ -5,6 +5,12 @@ const logger = require('morgan');
 const fs = require('fs');
 const hash = require('object-hash');
 
+const redis = require('redis');
+const { promisify } = require('util');
+
+const redisClient = redis.createClient(process.env.REDIS_URL || null);
+const getAsync = promisify(redisClient.get).bind(redisClient);
+
 const ctaApi = require('./api/cta');
 
 const stopsFile = './data/stops.txt';
@@ -57,44 +63,45 @@ const lineNames = {
   Red: 'Red Line'
 };
 
-const getStation = async mapid => {
-  // Destructuring `eta` out of the returned data.
-  const {
-    data: {
-      ctatt: { eta }
+const getStation = mapid => {
+  return getAsync(`ctaapi:${mapid}`).then(result => {
+    if (result) {
+      return JSON.parse(result);
     }
-  } = await ctaApi.request({
-    // TODO: Refactor out these reused parameters.
-    params: { key: ctaKey, mapid: mapid, outputType: 'JSON' }
+    return ctaApi
+      .request({
+        params: { key: ctaKey, mapid: mapid, outputType: 'JSON' }
+      })
+      .then(response => {
+        const etas = response.data.ctatt.eta || [];
+        redisClient.setex(`ctaapi:${mapid}`, 60, JSON.stringify(etas));
+        return etas;
+      });
   });
-
-  // Return an empty array if no etas were returned.
-  return eta || [];
 };
 
-const generateData = async stations => {
+const generateData = stations => {
   return Promise.all(
-    stations.map(async station => {
-      const eta = await getStation(station.id);
-
-      // Generation of data here.
-      return {
-        ...station,
-        etas: eta.map(train => {
-          // noinspection JSUnresolvedVariable
-          return {
-            id: hash.MD5(train), // MD5 for speed, security not a factor
-            trainNumber: train.rn,
-            destination: train.destNm,
-            generatedAt: train.prdt,
-            eta: train.arrT,
-            lineName: lineNames[train.rt],
-            due: train.isApp !== '0',
-            scheduled: train.isSch !== '0',
-            delayed: train.isDly !== '0'
-          };
-        })
-      };
+    stations.map(station => {
+      return getStation(station.id).then(etas => {
+        return {
+          ...station,
+          etas: etas.map(train => {
+            // noinspection JSUnresolvedVariable
+            return {
+              id: hash.MD5(train), // MD5 for speed, security not a factor
+              trainNumber: train.rn,
+              destination: train.destNm,
+              generatedAt: train.prdt,
+              eta: train.arrT,
+              lineName: lineNames[train.rt],
+              due: train.isApp !== '0',
+              scheduled: train.isSch !== '0',
+              delayed: train.isDly !== '0'
+            };
+          })
+        };
+      });
     })
   );
 };
@@ -120,9 +127,7 @@ app.get('/api/station/search', (req, res) => {
     stationsFiltered = stationsFiltered.filter(sta => sta.accessible);
   }
 
-  generateData(stationsFiltered).then(v => {
-    res.json(v);
-  });
+  generateData(stationsFiltered).then(v => res.json(v));
 });
 
 const testData = require('./client/src/testData');
