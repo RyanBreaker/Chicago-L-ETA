@@ -13,7 +13,7 @@ const EtaDisplay = props => (
         {Math.round(
           (new Date(props.eta) - new Date(props.generatedAt)) / 1000 / 60
         )}
-        <span className="font-weight-normal">min</span>
+        <span className="font-weight-normal"> min</span>
       </span>
     )}
     {props.liveData ? <LiveIcon /> : <ClockIcon />}
