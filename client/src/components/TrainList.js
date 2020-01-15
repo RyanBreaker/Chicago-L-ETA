@@ -80,16 +80,20 @@ const TrainList = props => {
                   className={`${lineToStyle(eta.lineName)} train-list`}
                 >
                   <Row>
-                    <Col xs={12} className="train-num">
+                    <Col xs={12} sm={6} className="train-num">
                       {eta.lineName} #{eta.trainNumber} to
+                      <br />
+                      <span className="train-dest font-weight-bold">
+                        {eta.destination}
+                        {airports.includes(eta.destination) ? (
+                          <AirplaneIcon />
+                        ) : null}
+                      </span>
                     </Col>
-                    <Col xs={12} className="train-dest font-weight-bold">
-                      {eta.destination}
-                      {airports.includes(eta.destination) ? (
-                        <AirplaneIcon />
-                      ) : null}
-                    </Col>
-                    <Col xs={12}>
+                    <Col
+                      sm={6}
+                      className="d-sm-flex align-items-sm-center justify-content-sm-end"
+                    >
                       <EtaDisplay
                         due={eta.due}
                         eta={eta.eta}

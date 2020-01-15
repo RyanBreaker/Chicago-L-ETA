@@ -9782,7 +9782,11 @@ body {
 .station-modal .modal-content .modal-body .train-dest {
   font-size: 1.75rem;
 }
+.station-modal .modal-content .modal-body .eta-display {
+  font-size: 2.125rem;
+}
 .station-modal .modal-content .modal-body .eta-display svg {
+  font-size: 1.5rem;
   margin-left: 0.5rem;
 }
 .station-modal .modal-content .modal-body .list-group-item {

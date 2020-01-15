@@ -147,6 +147,7 @@ body {
       // For the no-train alert.
       .center-col {
         padding: 1rem 0;
+
         h4 {
           margin: 0;
         }
@@ -160,8 +161,13 @@ body {
         font-size: 1.75rem;
       }
 
-      .eta-display svg {
-        margin-left: 0.5rem;
+      .eta-display {
+        font-size: 2.125rem;
+
+        svg {
+          font-size: 1.5rem;
+          margin-left: 0.5rem;
+        }
       }
 
       .list-group-item {
