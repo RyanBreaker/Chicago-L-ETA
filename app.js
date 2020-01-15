@@ -15,8 +15,8 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 
+// Force HTTPS in prod.
 if (process.env.NODE_ENV === 'production') {
-  // Force HTTPS in prod.
   app.use(
     require('express-sslify').HTTPS({
       // Flag required for Heroku proxy.
@@ -38,14 +38,18 @@ const allStations = stationParser(fs.readFileSync(stopsFile));
 API Routes
 */
 
-app.get('/api/station/all', (req, res) => {
-  generateStationData(allStations).then(v => res.json(v));
-});
+// Return a list of all stations with all ETAs.
+// WARNING: This is VERY EXPENSIVE!!!
+app.get('/api/station/all', (req, res) =>
+  generateStationData(allStations).then(v => res.json(v))
+);
 
 // TODO: Input validation/sanitation.
 app.get('/api/station/search', (req, res) => {
-  let stationsFiltered = allStations;
   const query = req.query;
+
+  // Start with the full list to filter down from.
+  let stationsFiltered = allStations;
 
   // Check for name filter.
   if (query.name) {
@@ -59,40 +63,38 @@ app.get('/api/station/search', (req, res) => {
     stationsFiltered = stationsFiltered.filter(sta => sta.accessible);
   }
 
-  generateStationData(stationsFiltered).then(v => res.json(v));
+  return generateStationData(stationsFiltered).then(v => res.json(v));
 });
 
 // Return just a list of all the stations.
-app.get('/api/station/empty', (req, res) => {
-  res.json(allStations);
-});
+app.get('/api/station/empty', (req, res) => res.json(allStations));
 
 // Get station by ID.
 app.get('/api/station/id/:staId', (req, res) => {
   const staId = req.params.staId;
+
+  // Find matching station with ID and return it.
   const station = allStations.filter(sta => sta.id === staId);
-  if (station) {
-    console.log(station);
-    return generateStationData(station).then(v => res.json(v));
-  }
-  res.json([]);
+  return generateStationData(station).then(v => res.json(v));
+  // If no matching station was found, only an empty array will be generated.
 });
 
+// Test data for testing, returns outdated but valid full set of data.
 const testData = require('./client/src/testData');
-app.get('/api/station/testdata', (req, res) => {
-  res.json(testData);
+app.get('/api/station/testdata', (req, res) => res.json(testData));
+
+// Catchall for all other routes.
+app.get('/api/*', (req, res) => {
+  res.status(404).json([{ error: true, message: 'Invalid route given' }]);
 });
 
-// For prod environments only, for serving static React app.
-if (process.env.NODE_ENV === 'production') {
-  const staticPath = path.join(__dirname, 'client', 'build');
-
-  // Set static files.
-  app.use(express.static(path.join(staticPath)));
-  // Send the React index.html for any other unknown routes.
-  app.get('*', (req, res) => {
-    res.sendFile(path.resolve(staticPath, 'index.html'));
-  });
-}
+// Setup static files for serving the React app.
+const staticPath = path.join(__dirname, 'client', 'build');
+// Set static files.
+app.use(express.static(path.join(staticPath)));
+// Send the React index.html for any other unknown routes.
+app.get('*', (req, res) => {
+  res.sendFile(path.resolve(staticPath, 'index.html'));
+});
 
 module.exports = app;
