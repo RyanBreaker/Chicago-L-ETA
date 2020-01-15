@@ -25,14 +25,16 @@ const getStation = mapid => {
       // If it does, return the cached result.
       return JSON.parse(result);
     }
-    // Otherwise, generate a result and cache it with a TTL of 15 seconds.
+    // Otherwise, generate a result and cache it with a TTL of 12 seconds.
+    // This is to cache the data for any other client requests as the clientside is set
+    // for a 15-second auto-refresh and is guaranteed fresh data on each loop.
     return ctaApi
       .request({
         params: { ...params, mapid: mapid }
       })
       .then(response => {
         const etas = response.data.ctatt.eta || [];
-        redisClient.set(`ctaapi:${mapid}`, JSON.stringify(etas), 'EX', 15);
+        redisClient.set(`ctaapi:${mapid}`, JSON.stringify(etas), 'EX', 12);
         return etas;
       });
   });

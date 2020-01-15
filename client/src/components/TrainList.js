@@ -21,25 +21,39 @@ const CenterCol = props => {
 
 const TrainList = props => {
   const [loading, setLoading] = useState(true);
-  const [etas, setEtas] = useState([]);
-
+  const [trains, setTrains] = useState([]);
   const station = props.station;
 
+  // 15 seconds for the auto-refresh;
+  const refreshTime = 15000;
+  const [refreshInterval, setRefreshInterval] = useState(null);
+
+  // Loads the data into the etas state
   const getEtas = () => {
     setLoading(true);
     axios
       .get('/api/station', {
         params: { id: station.id }
       })
-      .then(res => setEtas(res.data[0].etas || []))
+      .then(res => setTrains(res.data[0].etas || []))
       .then(() => setLoading(false));
+  };
+
+  /*
+   Function for setting up the auto-refresh, call on the modal's onEnter
+   and make sure to clear the interval on its onExit.
+  */
+  const refreshData = () => {
+    getEtas();
+    setRefreshInterval(window.setInterval(getEtas, refreshTime));
   };
 
   return (
     <Modal
       show={props.show}
       onHide={props.onHide}
-      onEnter={getEtas}
+      onEnter={refreshData}
+      onExit={() => window.clearInterval(refreshInterval)}
       centered
       className="station-modal"
     >
@@ -63,14 +77,16 @@ const TrainList = props => {
           </CenterCol>
         ) : (
           <ListGroup variant={'flush'}>
-            {etas.length === 0 ? (
+            {trains.length === 0 ? (
               <CenterCol>
                 <h4 className="font-weight-bold" style={{ margin: 0 }}>
                   No trains were received for this station.
                 </h4>
               </CenterCol>
             ) : (
-              etas.map(train => <TrainListItem train={train} />)
+              trains.map(train => (
+                <TrainListItem key={train.id} train={train} />
+              ))
             )}
           </ListGroup>
         )}
