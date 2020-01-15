@@ -1,13 +1,9 @@
 import React from 'react';
-import { Card, CardColumns, Row, Col, Spinner } from 'react-bootstrap';
-import { FaWheelchair as AccessibleIcon } from 'react-icons/fa';
+import { Row, Col, Spinner, CardColumns } from 'react-bootstrap';
 
 import axios from 'axios';
-import TrainList from './TrainList';
 import Filter from './Filter';
-
-const traintrackerUrl =
-  'https://www.transitchicago.com/traintracker/arrivaltimes/?sid=';
+import Station from './Station';
 
 class StationList extends React.PureComponent {
   state = {
@@ -20,7 +16,7 @@ class StationList extends React.PureComponent {
   updateData = () => {
     this.setState({ loading: true }, () => {
       if (!this.state.filterName) {
-        axios.get('/api/station/all').then(res => {
+        axios.get('/api/station/testdata').then(res => {
           this.setState({ stations: res.data, loading: false });
         });
         return;
@@ -54,9 +50,7 @@ class StationList extends React.PureComponent {
           <Filter updateFilter={this.updateFilter} />
           <Row>
             <Col className="text-center">
-              {/*<div className="d-flex justify-content-center align-items-center">*/}
               <Spinner animation={'border'} role={'status'} />
-              {/*</div>*/}
             </Col>
           </Row>
         </div>
@@ -68,20 +62,7 @@ class StationList extends React.PureComponent {
         <Filter updateFilter={this.updateFilter} />
         <CardColumns>
           {this.state.stations.map(station => (
-            <Card key={station.id} className="station-card">
-              <Card.Body>
-                <Card.Title className="font-weight-bold">
-                  <a
-                    href={`${traintrackerUrl}${station.id}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {station.name} {station.accessible && <AccessibleIcon />}
-                  </a>
-                </Card.Title>
-                <TrainList etas={station.etas} />
-              </Card.Body>
-            </Card>
+            <Station key={station.id} stationData={station} />
           ))}
         </CardColumns>
       </div>

@@ -99,115 +99,145 @@ body {
 
 .station-card {
   padding: 0;
-  //background-color: #565a5c;
   background-color: $sign-grey;
-  border-radius: 5px;
+  border-radius: 0.3rem !important;
+  cursor: pointer;
 
-  &,
-  & a:link,
-  & a:visited {
-    // Override blue link color
-    color: $text-color-white;
+  &:hover {
+    text-decoration: underline;
   }
 
   .card-title {
-    padding: 1rem;
     margin: 0;
-    font-size: 1.875rem;
   }
+}
 
-  .card-body {
-    padding: 0;
+.station-modal {
+  .modal-content {
+    background-color: $sign-grey;
+    color: $text-color-white;
 
-    .train-num {
-      font-size: 0.9375rem;
+    .modal-header {
+      padding: 1rem;
+      margin: 0;
+      font-size: 1.875rem;
+
+      .close {
+        color: $text-color-white;
+        opacity: 1;
+      }
+
+      .modal-title {
+        a:link,
+        a:visited {
+          // Override blue link color
+          color: $text-color-white !important;
+        }
+      }
     }
 
-    .train-dest {
-      font-size: 1.75rem;
+    .modal-body {
+      padding: 0;
+
+      .train-num {
+        font-size: 0.9375rem;
+      }
+
+      .train-dest {
+        font-size: 1.75rem;
+      }
+
+      .eta-display svg {
+        margin-left: 0.5rem;
+      }
+
+      .list-group-item {
+        border-color: $text-color-white;
+
+        &.red-line {
+          background-color: $red-line;
+          color: $text-color-white;
+
+          &:hover {
+            background-color: darken($red-line, $hover-darken);
+            color: $text-color-white;
+          }
+        }
+
+        &.blue-line {
+          background-color: $blue-line;
+          color: $text-color-white;
+
+          &:hover {
+            background-color: darken($blue-line, $hover-darken);
+            color: $text-color-white;
+          }
+        }
+
+        &.brown-line {
+          background-color: $brown-line;
+          color: $text-color-white;
+
+          &:hover {
+            background-color: darken($brown-line, $hover-darken);
+            color: $text-color-white;
+          }
+        }
+
+        &.green-line {
+          background-color: $green-line;
+          color: $text-color-white;
+
+          &:hover {
+            background-color: darken($green-line, $hover-darken);
+            color: $text-color-white;
+          }
+        }
+
+        &.orange-line {
+          background-color: $orange-line;
+          color: $text-color-white;
+
+          &:hover {
+            background-color: darken($orange-line, $hover-darken);
+            color: $text-color-white;
+          }
+        }
+
+        &.pink-line {
+          background-color: $pink-line;
+          color: $text-color-white;
+
+          &:hover {
+            background-color: darken($pink-line, $hover-darken);
+            color: $text-color-white;
+          }
+        }
+
+        &.purple-line {
+          background-color: $purple-line;
+          color: $text-color-white;
+
+          &:hover {
+            background-color: darken($purple-line, $hover-darken);
+            color: $text-color-white;
+          }
+        }
+
+        &.yellow-line {
+          background-color: $yellow-line;
+          color: $text-color-black;
+
+          &:hover {
+            background-color: darken($yellow-line, $hover-darken);
+          }
+        }
+      }
     }
 
-    .eta-display svg {
-      margin-left: 0.5rem;
+    .modal-footer {
+      background-color: darken($sign-grey, 10%);
+      padding: 0.5rem;
     }
-  }
-}
-
-.red-line {
-  background-color: $red-line;
-  color: $text-color-white;
-
-  &:hover {
-    background-color: darken($red-line, $hover-darken);
-    color: $text-color-white;
-  }
-}
-
-.blue-line {
-  background-color: $blue-line;
-  color: $text-color-white;
-
-  &:hover {
-    background-color: darken($blue-line, $hover-darken);
-    color: $text-color-white;
-  }
-}
-
-.brown-line {
-  background-color: $brown-line;
-  color: $text-color-white;
-
-  &:hover {
-    background-color: darken($brown-line, $hover-darken);
-    color: $text-color-white;
-  }
-}
-
-.green-line {
-  background-color: $green-line;
-  color: $text-color-white;
-
-  &:hover {
-    background-color: darken($green-line, $hover-darken);
-    color: $text-color-white;
-  }
-}
-
-.orange-line {
-  background-color: $orange-line;
-  color: $text-color-white;
-
-  &:hover {
-    background-color: darken($orange-line, $hover-darken);
-    color: $text-color-white;
-  }
-}
-
-.pink-line {
-  background-color: $pink-line;
-  color: $text-color-white;
-
-  &:hover {
-    background-color: darken($pink-line, $hover-darken);
-    color: $text-color-white;
-  }
-}
-
-.purple-line {
-  background-color: $purple-line;
-  color: $text-color-white;
-
-  &:hover {
-    background-color: darken($purple-line, $hover-darken);
-    color: $text-color-white;
-  }
-}
-
-.yellow-line {
-  background-color: $yellow-line;
-  color: $text-color-black;
-
-  &:hover {
-    background-color: darken($yellow-line, $hover-darken);
   }
 }

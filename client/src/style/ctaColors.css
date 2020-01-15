@@ -9734,98 +9734,114 @@ body {
 .station-card {
   padding: 0;
   background-color: #565a5c;
-  border-radius: 5px;
+  border-radius: 0.3rem !important;
+  cursor: pointer;
 }
-.station-card, .station-card a:link, .station-card a:visited {
-  color: #ffffff;
+.station-card:hover {
+  text-decoration: underline;
 }
 .station-card .card-title {
+  margin: 0;
+}
+
+.station-modal .modal-content {
+  background-color: #565a5c;
+  color: #ffffff;
+}
+.station-modal .modal-content .modal-header {
   padding: 1rem;
   margin: 0;
   font-size: 1.875rem;
 }
-.station-card .card-body {
+.station-modal .modal-content .modal-header .close {
+  color: #ffffff;
+  opacity: 1;
+}
+.station-modal .modal-content .modal-header .modal-title a:link,
+.station-modal .modal-content .modal-header .modal-title a:visited {
+  color: #ffffff !important;
+}
+.station-modal .modal-content .modal-body {
   padding: 0;
 }
-.station-card .card-body .train-num {
+.station-modal .modal-content .modal-body .train-num {
   font-size: 0.9375rem;
 }
-.station-card .card-body .train-dest {
+.station-modal .modal-content .modal-body .train-dest {
   font-size: 1.75rem;
 }
-.station-card .card-body .eta-display svg {
+.station-modal .modal-content .modal-body .eta-display svg {
   margin-left: 0.5rem;
 }
-
-.red-line {
+.station-modal .modal-content .modal-body .list-group-item {
+  border-color: #ffffff;
+}
+.station-modal .modal-content .modal-body .list-group-item.red-line {
   background-color: #c82032;
   color: #ffffff;
 }
-.red-line:hover {
+.station-modal .modal-content .modal-body .list-group-item.red-line:hover {
   background-color: #b21c2d;
   color: #ffffff;
 }
-
-.blue-line {
+.station-modal .modal-content .modal-body .list-group-item.blue-line {
   background-color: #17a0db;
   color: #ffffff;
 }
-.blue-line:hover {
+.station-modal .modal-content .modal-body .list-group-item.blue-line:hover {
   background-color: #158fc4;
   color: #ffffff;
 }
-
-.brown-line {
+.station-modal .modal-content .modal-body .list-group-item.brown-line {
   background-color: #63361c;
   color: #ffffff;
 }
-.brown-line:hover {
+.station-modal .modal-content .modal-body .list-group-item.brown-line:hover {
   background-color: #4f2b16;
   color: #ffffff;
 }
-
-.green-line {
+.station-modal .modal-content .modal-body .list-group-item.green-line {
   background-color: #049b49;
   color: #ffffff;
 }
-.green-line:hover {
+.station-modal .modal-content .modal-body .list-group-item.green-line:hover {
   background-color: #03823d;
   color: #ffffff;
 }
-
-.orange-line {
+.station-modal .modal-content .modal-body .list-group-item.orange-line {
   background-color: #ef4925;
   color: #ffffff;
 }
-.orange-line:hover {
+.station-modal .modal-content .modal-body .list-group-item.orange-line:hover {
   background-color: #e93811;
   color: #ffffff;
 }
-
-.pink-line {
+.station-modal .modal-content .modal-body .list-group-item.pink-line {
   background-color: #e37fa7;
   color: #ffffff;
 }
-.pink-line:hover {
+.station-modal .modal-content .modal-body .list-group-item.pink-line:hover {
   background-color: #de6a99;
   color: #ffffff;
 }
-
-.purple-line {
+.station-modal .modal-content .modal-body .list-group-item.purple-line {
   background-color: #542e91;
   color: #ffffff;
 }
-.purple-line:hover {
+.station-modal .modal-content .modal-body .list-group-item.purple-line:hover {
   background-color: #49287e;
   color: #ffffff;
 }
-
-.yellow-line {
+.station-modal .modal-content .modal-body .list-group-item.yellow-line {
   background-color: #f5e50b;
   color: #1c1c1c;
 }
-.yellow-line:hover {
+.station-modal .modal-content .modal-body .list-group-item.yellow-line:hover {
   background-color: #ddcf09;
+}
+.station-modal .modal-content .modal-footer {
+  background-color: #3d4042;
+  padding: 0.5rem;
 }
 
 /*# sourceMappingURL=ctaColors.css.map */
