@@ -1,12 +1,11 @@
 const redis = require('redis');
 const { promisify } = require('util');
+const hash = require('object-hash');
 
 const redisClient = redis.createClient(process.env.REDIS_URL || null);
 const getAsync = promisify(redisClient.get).bind(redisClient);
 
-const ctaApi = require('../api/cta');
-const hash = require('object-hash');
-const params = { key: require('../config/keys').ctaKey, outputType: 'JSON' };
+const { ctaApi, params } = require('../api/cta');
 
 const lineNames = {
   Pink: 'Pink Line',
@@ -20,17 +19,20 @@ const lineNames = {
 };
 
 const getStation = mapid => {
+  // Check the cache for if the result already exists.
   return getAsync(`ctaapi:${mapid}`).then(result => {
     if (result) {
+      // If it does, return the cached result.
       return JSON.parse(result);
     }
+    // Otherwise, generate a result and cache it with a TTL of 15 seconds.
     return ctaApi
       .request({
         params: { ...params, mapid: mapid }
       })
       .then(response => {
         const etas = response.data.ctatt.eta || [];
-        redisClient.set(`ctaapi:${mapid}`, JSON.stringify(etas), 'EX', 30);
+        redisClient.set(`ctaapi:${mapid}`, JSON.stringify(etas), 'EX', 15);
         return etas;
       });
   });
@@ -62,4 +64,4 @@ const generateStationData = stations => {
   );
 };
 
-module.exports = { generateStationData, lineNames };
+module.exports = generateStationData;

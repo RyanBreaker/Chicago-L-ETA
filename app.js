@@ -35,7 +35,7 @@ frequently-updated files for download to use instead. Everything else will be co
 */
 const allStations = stationParser(fs.readFileSync(stopsFile));
 const testData = require('./client/src/testData');
-const { generateStationData } = require('./data/dataHelpers');
+const generateStationData = require('./data/dataHelpers');
 
 /*
 API Routes
