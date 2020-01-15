@@ -6,7 +6,8 @@ const fs = require('fs');
 
 const stopsFile = './data/stops.txt';
 const stationParser = require('./data/stationParser');
-const { generateStationData } = require('./data/dataHelpers');
+
+const forceUseTestData = process.env.FORCE_TEST_DATA || false;
 
 const app = express();
 
@@ -33,54 +34,42 @@ This has to be done locally due to a lack of API functionality for getting said 
 frequently-updated files for download to use instead. Everything else will be completed via CTA's Arrivals API.
 */
 const allStations = stationParser(fs.readFileSync(stopsFile));
+const testData = require('./client/src/testData');
 
 /*
 API Routes
 */
 
 // TODO: Input validation/sanitation.
-app.get('/api/station/search', (req, res) => {
+app.get('/api/station', (req, res) => {
   const query = req.query;
 
   // Start with the full list to filter down from.
-  let stationsFiltered = allStations;
+  let stationsFiltered =
+    query.testData === 'true' || forceUseTestData ? testData : allStations;
 
-  // Check for name filter.
-  if (query.name) {
-    stationsFiltered = stationsFiltered.filter(sta =>
-      sta.name.toLowerCase().includes(query.name.toLowerCase().trim())
-    );
+  // Check for ID filter.
+  if (query.id) {
+    stationsFiltered = stationsFiltered.filter(sta => sta.id === query.id);
+  } else {
+    // Only check the others if no ID was given.
+    // Check for name filter.
+    if (query.name) {
+      stationsFiltered = stationsFiltered.filter(sta =>
+        sta.name.toLowerCase().includes(query.name.toLowerCase().trim())
+      );
+    }
+
+    // Check for accessibility filter.
+    if (query.accessible === 'true') {
+      stationsFiltered = stationsFiltered.filter(sta => sta.accessible);
+    }
   }
 
-  // Check for accessibility filter.
-  if (query.accessible) {
-    stationsFiltered = stationsFiltered.filter(sta => sta.accessible);
-  }
-
-  return generateStationData(stationsFiltered).then(v => res.json(v));
-});
-
-// Return just a list of all the stations without any ETA data included.
-app.get('/api/station/all', (req, res) => res.json(allStations));
-
-// Return a list of all stations with all ETAs.
-// WARNING: VERY EXPENSIVE!!!
-app.get('/api/station/all_populated', (req, res) =>
-  generateStationData(allStations).then(v => res.json(v))
-);
-
-// Get station ETAs by ID.
-app.get('/api/station/id/:staId', (req, res) => {
-  const staId = req.params.staId;
-
-  // Find matching station with ID and return it.
-  const station = allStations.filter(sta => sta.id === staId);
-  return generateStationData(station).then(v => res.json(v));
-  // If no matching station was found, only an empty array will be generated.
+  return res.json(stationsFiltered);
 });
 
 // Test data for testing, returns outdated but valid full set of data.
-const testData = require('./client/src/testData');
 app.get('/api/station/testdata', (req, res) => res.json(testData));
 
 // Catchall for all other routes.

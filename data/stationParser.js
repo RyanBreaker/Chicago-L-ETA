@@ -19,7 +19,8 @@ const checkRecord = record => {
     return {
       id: record.stop_id,
       name: record.stop_name,
-      accessible: record.wheelchair_boarding === '1'
+      accessible: record.wheelchair_boarding === '1',
+      etas: []
     };
     // Otherwise, discard the record.
   }

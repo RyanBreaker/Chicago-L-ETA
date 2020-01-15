@@ -30,10 +30,13 @@ const TrainList = props => {
   const station = props.station;
 
   const getEtas = () => {
+    setLoading(true);
     axios
-      .get(`/api/station/id/${station.id}`)
-      .then(res => setEtas(res.data.etas || []))
-      .then(() => setLoading(!loading));
+      .get('/api/station', {
+        params: { id: station.id, testData: true }
+      })
+      .then(res => setEtas(res.data[0].etas || []))
+      .then(() => setLoading(false));
   };
 
   return (
