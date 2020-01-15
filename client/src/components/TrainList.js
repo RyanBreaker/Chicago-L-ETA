@@ -25,7 +25,7 @@ const TrainList = props => {
   const station = props.station;
 
   // 15 seconds for the auto-refresh;
-  const refreshTime = 15000;
+  const refreshTime = 15;
   const [refreshInterval, setRefreshInterval] = useState(null);
 
   // Loads the data into the etas state
@@ -45,7 +45,7 @@ const TrainList = props => {
   */
   const refreshData = () => {
     getEtas();
-    setRefreshInterval(window.setInterval(getEtas, refreshTime));
+    setRefreshInterval(window.setInterval(getEtas, refreshTime * 1000)); // Convert to seconds.
   };
 
   return (
@@ -58,42 +58,45 @@ const TrainList = props => {
       className="station-modal"
     >
       <Modal.Header closeButton>
-        <Modal.Title className="font-weight-bold">
-          <a
-            href={`${traintrackerUrl}${station.id}`}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {station.name} {station.accessible && <AccessibleIcon />}{' '}
-            {<LinkIcon />}
-          </a>
+        <Modal.Title className="font-weight-bold" style={{ width: '100%' }}>
+          <Row>
+            <Col xs={9}>
+              <a
+                href={`${traintrackerUrl}${station.id}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {station.name} {station.accessible && <AccessibleIcon />}{' '}
+                {<LinkIcon />}
+              </a>
+            </Col>
+            <Col
+              xs={3}
+              className="d-flex justify-content-center align-items-center"
+            >
+              {loading ? <Spinner animation="grow" role="status" /> : null}
+            </Col>
+          </Row>
         </Modal.Title>
       </Modal.Header>
 
       <Modal.Body>
-        {loading ? (
-          <CenterCol>
-            <Spinner animation={'border'} role={'status'} />
-          </CenterCol>
-        ) : (
-          <ListGroup variant={'flush'}>
-            {trains.length === 0 ? (
-              <CenterCol>
-                <h4 className="font-weight-bold" style={{ margin: 0 }}>
-                  No trains were received for this station.
-                </h4>
-              </CenterCol>
-            ) : (
-              trains.map(train => (
-                <TrainListItem key={train.id} train={train} />
-              ))
-            )}
-          </ListGroup>
-        )}
+        <ListGroup variant={'flush'}>
+          {/* Only show the message if content also isn't being loaded. */}
+          {trains.length === 0 && !loading ? (
+            <CenterCol>
+              <h4 className="font-weight-bold" style={{ margin: 0 }}>
+                No trains were received for this station at this time.
+              </h4>
+            </CenterCol>
+          ) : (
+            trains.map(train => <TrainListItem key={train.id} train={train} />)
+          )}
+        </ListGroup>
       </Modal.Body>
 
       <Modal.Footer className="justify-content-center font-italic">
-        Content auto-refreshes every 15 seconds.
+        Content auto-refreshes every {refreshTime} seconds.
       </Modal.Footer>
     </Modal>
   );
