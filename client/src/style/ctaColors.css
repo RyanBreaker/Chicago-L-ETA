@@ -9770,6 +9770,12 @@ body {
 .station-modal .modal-content .modal-body {
   padding: 0;
 }
+.station-modal .modal-content .modal-body .center-col {
+  padding: 1rem 0;
+}
+.station-modal .modal-content .modal-body .center-col h4 {
+  margin: 0;
+}
 .station-modal .modal-content .modal-body .train-num {
   font-size: 0.9375rem;
 }

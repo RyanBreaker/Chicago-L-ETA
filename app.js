@@ -38,12 +38,6 @@ const allStations = stationParser(fs.readFileSync(stopsFile));
 API Routes
 */
 
-// Return a list of all stations with all ETAs.
-// WARNING: This is VERY EXPENSIVE!!!
-app.get('/api/station/all', (req, res) =>
-  generateStationData(allStations).then(v => res.json(v))
-);
-
 // TODO: Input validation/sanitation.
 app.get('/api/station/search', (req, res) => {
   const query = req.query;
@@ -66,10 +60,16 @@ app.get('/api/station/search', (req, res) => {
   return generateStationData(stationsFiltered).then(v => res.json(v));
 });
 
-// Return just a list of all the stations.
-app.get('/api/station/empty', (req, res) => res.json(allStations));
+// Return just a list of all the stations without any ETA data included.
+app.get('/api/station/all', (req, res) => res.json(allStations));
 
-// Get station by ID.
+// Return a list of all stations with all ETAs.
+// WARNING: VERY EXPENSIVE!!!
+app.get('/api/station/all_populated', (req, res) =>
+  generateStationData(allStations).then(v => res.json(v))
+);
+
+// Get station ETAs by ID.
 app.get('/api/station/id/:staId', (req, res) => {
   const staId = req.params.staId;
 

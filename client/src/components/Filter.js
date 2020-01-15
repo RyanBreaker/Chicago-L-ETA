@@ -2,22 +2,24 @@ import React, { useState } from 'react';
 import { Col, Form, Row } from 'react-bootstrap';
 
 const SearchBar = props => {
+  // Current value of the text input.
   const [text, setText] = useState('');
+  // Timeout for auto-filtering the page on input.
+  const [timeout, setTimeout] = useState(null);
 
   return (
-    <Form
-      inline={true}
-      onSubmit={e => {
-        e.preventDefault();
-        props.onSubmit(text);
-      }}
-    >
+    <Form inline={true} onSubmit={e => e.preventDefault()}>
       <Form.Group>
         <Form.Control
           type="text"
           placeholder="Station Name"
-          onChange={e => {
-            setText(e.target.value);
+          onChange={e => setText(e.target.value)}
+          onKeyUp={() => {
+            window.clearTimeout(timeout);
+            setTimeout(
+              // window.setTimeout(() => props.onSubmit(e.target.value))
+              window.setTimeout(() => props.onChange(text), 500)
+            );
           }}
         />
       </Form.Group>
@@ -38,7 +40,7 @@ const Filter = props => {
       {/*  </DropdownButton>*/}
       {/*</Col>*/}
       <Col xs={12}>
-        <SearchBar onSubmit={props.updateFilter} />
+        <SearchBar onChange={props.updateFilter} />
       </Col>
     </Row>
   );

@@ -15,28 +15,25 @@ class StationList extends React.PureComponent {
 
   updateData = () => {
     this.setState({ loading: true }, () => {
-      if (!this.state.filterName) {
-        axios.get('/api/station/testdata').then(res => {
-          this.setState({ stations: res.data, loading: false });
-        });
-        return;
-      }
+      // If no filter, just request everything.
+      if (!(this.state.filterName || this.state.filterAccessible))
+        return axios
+          .get('/api/station/all')
+          .then(res => this.setState({ stations: res.data, loading: false }));
 
       const params = {
         name: this.state.filterName,
         accessible: this.state.filterAccessible
       };
 
-      axios.get('/api/station/search', { params: params }).then(res => {
-        this.setState({ stations: res.data, loading: false });
-      });
+      return axios
+        .get('/api/station/search', { params: params })
+        .then(res => this.setState({ stations: res.data, loading: false }));
     });
   };
 
   updateFilter = name => {
-    this.setState({ filterName: name }, () => {
-      this.updateData();
-    });
+    this.setState({ filterName: name }, () => this.updateData());
   };
 
   componentDidMount() {

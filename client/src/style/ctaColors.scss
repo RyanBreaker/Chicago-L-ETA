@@ -144,6 +144,14 @@ body {
     .modal-body {
       padding: 0;
 
+      // For the no-train alert.
+      .center-col {
+        padding: 1rem 0;
+        h4 {
+          margin: 0;
+        }
+      }
+
       .train-num {
         font-size: 0.9375rem;
       }
