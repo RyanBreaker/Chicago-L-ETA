@@ -9734,6 +9734,7 @@ body {
 .station-card {
   padding: 0;
   background-color: #565a5c;
+  color: #ffffff;
   border-radius: 0.3rem !important;
   cursor: pointer;
 }
