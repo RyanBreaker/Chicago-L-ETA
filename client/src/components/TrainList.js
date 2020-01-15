@@ -92,7 +92,9 @@ const TrainList = props => {
         )}
       </Modal.Body>
 
-      <Modal.Footer />
+      <Modal.Footer className="justify-content-center font-italic">
+        Content auto-refreshes every 15 seconds.
+      </Modal.Footer>
     </Modal>
   );
 };
