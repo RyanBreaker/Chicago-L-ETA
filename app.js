@@ -67,6 +67,17 @@ app.get('/api/station/empty', (req, res) => {
   res.json(allStations);
 });
 
+// Get station by ID.
+app.get('/api/station/id/:staId', (req, res) => {
+  const staId = req.params.staId;
+  const station = allStations.filter(sta => sta.id === staId);
+  if (station) {
+    console.log(station);
+    return generateStationData(station).then(v => res.json(v));
+  }
+  res.json([]);
+});
+
 const testData = require('./client/src/testData');
 app.get('/api/station/testdata', (req, res) => {
   res.json(testData);
