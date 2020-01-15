@@ -9707,7 +9707,7 @@ body {
 }
 
 .filter {
-  margin-bottom: 1rem;
+  margin-bottom: 0;
 }
 
 @media (max-width: 575.98px) {
