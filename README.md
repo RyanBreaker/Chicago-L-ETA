@@ -15,5 +15,5 @@ The backend is Node.js Express with Axios for the external API calls, frontend w
   - The only filtering currently available in this application is raw text filtering against the station names. I'd like to try adding filtering for lines, station accessibility, as well as maybe even fuzzy searching.
 * Legend
   - A legend as a popup or alert or similar would be useful for users unfamiliar with the icons used.
-* Refresh button.
-  - A refresh button in the TrainList component's modal would be useful to update the data inside without having to close/reopen the window.
+* Refresh button or auto-refresh.
+  - A refresh button or auto-refresh in the TrainList component's modal would be useful to update the data inside without having to close/reopen the window to get fresh data.
