@@ -7,7 +7,7 @@ const fs = require('fs');
 const stopsFile = './data/stops.txt';
 const stationParser = require('./data/stationParser');
 
-const forceUseTestData = process.env.FORCE_TEST_DATA || false;
+const forceUseTestData = process.env.FORCE_TEST_DATA === 'true';
 
 const app = express();
 
@@ -35,6 +35,7 @@ frequently-updated files for download to use instead. Everything else will be co
 */
 const allStations = stationParser(fs.readFileSync(stopsFile));
 const testData = require('./client/src/testData');
+const { generateStationData } = require('./data/dataHelpers');
 
 /*
 API Routes
@@ -43,10 +44,10 @@ API Routes
 // TODO: Input validation/sanitation.
 app.get('/api/station', (req, res) => {
   const query = req.query;
+  const useTestData = query.testData === 'true' || forceUseTestData;
 
   // Start with the full list to filter down from.
-  let stationsFiltered =
-    query.testData === 'true' || forceUseTestData ? testData : allStations;
+  let stationsFiltered = useTestData ? testData : allStations;
 
   // Check for ID filter.
   if (query.id) {
@@ -66,7 +67,11 @@ app.get('/api/station', (req, res) => {
     }
   }
 
-  return res.json(stationsFiltered);
+  // If test data, ETAs are already present in the data, or don't fetch any data if the query wasn't of an ID.
+  if (useTestData || !query.id) return res.json(stationsFiltered);
+
+  // Fetch the data if it isn't test data and an ID wasn't specified.
+  return generateStationData(stationsFiltered).then(v => res.json(v));
 });
 
 // Test data for testing, returns outdated but valid full set of data.

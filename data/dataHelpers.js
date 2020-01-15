@@ -5,6 +5,7 @@ const redisClient = redis.createClient(process.env.REDIS_URL || null);
 const getAsync = promisify(redisClient.get).bind(redisClient);
 
 const ctaApi = require('../api/cta');
+const hash = require('object-hash');
 const params = { key: require('../config/keys').ctaKey, outputType: 'JSON' };
 
 const lineNames = {
