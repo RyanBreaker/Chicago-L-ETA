@@ -9789,70 +9789,71 @@ body {
   font-size: 1.5rem;
   margin-left: 0.5rem;
 }
-.station-modal .modal-content .modal-body .list-group-item {
+.station-modal .modal-content .modal-body .train-list-item {
+  cursor: default;
   border-color: #ffffff;
 }
-.station-modal .modal-content .modal-body .list-group-item.red-line {
+.station-modal .modal-content .modal-body .train-list-item.red-line {
   background-color: #c82032;
   color: #ffffff;
 }
-.station-modal .modal-content .modal-body .list-group-item.red-line:hover {
+.station-modal .modal-content .modal-body .train-list-item.red-line:hover {
   background-color: #b21c2d;
   color: #ffffff;
 }
-.station-modal .modal-content .modal-body .list-group-item.blue-line {
+.station-modal .modal-content .modal-body .train-list-item.blue-line {
   background-color: #17a0db;
   color: #ffffff;
 }
-.station-modal .modal-content .modal-body .list-group-item.blue-line:hover {
+.station-modal .modal-content .modal-body .train-list-item.blue-line:hover {
   background-color: #158fc4;
   color: #ffffff;
 }
-.station-modal .modal-content .modal-body .list-group-item.brown-line {
+.station-modal .modal-content .modal-body .train-list-item.brown-line {
   background-color: #63361c;
   color: #ffffff;
 }
-.station-modal .modal-content .modal-body .list-group-item.brown-line:hover {
+.station-modal .modal-content .modal-body .train-list-item.brown-line:hover {
   background-color: #4f2b16;
   color: #ffffff;
 }
-.station-modal .modal-content .modal-body .list-group-item.green-line {
+.station-modal .modal-content .modal-body .train-list-item.green-line {
   background-color: #049b49;
   color: #ffffff;
 }
-.station-modal .modal-content .modal-body .list-group-item.green-line:hover {
+.station-modal .modal-content .modal-body .train-list-item.green-line:hover {
   background-color: #03823d;
   color: #ffffff;
 }
-.station-modal .modal-content .modal-body .list-group-item.orange-line {
+.station-modal .modal-content .modal-body .train-list-item.orange-line {
   background-color: #ef4925;
   color: #ffffff;
 }
-.station-modal .modal-content .modal-body .list-group-item.orange-line:hover {
+.station-modal .modal-content .modal-body .train-list-item.orange-line:hover {
   background-color: #e93811;
   color: #ffffff;
 }
-.station-modal .modal-content .modal-body .list-group-item.pink-line {
+.station-modal .modal-content .modal-body .train-list-item.pink-line {
   background-color: #e37fa7;
   color: #ffffff;
 }
-.station-modal .modal-content .modal-body .list-group-item.pink-line:hover {
+.station-modal .modal-content .modal-body .train-list-item.pink-line:hover {
   background-color: #de6a99;
   color: #ffffff;
 }
-.station-modal .modal-content .modal-body .list-group-item.purple-line {
+.station-modal .modal-content .modal-body .train-list-item.purple-line {
   background-color: #542e91;
   color: #ffffff;
 }
-.station-modal .modal-content .modal-body .list-group-item.purple-line:hover {
+.station-modal .modal-content .modal-body .train-list-item.purple-line:hover {
   background-color: #49287e;
   color: #ffffff;
 }
-.station-modal .modal-content .modal-body .list-group-item.yellow-line {
+.station-modal .modal-content .modal-body .train-list-item.yellow-line {
   background-color: #f5e50b;
   color: #1c1c1c;
 }
-.station-modal .modal-content .modal-body .list-group-item.yellow-line:hover {
+.station-modal .modal-content .modal-body .train-list-item.yellow-line:hover {
   background-color: #ddcf09;
 }
 .station-modal .modal-content .modal-footer {

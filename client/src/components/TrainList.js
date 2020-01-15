@@ -4,12 +4,8 @@ import axios from 'axios';
 import { Col, ListGroup, Modal, Row, Spinner } from 'react-bootstrap';
 import { FaWheelchair as AccessibleIcon } from 'react-icons/fa';
 import { FiExternalLink as LinkIcon } from 'react-icons/fi';
-import { IoMdAirplane as AirplaneIcon } from 'react-icons/io';
+import TrainListItem from './TrainListItem';
 
-import EtaDisplay from './EtaDisplay';
-import { lineToStyle } from '../helpers';
-
-const airports = ["O'Hare", 'Midway'];
 const traintrackerUrl =
   'https://www.transitchicago.com/traintracker/arrivaltimes/?sid=';
 
@@ -74,36 +70,7 @@ const TrainList = props => {
                 </h4>
               </CenterCol>
             ) : (
-              etas.map(eta => (
-                <ListGroup.Item
-                  key={eta.id}
-                  className={`${lineToStyle(eta.lineName)} train-list`}
-                >
-                  <Row>
-                    <Col xs={12} sm={6} className="train-num">
-                      {eta.lineName} #{eta.trainNumber} to
-                      <br />
-                      <span className="train-dest font-weight-bold">
-                        {eta.destination}
-                        {airports.includes(eta.destination) ? (
-                          <AirplaneIcon />
-                        ) : null}
-                      </span>
-                    </Col>
-                    <Col
-                      sm={6}
-                      className="d-sm-flex align-items-sm-center justify-content-sm-end"
-                    >
-                      <EtaDisplay
-                        due={eta.due}
-                        eta={eta.eta}
-                        generatedAt={eta.generatedAt}
-                        liveData={!eta.scheduled}
-                      />
-                    </Col>
-                  </Row>
-                </ListGroup.Item>
-              ))
+              etas.map(train => <TrainListItem train={train} />)
             )}
           </ListGroup>
         )}

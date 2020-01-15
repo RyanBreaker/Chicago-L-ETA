@@ -170,7 +170,8 @@ body {
         }
       }
 
-      .list-group-item {
+      .train-list-item {
+        cursor: default;
         border-color: $text-color-white;
 
         &.red-line {
