@@ -10,7 +10,7 @@ import ScrollUpButton from 'react-scroll-up-button';
 function App() {
   return (
     <div>
-      <Container fluid={true}>
+      <Container fluid>
         <Header />
         <StationList />
       </Container>
