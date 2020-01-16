@@ -12,7 +12,7 @@ The backend is Node.js Express with Axios for the external API calls and Redis f
 * Error handling.
   - Currently there isn't much error-checking. This is something I'll add in as I learn more about how handle errors in Node and React.
 * Additional filtering.
-  - The only filtering currently available in this application is case-insensitive text filtering against the station names. I'd like to try adding filtering for lines, station accessibility, as well as maybe even fuzzy searching.
+  - The only filtering currently available in this application is case-insensitive text filtering against the station names. I'd like to try adding filtering for lines, station accessibility, fuzzy searching, and maybe even location decection.
 * Legend
   - A legend as a popup or alert or similar would be useful for users unfamiliar with the icons used.
 * ~~Refresh button or auto-refresh.~~ Done.

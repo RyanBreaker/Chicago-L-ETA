@@ -4,7 +4,7 @@ import { FaWheelchair as AccessibleIcon } from 'react-icons/fa';
 
 import TrainList from './TrainList';
 
-function Station(props) {
+function StationListItem(props) {
   const [showModal, setShowModal] = React.useState(false);
   const toggleModal = () => setShowModal(!showModal);
 
@@ -22,4 +22,4 @@ function Station(props) {
   );
 }
 
-export default Station;
+export default StationListItem;

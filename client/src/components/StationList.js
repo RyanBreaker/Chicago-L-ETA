@@ -3,7 +3,7 @@ import { Row, Col, Spinner, CardColumns } from 'react-bootstrap';
 
 import axios from 'axios';
 import Filter from './Filter';
-import Station from './Station';
+import StationListItem from './StationListItem';
 
 class StationList extends React.PureComponent {
   state = {
@@ -53,7 +53,7 @@ class StationList extends React.PureComponent {
         <Filter updateFilter={this.updateFilter} />
         <CardColumns>
           {this.state.stations.map(station => (
-            <Station key={station.id} stationData={station} />
+            <StationListItem key={station.id} stationData={station} />
           ))}
         </CardColumns>
       </div>
