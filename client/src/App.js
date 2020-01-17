@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 
-import './style/ctaColors.css';
+import './style/ctaColors.scss';
 import Header from './components/Header';
 import StationList from './components/StationList';
 import Footer from './components/Footer';

@@ -22,10 +22,11 @@
       <envs />
     </TaskOptions>
     <enabled-global>
+      <option value="Prettier JS" />
       <option value="SCSS" />
       <option value="Less" />
-      <option value="Prettier LESS" />
       <option value="Prettier JS" />
+      <option value="Prettier LESS" />
     </enabled-global>
   </component>
 </project>
