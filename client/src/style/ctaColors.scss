@@ -173,6 +173,12 @@ body {
       .train-list-item {
         cursor: default;
         border-color: $text-color-white;
+        border-bottom: 0.15rem;
+        border-style: solid;
+
+        &:last-child {
+          border: 0;
+        }
 
         &.red-line {
           background-color: $red-line;

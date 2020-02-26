@@ -23,6 +23,7 @@ const TrainList = props => {
   const [loading, setLoading] = useState(true);
   const [trains, setTrains] = useState([]);
   const station = props.station;
+  const doRefresh = true;
 
   // 15 seconds for the auto-refresh;
   const refreshTime = 15;
@@ -45,7 +46,8 @@ const TrainList = props => {
   */
   const refreshData = () => {
     getEtas();
-    setRefreshInterval(window.setInterval(getEtas, refreshTime * 1000)); // Convert to seconds.
+    if (doRefresh)
+      setRefreshInterval(window.setInterval(getEtas, refreshTime * 1000)); // Convert to seconds.
   };
 
   return (
