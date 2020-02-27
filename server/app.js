@@ -83,7 +83,7 @@ app.get('/api/*', (req, res) => {
 });
 
 // Setup static files for serving the React app.
-const staticPath = path.join(__dirname, 'client', 'build');
+const staticPath = path.join(__dirname, '..', 'client', 'build');
 // Set static files.
 app.use(express.static(path.join(staticPath)));
 // Send the React index.html for any other unknown routes.
