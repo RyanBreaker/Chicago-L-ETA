@@ -34,7 +34,7 @@ This has to be done locally due to a lack of API functionality for getting said 
 frequently-updated files for download to use instead. Everything else will be completed via CTA's Arrivals API.
 */
 const allStations = stationParser(fs.readFileSync(stopsFile));
-const testData = require('./client/src/testData');
+const testData = require('../client/src/testData');
 const generateStationData = require('./data/dataHelpers');
 
 /*
@@ -83,7 +83,7 @@ app.get('/api/*', (req, res) => {
 });
 
 // Setup static files for serving the React app.
-const staticPath = path.join(__dirname, 'client', 'build');
+const staticPath = path.join(__dirname, '..', 'client', 'build');
 // Set static files.
 app.use(express.static(path.join(staticPath)));
 // Send the React index.html for any other unknown routes.
