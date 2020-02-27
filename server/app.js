@@ -34,7 +34,7 @@ This has to be done locally due to a lack of API functionality for getting said 
 frequently-updated files for download to use instead. Everything else will be completed via CTA's Arrivals API.
 */
 const allStations = stationParser(fs.readFileSync(stopsFile));
-const testData = require('./client/src/testData');
+const testData = require('../client/src/testData');
 const generateStationData = require('./data/dataHelpers');
 
 /*
