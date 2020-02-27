@@ -1,0 +1,26 @@
+{
+  "name": "chicago-l-eta",
+  "version": "1.0.0",
+  "description": "This application is a simple train tracker that reports the estimated ETAs of the next train at each station in the CTA (Chicago Transit Authority) system.",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "npm start --prefix ./server",
+    "dev-server": "npm run --prefix ./server dev-server",
+    "client": "npm start --prefix ./client",
+    "dev": "concurrently \"npm run dev-server\" \"npm run client\"",
+    "heroku-postbuild": "npm install --prefix ./client && npm run build --prefix ./client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RyanBreaker/Chicago-L-ETA.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RyanBreaker/Chicago-L-ETA/issues"
+  },
+  "homepage": "https://github.com/RyanBreaker/Chicago-L-ETA#readme",
+  "devDependencies": {
+    "concurrently": "^5.1.0"
+  }
+}
