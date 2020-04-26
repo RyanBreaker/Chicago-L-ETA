@@ -19,8 +19,7 @@ const SearchBar = props => {
           onKeyUp={() => {
             window.clearTimeout(timeout);
             setTimeout(
-              // window.setTimeout(() => props.onSubmit(e.target.value))
-              window.setTimeout(() => props.onChange(text), 500)
+              window.setTimeout(() => props.onChange(text), 250)
             );
           }}
         />
@@ -32,15 +31,6 @@ const SearchBar = props => {
 const Filter = props => {
   return (
     <Row className="filter">
-      {/*<Col>*/}
-      {/*  <DropdownButton className="cta-dropdown" title={'Filter by Line'}>*/}
-      {/*    {lines.map((line, i) => (*/}
-      {/*      <Dropdown.Item key={i} className={lineToStyle(line)}>*/}
-      {/*        {line}*/}
-      {/*      </Dropdown.Item>*/}
-      {/*    ))}*/}
-      {/*  </DropdownButton>*/}
-      {/*</Col>*/}
       <Col xs={12}>
         <SearchBar onChange={props.updateFilter} />
       </Col>
