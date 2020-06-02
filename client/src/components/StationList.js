@@ -37,26 +37,26 @@ class StationList extends React.PureComponent {
   render() {
     if (this.state.loading) {
       return (
-        <div>
+        <>
           <Filter updateFilter={this.updateFilter} />
           <Row>
             <Col className="text-center">
               <Spinner animation={'border'} role={'status'} />
             </Col>
           </Row>
-        </div>
+        </>
       );
     }
 
     return (
-      <div>
+      <>
         <Filter updateFilter={this.updateFilter} />
         <CardColumns>
           {this.state.stations.map(station => (
             <StationListItem key={station.id} stationData={station} />
           ))}
         </CardColumns>
-      </div>
+      </>
     );
   }
 }

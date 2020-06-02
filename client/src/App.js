@@ -1,11 +1,11 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 
-import './style/ctaColors.scss';
 import Header from './components/Header';
 import StationList from './components/StationList';
 import Footer from './components/Footer';
-import ScrollUpButton from 'react-scroll-up-button';
+
+import './style/ctaColors.scss';
 
 function App() {
   return (
@@ -15,7 +15,6 @@ function App() {
         <StationList />
       </Container>
       <Footer />
-      <ScrollUpButton ToggledStyle={{ bottom: 75 }} />
     </div>
   );
 }
