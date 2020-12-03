@@ -4,18 +4,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.9.0",
-    "@testing-library/react": "^10.0.6",
-    "@testing-library/user-event": "^11.0.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.0",
     "bootstrap": "^4.5.0",
     "http-proxy-middleware": "^1.0.4",
-    "node-sass": "^4.14.1",
-    "react": "^16.13.1",
+    "jquery": "^3.5.1",
+    "react": "^17.0.1",
     "react-bootstrap": "^1.0.1",
-    "react-dom": "^16.13.1",
-    "react-icons": "^3.10.0",
-    "react-scripts": "^3.4.1"
+    "react-dom": "^17.0.1",
+    "react-icons": "^4.1.0",
+    "react-scripts": "^4.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -37,5 +34,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^7.28.1",
+    "@testing-library/jest-dom": "^5.9.0",
+    "@testing-library/react": "^11.2.2",
+    "@testing-library/user-event": "^12.4.0",
+    "sass": "^1.29.0",
+    "typescript": "^4.1.2"
   }
 }
