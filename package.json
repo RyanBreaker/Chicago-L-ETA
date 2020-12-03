@@ -1,14 +1,14 @@
 {
   "name": "chicago-l-eta",
   "version": "1.0.0",
-  "description": "This application is a simple train tracker that reports the estimated ETAs of the next train at each station in the CTA (Chicago Transit Authority) system.",
+  "description": "A simple train tracker that reports the estimated ETAs of the next train at each station in the CTA (Chicago Transit Authority) system.",
   "main": "server/index.js",
   "scripts": {
-    "start": "npm start --prefix ./server",
-    "dev-server": "npm run --prefix ./server dev-server",
-    "client": "npm start --prefix ./client",
-    "dev": "concurrently \"npm run dev-server\" \"npm run client\"",
-    "heroku-postbuild": "npm install --prefix ./server && npm install --prefix ./client && npm run build --prefix ./client"
+    "start": "yarn --cwd ./server run start",
+    "dev-server": "yarn --cwd ./server run dev-server",
+    "client": "yarn --cwd ./client run start",
+    "dev": "concurrently \"yarn run dev-server\" \"yarn run client\"",
+    "heroku-postbuild": "concurrently \"yarn --cwd ./client install && yarn --cwd ./client run build\" \"yarn --cwd ./server install\""
   },
   "repository": {
     "type": "git",
