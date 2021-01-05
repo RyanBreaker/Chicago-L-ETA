@@ -10,7 +10,7 @@
     "dev": "concurrently \"yarn run dev-server\" \"yarn run client\""
   },
   "dependencies": {
-    "axios": "^0.21.0",
+    "axios": "^0.21.1",
     "concurrently": "^5.1.0",
     "cookie-parser": "~1.4.4",
     "csv-parse": "^4.8.6",
