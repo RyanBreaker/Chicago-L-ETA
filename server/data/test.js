@@ -1,10 +1,10 @@
-const test = require('ava');
+const test = require('ava')
 
-const stopParser = require('./stationParser');
+const stopParser = require('./stationParser')
 
 const header = `
 stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,location_type,parent_station,wheelchair_boarding
-`.trim();
+`.trim()
 
 const invalidTestData = `
 ${header}
@@ -17,7 +17,7 @@ ${header}
 8,8,"Jackson & Lockwood","Jackson & Lockwood, Eastbound, Southeast Corner",41.876564,-87.757313,0,,1
 9,9,"Jackson & Laramie","Jackson & Laramie, Eastbound, Southeast Corner",41.87659463,-87.75461526,0,,1
 10,10,"Jackson & Leamington","Jackson & Leamington, Eastbound, Southeast Corner",41.87662635,-87.7531684,0,,1
-`.trim();
+`.trim()
 
 const validTestData = `
 ${header}
@@ -31,7 +31,7 @@ ${header}
 41080,,"47th (Green)","",41.809209,-87.618826,1,,1
 41090,,"Monroe (Red)","",41.880745,-87.627696,1,,0
 41120,,"35th-Bronzeville-IIT","",41.831677,-87.625826,1,,1
-`.trim();
+`.trim()
 
 const validData = [
   { id: '41010', name: 'Rockwell', wheelchair: true },
@@ -44,7 +44,7 @@ const validData = [
   { id: '41080', name: '47th (Green)', wheelchair: true },
   { id: '41090', name: 'Monroe (Red)', wheelchair: false },
   { id: '41120', name: '35th-Bronzeville-IIT', wheelchair: true }
-];
+]
 
 const testMixedData = `
 ${header}
@@ -58,7 +58,7 @@ ${header}
 41050,,"Linden","",42.073153,-87.69073,1,,1
 4,4,"5700 W Jackson","5700 W Jackson, Eastbound, Southside of the Street",41.87702418,-87.76745055,0,,1
 10,10,"Jackson & Leamington","Jackson & Leamington, Eastbound, Southeast Corner",41.87662635,-87.7531684,0,,1
-`.trim();
+`.trim()
 
 const validMixedData = [
   { id: '41010', name: 'Rockwell', wheelchair: true },
@@ -66,16 +66,16 @@ const validMixedData = [
   { id: '41030', name: 'Polk', wheelchair: true },
   { id: '41040', name: 'Kedzie (Pink)', wheelchair: false },
   { id: '41050', name: 'Linden', wheelchair: true }
-];
+]
 
-test('No valid data', t => {
-  t.deepEqual(stopParser(invalidTestData), []);
-});
+test('No valid data', (t) => {
+  t.deepEqual(stopParser(invalidTestData), [])
+})
 
-test('Only valid data', t => {
-  t.deepEqual(stopParser(validTestData), validData);
-});
+test('Only valid data', (t) => {
+  t.deepEqual(stopParser(validTestData), validData)
+})
 
-test('Mixed data', t => {
-  t.deepEqual(stopParser(testMixedData), validMixedData);
-});
+test('Mixed data', (t) => {
+  t.deepEqual(stopParser(testMixedData), validMixedData)
+})

@@ -21,6 +21,13 @@
   },
   "homepage": "https://github.com/RyanBreaker/Chicago-L-ETA#readme",
   "devDependencies": {
-    "concurrently": "^5.2.0"
+    "concurrently": "^5.2.0",
+    "prettier": "^2.2.1"
+  },
+  "prettier": {
+    "semi": false,
+    "trailingComma": "none",
+    "singleQuote": true,
+    "jsxSingleQuote": true
   }
 }

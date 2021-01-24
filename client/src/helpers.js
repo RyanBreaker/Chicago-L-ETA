@@ -8,9 +8,9 @@ const lines = [
   'Purple Line',
   'Pink Line',
   'Yellow Line'
-];
+]
 
 // Converts a string from the full name to the style name; ex: 'Pink Line' -> 'pink-line'.
-const lineToStyle = line => line.toLowerCase().replace(' ', '-');
+const lineToStyle = (line) => line.toLowerCase().replace(' ', '-')
 
-export { lines, lineToStyle };
+export { lines, lineToStyle }

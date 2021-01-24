@@ -8854,4 +8854,4 @@ module.exports = [
       }
     ]
   }
-];
+]

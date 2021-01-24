@@ -1,11 +1,11 @@
-const redis = require('redis');
-const { promisify } = require('util');
-const hash = require('object-hash');
+const redis = require('redis')
+const { promisify } = require('util')
+const hash = require('object-hash')
 
-const redisClient = redis.createClient(process.env.REDIS_URL || null);
-const getAsync = promisify(redisClient.get).bind(redisClient);
+const redisClient = redis.createClient(process.env.REDIS_URL || null)
+const getAsync = promisify(redisClient.get).bind(redisClient)
 
-const { ctaApi, params } = require('../api/cta');
+const { ctaApi, params } = require('../api/cta')
 
 const lineNames = {
   Pink: 'Pink Line',
@@ -16,14 +16,14 @@ const lineNames = {
   Org: 'Orange Line',
   Brn: 'Brown line',
   Red: 'Red Line'
-};
+}
 
-const getStation = mapid => {
+const getStation = (mapid) => {
   // Check the cache for if the result already exists.
-  return getAsync(`ctaapi:${mapid}`).then(result => {
+  return getAsync(`ctaapi:${mapid}`).then((result) => {
     if (result) {
       // If it does, return the cached result.
-      return JSON.parse(result);
+      return JSON.parse(result)
     }
     // Otherwise, generate a result and cache it with a TTL of 12 seconds.
     // This is to cache the data for any other client requests as the clientside is set
@@ -32,21 +32,21 @@ const getStation = mapid => {
       .request({
         params: { ...params, mapid: mapid }
       })
-      .then(response => {
-        const etas = response.data.ctatt.eta || [];
-        redisClient.set(`ctaapi:${mapid}`, JSON.stringify(etas), 'EX', 12);
-        return etas;
-      });
-  });
-};
+      .then((response) => {
+        const etas = response.data.ctatt.eta || []
+        redisClient.set(`ctaapi:${mapid}`, JSON.stringify(etas), 'EX', 12)
+        return etas
+      })
+  })
+}
 
-const generateStationData = stations => {
+const generateStationData = (stations) => {
   return Promise.all(
-    stations.map(station => {
-      return getStation(station.id).then(etas => {
+    stations.map((station) => {
+      return getStation(station.id).then((etas) => {
         return {
           ...station,
-          etas: etas.map(train => {
+          etas: etas.map((train) => {
             // noinspection JSUnresolvedVariable
             return {
               id: hash.MD5(train), // MD5 for speed, security not a factor
@@ -58,12 +58,12 @@ const generateStationData = stations => {
               due: train.isApp !== '0',
               scheduled: train.isSch !== '0',
               delayed: train.isDly !== '0'
-            };
+            }
           })
-        };
-      });
+        }
+      })
     })
-  );
-};
+  )
+}
 
-module.exports = generateStationData;
+module.exports = generateStationData
