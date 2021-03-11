@@ -7,8 +7,8 @@
     "start": "yarn --cwd ./server run start",
     "dev-server": "yarn --cwd ./server run dev-server",
     "client": "yarn --cwd ./client run start",
-    "dev": "concurrently \"yarn run dev-server\" \"yarn run client\"",
-    "heroku-postbuild": "concurrently \"yarn --cwd ./client install && yarn --cwd ./client run build\" \"yarn --cwd ./server install\""
+    "dev": "concurrently 'yarn run dev-server' 'yarn run client'",
+    "heroku-postbuild": "concurrently 'yarn --cwd ./client install && yarn --cwd ./client run build' 'yarn --cwd ./server install'"
   },
   "repository": {
     "type": "git",
