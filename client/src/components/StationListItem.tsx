@@ -3,12 +3,15 @@ import { Card } from 'react-bootstrap'
 import { FaWheelchair as AccessibleIcon } from 'react-icons/fa'
 
 import TrainList from './TrainList'
+import { Station } from './StationList'
 
-function StationListItem(props) {
+interface Props {
+  station: Station
+}
+
+const StationListItem = ({ station }: Props) => {
   const [showModal, setShowModal] = React.useState(false)
   const toggleModal = () => setShowModal(!showModal)
-
-  const station = props.stationData
 
   return (
     <Card className='station-card'>

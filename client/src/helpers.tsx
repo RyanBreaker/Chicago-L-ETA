@@ -11,6 +11,6 @@ const lines = [
 ]
 
 // Converts a string from the full name to the style name; ex: 'Pink Line' -> 'pink-line'.
-const lineToStyle = (line) => line.toLowerCase().replace(' ', '-')
+const lineToStyle = (line: string) => line.toLowerCase().replace(' ', '-')
 
 export { lines, lineToStyle }

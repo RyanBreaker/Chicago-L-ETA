@@ -4,56 +4,68 @@ import axios from 'axios'
 import { Col, ListGroup, Modal, Row, Spinner } from 'react-bootstrap'
 import { FaWheelchair as AccessibleIcon } from 'react-icons/fa'
 import { FiExternalLink as LinkIcon } from 'react-icons/fi'
+
 import TrainListItem from './TrainListItem'
+import { Station } from './StationList'
 
 const traintrackerUrl =
   'https://www.transitchicago.com/traintracker/arrivaltimes/?sid='
 
-const CenterCol = (props) => {
-  return (
-    <Row className='justify-content-center'>
-      <Col className='text-center center-col' style={{ padding: '1rem 0' }}>
-        {props.children}
-      </Col>
-    </Row>
-  )
+export interface Train {
+  id: string
+  trainNumber: string
+  destination: string
+  generatedAt: string
+  eta: string
+  lineName: string
+  due: boolean
+  scheduled: boolean
+  delayed: boolean
 }
 
-const TrainList = (props) => {
+interface Props {
+  station: Station
+  show: boolean
+  onHide: () => any
+}
+
+const TrainList = ({ station, show, onHide }: Props) => {
   const [loading, setLoading] = useState(true)
-  const [trains, setTrains] = useState([])
-  const station = props.station
+  const [trains, setTrains] = useState<Train[]>([])
   const doRefresh = true
 
   // 15 seconds for the auto-refresh;
   const refreshTime = 15
-  const [refreshInterval, setRefreshInterval] = useState(null)
+  const [refreshInterval, setRefreshInterval] = useState<number | undefined>(
+    undefined
+  )
 
-  // Loads the data into the etas state
-  const getEtas = () => {
+  /**
+   * Loads the ETA data into the state.
+   */
+  const getEtas = async () => {
     setLoading(true)
-    axios
-      .get('/api/station', {
-        params: { id: station.id }
-      })
-      .then((res) => setTrains(res.data[0].etas || []))
-      .then(() => setLoading(false))
+    const response = await axios.get('/api/stations', {
+      params: { id: station.id }
+    })
+    setTrains(response.data[0]?.etas ?? [])
+    setLoading(false)
   }
 
-  /*
-   Function for setting up the auto-refresh, call on the modal's onEnter
-   and make sure to clear the interval on its onExit.
-  */
-  const refreshData = () => {
-    getEtas()
-    if (doRefresh)
-      setRefreshInterval(window.setInterval(getEtas, refreshTime * 1000)) // Convert to seconds.
+  /**
+   * Sets up the auto-refresh call on the modal's onEnter and make sure to clear the interval on its onExit.
+   */
+  const refreshData = async () => {
+    await getEtas()
+    if (doRefresh) {
+      setRefreshInterval(window.setInterval(getEtas, refreshTime * 1000)) // Convert from seconds
+    }
   }
 
   return (
     <Modal
-      show={props.show}
-      onHide={props.onHide}
+      show={show}
+      onHide={onHide}
       onEnter={refreshData}
       onExit={() => window.clearInterval(refreshInterval)}
       centered
@@ -86,11 +98,16 @@ const TrainList = (props) => {
         <ListGroup variant={'flush'}>
           {/* Only show the message if content also isn't being loaded. */}
           {trains.length === 0 && !loading ? (
-            <CenterCol>
-              <h4 className='font-weight-bold' style={{ margin: 0 }}>
-                No trains were received for this station at this time.
-              </h4>
-            </CenterCol>
+            <Row className='justify-content-center'>
+              <Col
+                className='text-center center-col'
+                style={{ padding: '1rem 0' }}
+              >
+                <h4 className='font-weight-bold' style={{ margin: 0 }}>
+                  No trains were received for this station at this time.
+                </h4>
+              </Col>
+            </Row>
           ) : (
             trains.map((train) => (
               <TrainListItem key={train.id} train={train} />

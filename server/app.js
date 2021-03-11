@@ -42,7 +42,7 @@ API Routes
 */
 
 // TODO: Input validation/sanitation.
-app.get('/api/station', (req, res) => {
+app.get('/api/stations', (req, res) => {
   const query = req.query
   const useTestData = query.testData === 'true' || forceUseTestData
 
@@ -75,7 +75,7 @@ app.get('/api/station', (req, res) => {
 })
 
 // Test data for testing, returns outdated but valid full set of data.
-app.get('/api/station/testdata', (req, res) => res.json(testData))
+app.get('/api/stations/testdata', (req, res) => res.json(testData))
 
 // Catchall for all other routes.
 app.get('/api/*', (req, res) => {

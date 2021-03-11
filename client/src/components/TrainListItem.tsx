@@ -2,12 +2,16 @@ import React from 'react'
 import { Col, ListGroup, Row } from 'react-bootstrap'
 import { IoMdAirplane as AirplaneIcon } from 'react-icons/io'
 
-import EtaDisplay from './EtaDisplay'
 import { lineToStyle } from '../helpers'
+import EtaDisplay from './EtaDisplay'
+import { Train } from './TrainList'
+
+interface Props {
+  train: Train
+}
 
 // A specific item for the TrainList
-const TrainListItem = (props) => {
-  const train = props.train
+const TrainListItem = ({ train }: Props) => {
   const airports = ["O'Hare", 'Midway']
 
   return (

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Col, Jumbotron, Row } from 'react-bootstrap'
+
 import { ReactComponent as TrainIcon } from '../assets/trainicon.svg'
 
 const Header = () => (
