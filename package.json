@@ -29,5 +29,8 @@
     "trailingComma": "none",
     "singleQuote": true,
     "jsxSingleQuote": true
+  },
+  "engines": {
+    "node": "14.x"
   }
 }
